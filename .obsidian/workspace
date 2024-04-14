@@ -1,0 +1,114 @@
+{
+  "main": {
+    "id": "b94920f54636d45c",
+    "type": "split",
+    "children": [
+      {
+        "id": "3309755450713464",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Programming Stuff/Java/Cú pháp + Thư viện Spring boot.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d0710b0103edaa4c",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c53c96718c766f2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c8c088bf86842e7f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f36e133e7fa0eee9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 182
+  },
+  "right": {
+    "id": "eb2251df86c7b8a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "c92759dbad9b064b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b93d7ffcd2a4ff3b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Programming Stuff/Java/Cú pháp + Thư viện Spring boot.md",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "890fbeaf2360114b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "3309755450713464",
+  "lastOpenFiles": [
+    "Programming Stuff/Java/BE_java_P.md",
+    "Quick note.md",
+    "Personal Stuff/Kế hoạch 6 tháng tới.md",
+    "Programming Stuff/NodeJS/BE_Phuong.md",
+    "Programming Stuff/index.md",
+    "EL/Vocab.md",
+    "EL/index.md",
+    "Personal Stuff/Sách cần mua.md",
+    "Programming Stuff/ReactJS/HTTT Nguồn IPFM.md",
+    "Programming Stuff/React Native/Js knowlegde, function, package, library đã sử dụng trong Speechify.md"
+  ]
+}

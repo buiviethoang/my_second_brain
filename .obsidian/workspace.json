@@ -1,0 +1,191 @@
+{
+  "main": {
+    "id": "b94920f54636d45c",
+    "type": "split",
+    "children": [
+      {
+        "id": "581a5a518aadec35",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "28223c7fabffb1f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quản lý đồ dùng cá nhân.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d0710b0103edaa4c",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c53c96718c766f2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c8c088bf86842e7f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f36e133e7fa0eee9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "564001e70c21d122",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "eb2251df86c7b8a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "c92759dbad9b064b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b93d7ffcd2a4ff3b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Quản lý đồ dùng cá nhân.md",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "890fbeaf2360114b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "29d9ada00e1c2444",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "28223c7fabffb1f0",
+  "lastOpenFiles": [
+    "Học được gì từ ViettelPost?.md",
+    "Kế hoạch khẩn tháng 3.md",
+    "Quản lý đồ dùng cá nhân.md",
+    "Weekly learning.md",
+    "README.md",
+    "Untitled.md",
+    "Quick note.md",
+    "Untitled",
+    "Chiến dịch xây dựng blog cá nhân.md",
+    "Cảm thấy thế nào trong 1 tuần dopamine detox.md",
+    "ói.md",
+    "Giới thiệu.md",
+    "3 Resources/Lưu trữ và connect thông tin như thế nào.md",
+    "Kế hoạch khẩn tháng 2.md",
+    "Phải quản lý nguồn thông tin vô tận như thế nào?.md",
+    "3 Resources/Cloud storage.md",
+    "4 Archives/New Images/Screenshot 2023-10-06 at 15.12.34.png",
+    "4 Archives/New Images/Screenshot 2023-10-06 at 11.30.05.png",
+    "4 Archives/New Images/Screenshot 2023-10-06 at 10.58.36.png",
+    "4 Archives/New Images/Screenshot 2023-10-06 at 10.40.20.png",
+    "4 Archives/New Images/Pasted image 20230907215225.png",
+    "4 Archives/New Images/Pasted image 20230830222736.png",
+    "4 Archives/New Images/Pasted image 20230830221931.png",
+    "4 Archives/New Images/Pasted image 20230828215927.png",
+    "4 Archives/New Images/Pasted image 20230828213436.png",
+    "4 Archives/New Images/Pasted image 20211217105858.png.md",
+    "4 Archives/Images/Pasted image 20220930220437.png",
+    "1 Projects/Java/Micellaneous.md",
+    "1 Projects/Company/Apache Hive.md",
+    "1 Projects/Java/Java core 9.md",
+    "2 Areas/Personal Stuff/Sách cần mua.md",
+    "2 Areas/Personal Stuff/Mật mã.md",
+    "1 Projects/Clean_code _101/Reviewing code.md",
+    "1 Projects/Clean_code _101/Clean code - Concurrency.md",
+    "1 Projects/Clean_code _101/Clean code - Class.md",
+    "3 Resources/README.md",
+    "3 Resources/Danh sách chi phí Tết.md",
+    "Temp/Cam 11",
+    "Temp/The official guide to IELTS",
+    "Temp/Cam 10",
+    "1 Projects/IELTS_7.0/The official guide to IELTS",
+    "1 Projects/Finance",
+    "ObsidianNote/1 Projects/IELTS_7.0/Vocabulary/EL-Vocab-In-Use_Upper_Inter.md.sebujey2.partial",
+    "ObsidianNote/2 Areas/Finance/Kiến thức tài chính.md.bopoyoj5.partial",
+    "ObsidianNote/1 Projects/IELTS_7.0/Vocabulary",
+    "ObsidianNote/2 Areas/Finance",
+    "Untitled 1.canvas",
+    "Untitled 2.canvas",
+    "Untitled.canvas"
+  ]
+}
