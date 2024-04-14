@@ -1,0 +1,56 @@
+***Being a celebrity - such as a famous film star or sports personality - brings problems as well as benefits.  Do you think that being a celebrity has more benefits or more problems***
+```java
+First draft: 
+Some people believe that being famous is their **targets** in life, what they strive so hard for. While there are problems along the way, I believe the benefits it brings outweigh **challenges** we may have to face.
+Indeed, having been to **the** show business thrive us with lots of **prospretity** we have never imagined. First, a person who is famous for any kind of **fields** can earn a significant amount of money and lots of properties with his attending activities. A singer with **talented** voice may yield **good** annual income due to his taking part in many shows or music videos **through** the year. In fact, being a celebrity means you can draw much more attention from others which help to facilitate your daily life. Whenever you go to any social place, chances are, you can get exposure to the highest quality products or experience outstanding services thanks to your influence and fame as a celebrity. Moreover, through the focus and influence **from** your **own** title, conditionally, valuable **connection** and **relationship** can be accumulated. Needless to say, the benefits of being famous is inevitable.
+On the contrary, sometimes, celebrities have to face up with issues that can bother them so much. At first, there is a high chance they can be frustrated and be irritated by so many eyes and cameras **are** on them, **making a total** awkward moment whenever they show their appearance to the social media. Being a famous person never be easy, because we have to deal with **criticizing** and scandals all the time. This would be stressful and somewhat **heartbroken** to someone who has just climbed to this peak. Your personal life will be exposed to the public and you eventually never experience life as before. Therefore, being a celebrity is not **piece** of cake. 
+Although being upset and down at some moments, life as a famous person is still amazing and worth giving a shot if possible. 
+```
+
+```javascript
+Fix errors: 
+Some people believe that being famous is their target in life, what they strive so hard for. While there are problems along the way, I believe the benefits it brings outweigh the challenges we may have to face.
+Indeed, having been to show business thrive us with lots of prosperity we have never imagined. First, a person who is famous for any kind of field can earn a significant amount of money and lots of properties with his attending activities. A singer with a talented voice may yield a good annual income due to his taking part in many shows or music videos throughout the year. Being a celebrity means you can draw much more attention from others which helps to facilitate your daily life. Whenever you go to any social place, chances are, you can get exposure to the highest quality products or experience outstanding services thanks to your influence and fame as a celebrity. Moreover, through the focus and influence of your title, conditionally, valuable connections and relationships can be accumulated. Needless to say, the benefits of being famous are inevitable.
+On the contrary, sometimes, celebrities have to face up with issues that can bother them so much. At first, there is a high chance they can be frustrated and irritated by so many eyes and cameras on them, creating an awkward moment whenever they show their appearance on social media. Being a famous person never be easy, because we have to deal with criticism and scandals all the time. This would be stressful and somewhat heartbreaking to someone who has just climbed to this peak. Your personal life will be exposed to the public and you eventually never experience life as before. Therefore, being a celebrity is not a piece of cake. 
+Although one can be upset and down at some moments, life as a famous person is still amazing and worth giving a shot if possible. 
+```
+
+# Lesson 12: Addressing band 6 problems
+## Identify band 6 problems
+### personality
+= a famous person:
+- The show is hosted by a popular TV personality.
+***Some people think that the teenage years are the happiest times of most people's lives. Others think that adult life brings more happiness, in spite of greater responsibilities. Discuss both views and give your own opinion***
+
+```ruby
+draft.
+Intro:
+Pursueing happiness has always been a goal to many people throughout their living days. From young ages to adult years, one might seem to enjoy life with different approaches. There are pros and cons at both stages, but living a teenager still brings more happiness than being an adult with lots of responsibilities to be concerned.   
+Main: 
+For an adult, life may seem to be of great interests. Firstly, because the grownups has built a strong foundation on their careers, they don't face so many challenges as it would be for youngsters financially. 
+With abundant amount of money saving from years of work, an adult can enjoy spending money comfortably. In addition, even if their current savings is low due to some certain reason, a good salary that comes from their experienced jobs can facilitate them to live an independent, joyful life. Moreover, an adult with his maturity can overcome problems and deal with difficulties less stressful than it is with a young man who is still in a path of discovering himself. However, grownup people have to tackle with so many issues when responsibilies come to the surface. For example, there are significant number of concerns for a mature one to focus on: from families and friends to colleagues and bussiness partners. This results in a shortage of time for those who are at their adulthood, creating pressures on their shoulders. Thus, life as a grownup person is not as happy as it may sound. 
+
+Within teenage years, there are some obstacles that deter young teens from being happy. Due to lacking of experience in real life, a young teen may find it hard to cope with all problems they may undertake. Plus, with few years of working as employees, they tends to have little to no money to support their independent lives or afford expensive stuff they adore. Nonetheless, in this stage, youngsters have more time to spare so they can spend on meaningful experience and dare to try on new things. This is due to the fact that teens have less responsibilities and little money to be afraid to lose. Even more, many teenagers still receive supports from families and relatives, they don't have to worry much about living an independent life, which is more stressful than ever. Therefore, lacking of many aspects as a teen, life for them seem to be easier and full of joys. 
+Conclusion: 
+At different stages in life, there is always happiness that comes along. Being a teenager or getting to be a grownup both brings us with many joys. Without putting responsibilities aside, living in a young age is more appealing than jumping right to the adult stuff.  
+```
+
+### Fixed grammar
+**Pursuing** happiness has always been a goal for many people throughout their living days. From young ages to adult years, one might seem to enjoy life with different approaches. There are pros and cons at both stages, but living **as** a teenager still brings more happiness than being an adult with lots of responsibilities to be concerned.   
+For an adult, life may seem to be of great **interest**. Firstly, because the grownups **have** built a strong foundation **in** their careers, they don't face **as** many challenges as **they would** for youngsters financially. 
+With **the** abundant amount of money **saved** from years of work, an adult can enjoy spending money comfortably. In addition, even if their current savings **are** low due to some certain reason, a good salary that comes from their experienced jobs can facilitate them to live an independent, joyful life. Moreover, an adult with his maturity can overcome problems and deal with difficulties less stressful than it is with a young man who is still **on** the path of discovering himself. However, **grown-up** people have to **tackle** so many issues when responsibilities come to the surface. For example, there are **a** significant number of concerns for a mature one to focus on: from families and friends to colleagues and **business** partners. This results in a shortage of time for those who are **in** their adulthood, creating pressures on their shoulders. Thus, life as a **grown-up** person is not as happy as it may sound. 
+
+Within **the** teenage years, **some obstacles** deter young teens from being happy. Due to **a lack of** experience in real life, a young teen may find it hard to cope with all **the** problems they may undertake. Plus, with **a few** years of working as employees, they **tend** to have little to no money to support their independent lives or afford expensive stuff they adore. Nonetheless, in this stage, youngsters have more time to spare so they can spend on meaningful **experiences** and dare to **try** new things. This is **because** teens have **fewer** responsibilities and little money to be afraid to lose. Even more, many teenagers still receive **support** from families and relatives, they don't have to worry much about living an independent life, which is more stressful than ever. Therefore, **lacking** many aspects as a teen, life for them seems to be easier and full of **joy**. 
+ 
+At different stages in life, there is always happiness that comes along. Being a teenager or **becoming** a grownup both **bring** us many joys. Without putting responsibilities aside, living **at** a young age is more appealing than jumping right to the adult stuff.  
+
+
+### Revised version of ChatGPT
+
+Pursuing happiness has long been a universal goal, **resonating with** individuals from their **formative years** to adulthood. While both stages have their **merits** and drawbacks, adolescence often appears more carefree compared to the complexities faced by adults. 
+
+Adults, having established **robust career foundations**, benefit from **financial stability**, enabling them to enjoy life's comforts. Despite potential **financial setbacks**, a **seasoned** professional can navigate challenges **with greater ease** due to accumulated experience. However, the burden of numerous responsibilities, **spanning from** family and friends to business partners, **diminishes** the overall happiness of adults.
+
+Contrastingly, teenage years, despite presenting obstacles, offer a simpler perspective. Limited life experience may **pose challenges** for teens, particularly in **handling problems**. Yet, with fewer financial concerns, adolescents can **allocate time** to meaningful experiences and exploration. Their fewer responsibilities and **ongoing familial support** contribute to a more stress-free **existence**. Although lacking in certain aspects, the teenage phase **exudes** a sense of ease and joy.
+
+In **contemplating** the pursuit of happiness, both adolescence and adulthood bring their unique joys. Acknowledging responsibilities, the appeal of youth lies in its simplicity, making it more **enticing** than the complexities associated with adulthood.

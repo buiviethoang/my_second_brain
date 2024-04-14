@@ -1,0 +1,99 @@
+## Kubernetes primer
+### Kube and Docker
+Kubernetes and Docker are complementary technologies.
+Docker -> build and packages apps
+Kuber -> Can't do this 
+Kuber -> Operate a higher level providing orchestration services
+such as self-healing, scaling and updates.
+- Kubernetes performs high-level orchestration tasks such as self-healing, scaling and rolling updates, but it needs a tool like Docker to perform low-level tasks such as starting and stopping containers.
+- Docker is the low-level technology that starts and stops the containerised applications. Kubernetes is the higher-level technology that looks after the bigger picture, such as deciding which nodes to run containers on, deciding when to scale up or down, and executing updates.
+
+![[Pasted image 20230929205628.png]]
+
+Multiple run-time containers: 
+1. The Container Runtime Interface (CRI) is an abstraction layer that standardizes the way 3rd-party
+container runtimes work with Kubernetes.
+2. Runtime Classes allows you to create different classes of runtimes. For example, the gVisor or Kata
+Containers runtimes might provide better workload isolation than the Docker and containerd runtimes.
+
+## Kubernetes principles of operation
+### Kubernetes from 40K feet
+#### Kubernetes as a cluster
+- a bunch of machines to host applications -> nodes (physical servers, virtual machines, cloud instances, Raspberry Pis)
+- A Kubernetes cluster is made of a control plane and nodes
+	- The control plane exposes the API, has a scheduler for assigning work, and records the state of the cluster and apps in a persistent store
+	- Nodes are where user applications run
+#### Kubernetes as an orchestrator
+- a system that takes care of deploying and managing applications
+- In the sports world this is called coaching. In the application world it’s called orchestration
+
+You follow this simple process to run applications on a Kubernetes cluster.
+1. Design and write the application as small independent microservices in your favourite languages.
+2. Package each microservice as its own container.
+3. Wrap each container in a Kubernetes Pod.
+4. Deploy Pods to the cluster via higher-level controllers such as Deployments, DaemonSets, StatefulSets, CronJobs etc.
+### Control plane and worker nodes
+#### The control plane
+A Kubernetes control plane node is a server running collection of system services that make up the control plane of the cluster. Sometimes we call them **Masters, Heads or Head nodes.**
+For production environments, multiple control plane nodes configured for high availability (HA) is vital.
+Generally speaking, 3 or 5 is recommended for HA.
+
+It’s also considered a good practice not to run user applications on control plane nodes. This frees them up to concentrate entirely on managing the cluster
+##### The API server
+All communication, between all components, must go through the API server
+It exposes a RESTful API that you POST YAML configuration files to over HTTPS. These YAML files, which we sometimes call manifests, describe the desired state of an application. This desired state includes things like which container image to use, which ports to expose, and how many Pod replicas to run
+##### The cluster store
+The only stateful part of the control plane and persistently stores the entire configuration and
+state of the cluster. As such, it’s a vital component of every Kubernetes cluster – **no cluster store, no cluster.**
+- based on etcd
+- run between 3-5 etcd replicas for high-availability
+- halt updates to the cluster in order to maintain consistency
+##### The controller manager and controllers
+The controller manager implements all the background controllers that monitor cluster components and respond to events
+Architecturally, it’s a controller of controllers, meaning it spawns all the independent controllers and monitors them.
+- Deployment controller, the StatefulSet controller, and the ReplicaSet controller.
+- Each controller is also extremely specialized and only interested in its own little corner of the Kubernetes cluster.
+##### The scheduler
+- watches the API server for new work tasks and assigns them to appropriate healthy
+worker nodes
+- identifying nodes capable of running a task, the scheduler performs various predicate checks
+- If the scheduler doesn’t find a suitable node, the task isn’t scheduled and gets marked as pending.
+- The scheduler isn’t responsible for running tasks, just picking the nodes to run them. A task is normally a Pod/container. 
+##### The cloud controller manager
+If you’re running your cluster on a supported public cloud platform, such as AWS, Azure, GCP, or Linode, your control plane will be running a cloud controller manager
+
+![[Pasted image 20230929213717.png]]
+
+#### Worker nodes
+Nodes are servers that are the workers of a Kubernetes cluster
+At a high-level they do three things:
+1. Watch the API server for new work assignments
+2. Execute work assignments
+3. Report back to the control plane (via the API server)
+![[Pasted image 20230929213835.png]]
+
+##### Kubelet
+- main Kubernetes agent
+- run on every cluster node
+- When you join a node to a cluster, the process installs the kubelet, which is then responsible for registering it with the cluster. This process registers the node’s CPU, memory, and storage into the wider cluster pool
+- main jobs of the kubelet is to watch the API server for new work tasks
+- If a kubelet can’t run a task, it reports back to the control plane and lets the control plane decide what actions to take. For example, if a kubelet cannot execute a task, it is not responsible for finding another node to run it on. It simply reports back to the control plane and the control plane decides what to do.
+##### Container runtime
+- The kubelet needs a container runtime to perform container-related tasks – things like pulling images and starting and stopping containers.
+- Kubernetes is dropping support for Docker as a container runtime. This is because Docker is bloated and doesn’t support the CRI (requires a shim). containerd is replacing it as the most common container runtime on Kubernetes.
+##### Kube-proxy
+- This runs on every node and is responsible for local cluster networking
+- ensures each node gets its own unique IP address
+- implements local iptables or IPVS rules to handle routing and load-balancing of traffic on the Pod network
+### Kubernetes DNS
+- Kubernetes cluster has an internal DNS service
+that is vital to service discovery.
+The cluster’s DNS service has a static IP address that is hard-coded into every Pod on the cluster.
+- This ensures
+every container and Pod can locate it and use it for discovery. Service registration is also automatic. This means
+apps don’t need to be coded with the intelligence to register with Kubernetes service discovery
+### Packaging apps for Kubernetes
+An application needs to tick a few boxes to run on a Kubernetes cluster. These include.
+1. Packaged as a container
+2. Wrapped in a Pod
+3. Deployed via a declarative manifest file

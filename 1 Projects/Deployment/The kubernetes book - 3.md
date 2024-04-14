@@ -1,0 +1,77 @@
+## Virtual clusters with Namespace
+Namespaces are a native way to divide a single Kubernetes cluster into multiple virtual clusters.
+### Use cases for Namespaces
+Namespaces partition a Kubernetes cluster and are designed as an easy way to apply quotas and policies to groups of objects. They’re not designed for strong workload isolation
+
+most Kubernetes objects are deployed to a Namespace. These objects are said to be namespaced and include common objects such as Pods, Services and Deployments. Other objects exist outside of Namespaces and include nodes and PodSecurityPolicies.
+
+Namespaces a good way of sharing a single cluster among different departments and environments
+- Dev
+- Test
+- QA
+What they’re not good for, is isolating hostile workloads. This is because a compromised container or Pod in one Namespace can wreak havoc in other Namespaces
+### Inspecting Namespaces
+### Creating and managing Namespaces
+Namespaces are first-class resources in the core v1 API group. This means they’re stable, well understood, and have been around for a long time. It also means you can create and manage them imperatively with kubectl, and declaratively with YAML manifests
+### Deploying to Namespaces
+## Deployments
+### Deployment theory
+There are two major pieces to Deployments.
+1. Thespec  
+2. Thecontroller
+The Deployment spec is a declarative YAML object where you describe the desired state of a stateless app
+the Deployment controller implements and manages it
+The controller aspect is highly-available and operates as a background loop reconciling observed state with desired state.
+
+You start with a stateless application, package it as a container, then define it in a Pod template
+![[Screenshot 2023-10-02 at 14.48.48.png]]
+
+#### Deployments and Pods
+A Deployment object only manages a single Pod template
+However, a Deployments can manage multiple replicas of the same Pod
+#### Deployments and ReplicaSets
+Deployments rely heavily on another object called a ReplicaSet
+Deployments rely heavily on another object called a ReplicaSetAt a high-level, containers are a great way to package applications and dependencies. Pods allow containers to run on Kubernetes and enable co-scheduling and a bunch of other good stuff. ReplicaSets manage Pods and bring self-healing and scaling. Deployments manage ReplicaSets and add rollouts and rollbacks.
+
+![[Screenshot 2023-10-02 at 14.50.55.png]]
+
+#### Self-healing and scalability
+Pods are great. They let you co-locate containers, share volumes, share memory, simplify networking, and a lot more. But they offer nothing in the way of self-healing and scalability – if the node a Pod is running on fails, the Pod is lost
+• If a Pod managed by a Deployment fails, it will be replaced–self-healing
+• If Pods managed by a Deployment see increased or decreased load, they can be scaled
+#### It’s all about the state
+- Desired state is what you want. Observed state is what you have. If they match, everybody’s happy. If they don’t match, a process of reconciliation brings them back together.
+The declarative model is a method for telling Kubernetes your desired state, while avoiding the detail of how to implement it. You leave the how up to Kubernetes.
+##### Declarative vs imperative
+The declarative model is all about describing an end-goal – telling Kubernetes what you want. The imperative
+model is all about long lists of commands to reach an end-goal – telling Kubernetes how to do something.
+##### Controllers and reconciliation
+Fundamental to desired state is the process of reconciliation.
+ReplicaSets are implemented as a controller running as a background reconciliation loop checking the right number of Pod replicas are present on the cluster. If there aren’t enough, it adds more. If there are too many, it terminates some.
+#### Rolling updates with Deployments
+Zero-downtime rolling-updates of stateless apps are what Deployments are all about, and they’re amazing.
+All microservices in an app should be decoupled and only communicate via well-defined APIs. This allows any microservice to be updated without having to think about clients and other microservices that interact with them – everything talks to formalised APIs that expose documented interfaces and hide specifics. Ensuring releases are backwards and forwards compatible means you can perform independent updates without having to factor in which versions of clients are consuming the service.
+
+In the case of Deployments, when you post the YAML file to the API server, the Pods get scheduled to healthy nodes and a Deployment and ReplicaSet work together to make the magic happen. The ReplicaSet controller sits in a watch loop making sure our old friends observed state and desired state are in agreement. A Deployment object sits above the ReplicaSet, governing its configuration, as well as how rollouts will be performed.
+
+Now, assume you’re exposed to a known vulnerability and need to rollout a newer image with the fix. To do this, you update the same Deployment YAML file with the new image version and re-post it to the API server. This updates the existing Deployment object with a new desired state requesting the same number of Pods but all running the newer image.
+
+To make this happen, Kubernetes creates a second ReplicaSet to create and manage the Pods with the new image. You now have two ReplicaSets – the original one for the Pods with the old image, and a new one for the Pods with the new image. As Kubernetes increases the number of Pods in the new ReplicaSet (with the new version of the image) it decreases the number of Pods in the old ReplicaSet (with the old version of the image). Net result, you get a smooth incremental rollout with zero downtime.
+
+You can rinse and repeat the process for future updates – just keep updating the same Deployment manifest, which should be stored in a version control system.
+
+![[Screenshot 2023-10-02 at 15.13.03.png]]
+
+It’s important that the old ReplicaSet from the initial release still exists with its configuration intact.
+
+#### Rollbacks
+older ReplicaSets are wound down and no longer manage any Pods. However, their configurations still exist on the cluster, making them a great option for reverting to previous versions.
+
+The process of a rollback is the opposite of a rollout – you wind one of the old ReplicaSets up while you wind the current one down
+
+![[Screenshot 2023-10-02 at 15.14.16.png]]
+
+### Create a Deployment
+#### Accessing the app
+### Perform scaling operations
+### Perform a rolling update

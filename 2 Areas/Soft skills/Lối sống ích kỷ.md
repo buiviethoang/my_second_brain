@@ -1,0 +1,27 @@
+Chợt nhận ra là mình đang sống quá ích kỷ. Đây là những việc cần làm để sửa đổi: 
+- **Học cách lắng nghe**
+- **Thường xuyên suy ngẫm về những hành động của mình**
+-  **Chia sẻ và giúp đỡ mọi người**
+- **Tích cực tham gia tình nguyện**
+-   **Đặt mình vào vị trí của người khác**
+-   **Xây dựng hình mẫu lý tưởng cho bản thân**
+-   **Tăng cường Hiểu rõ Bản thân**
+-   **Ngừng việc lúc nào cũng nói về bản thân
+-   **Thể hiện Lòng biết ơn**
+-   **Thay đổi cách nhìn của bạn**
+-   **Nhớ rằng bạn không quan trọng hơn bất cứ ai.**
+-   **Đừng để cho quá khứ quyết định tương lai của bạn**
+-   **Tự hỏi bản thân về thứ bạn muốn và thứ bạn cần**
+-   **Vui vẻ trao cho người khác vị trí nổi bật**
+-   **Tiếp nhận những lời phê bình**
+-   **Giúp đỡ bạn bè một cách vô tư không vụ lợi**
+-   **Thể hiện sự quan tâm đến mọi người**
+-   **Giúp đỡ những người quen biết trong lúc hoạn nạn**
+-   **Tham gia một đội nhóm**
+-   **Học cách thỏa hiệp**
+-   **Ngừng kiểm soát**
+-   **Ở bên cạnh những người không ích kỷ**
+-   **Đừng ngắt lời người khác**
+-   **Giữ liên lạc với bạn bè, gia đình và họ hàng
+-   **Khen ngợi người khác**
+-   **Có mặt đúng giờ**
