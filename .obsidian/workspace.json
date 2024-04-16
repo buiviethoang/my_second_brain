@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "581a5a518aadec35",
+        "id": "7a20879fa72ec9ee",
         "type": "tabs",
         "children": [
           {
-            "id": "28223c7fabffb1f0",
+            "id": "43bba43e782e9afb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quản lý đồ dùng cá nhân.md",
+                "file": "Week 15 Apr - 21 Apr.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quản lý đồ dùng cá nhân.md",
+                "file": "Week 15 Apr - 21 Apr.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -136,15 +136,15 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "28223c7fabffb1f0",
+  "active": "43bba43e782e9afb",
   "lastOpenFiles": [
+    "Week 15 Apr - 21 Apr.md",
+    "Quick note.md",
+    "README.md",
+    "Weekly learning.md",
+    "Quản lý đồ dùng cá nhân.md",
     "Học được gì từ ViettelPost?.md",
     "Kế hoạch khẩn tháng 3.md",
-    "Quản lý đồ dùng cá nhân.md",
-    "Weekly learning.md",
-    "README.md",
-    "Untitled.md",
-    "Quick note.md",
     "Untitled",
     "Chiến dịch xây dựng blog cá nhân.md",
     "Cảm thấy thế nào trong 1 tuần dopamine detox.md",
