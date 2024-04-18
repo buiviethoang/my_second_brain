@@ -1,9 +1,8 @@
 
 # 18 hours per week
-## 12 hours for project 
+## 12 hours for project
 ## 6 hours for EL & Blog
 ## Others: For finance and relaxing
-
 ## Công việc cần làm
 ### Lập trình
 - 1 - Leetcode / Java in general 
