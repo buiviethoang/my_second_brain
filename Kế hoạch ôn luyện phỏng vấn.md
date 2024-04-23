@@ -7,5 +7,3 @@ Thời gian khoảng 1 tháng + quá trình phỏng vấn ~ 1.5 tháng
 - Kiến thức lập trình
 - Các kỹ năng khác
 - Nghiên cứu thị trường, công ty phỏng vấn
-
- Mình có t2 -? 
