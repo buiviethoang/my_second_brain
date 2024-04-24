@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kế hoạch khẩn tháng 3.md",
+                "file": "1 Projects/Deployment/The kubernetes book - 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230
+    "width": 471
   },
   "right": {
     "id": "eb2251df86c7b8a3",
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kế hoạch khẩn tháng 3.md",
+                "file": "1 Projects/Deployment/The kubernetes book - 1.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -150,8 +150,8 @@
   },
   "active": "18354066f299da51",
   "lastOpenFiles": [
-    "Kế hoạch ôn luyện phỏng vấn.md",
     "Kế hoạch khẩn tháng 3.md",
+    "Kế hoạch ôn luyện phỏng vấn.md",
     "Học được gì từ ViettelPost?.md",
     "Week 15 Apr - 21 Apr.md",
     "Quản lý đồ dùng cá nhân.md",
