@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Học được gì từ ViettelPost?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "11c687d69ca791c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Cover letter.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "2572839673be6947",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cover letter.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -136,13 +161,15 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "c80694df73329841",
+  "active": "2572839673be6947",
   "lastOpenFiles": [
-    "1 Projects/Deployment/The kubernetes book - 1.md",
     "Cover letter.md",
+    "Untitled.md",
+    "Thuật ngữ mình gặp khi ở ViettelPost.md",
+    "Học được gì từ ViettelPost?.md",
+    "1 Projects/Deployment/The kubernetes book - 1.md",
     "Kế hoạch khẩn tháng 3.md",
     "Kế hoạch ôn luyện phỏng vấn.md",
-    "Học được gì từ ViettelPost?.md",
     "Week 15 Apr - 21 Apr.md",
     "Quản lý đồ dùng cá nhân.md",
     "README.md",
@@ -173,8 +200,6 @@
     "1 Projects/Java/Java core 9.md",
     "2 Areas/Personal Stuff/Sách cần mua.md",
     "2 Areas/Personal Stuff/Mật mã.md",
-    "1 Projects/Clean_code _101/Reviewing code.md",
-    "1 Projects/Clean_code _101/Clean code - Concurrency.md",
     "Temp/Cam 11",
     "Temp/The official guide to IELTS",
     "Temp/Cam 10",

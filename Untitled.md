@@ -1,7 +1,3 @@
-1. Hook
-2. Be purposeful
-3. Simple template
-
 
 Bùi Việt Hoàng
 0794112293
