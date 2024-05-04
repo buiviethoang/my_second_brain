@@ -11,8 +11,12 @@
             "id": "126bd7aed18ceb34",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Quick note.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Quick note.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -133,6 +138,7 @@
   },
   "active": "126bd7aed18ceb34",
   "lastOpenFiles": [
+    "README.md",
     "Học được gì từ ViettelPost?.md",
     "Cover letter.md",
     "Untitled.md",
@@ -142,7 +148,6 @@
     "Kế hoạch ôn luyện phỏng vấn.md",
     "Week 15 Apr - 21 Apr.md",
     "Quản lý đồ dùng cá nhân.md",
-    "README.md",
     "Quick note.md",
     "Chiến dịch xây dựng blog cá nhân.md",
     "Weekly learning.md",
