@@ -29,21 +29,21 @@ Hoàng.
 
 ENG Version
 ```
-Bùi Việt Hoàng 0794112293 Cầu Giấy, Hà Nội buiviethoang12062000@gmail.com
+Bui Viet Hoang
+0794112293
+Cau Giay, Ha Noi
+buiviethoang12062000@gmail.com
 
-Apr 26, 2024 Mr. ABC VMO, Sotatek, Grab, Uber, Zalo, WorldQuant, Momo, ... 15 Tôn Thất Thuyết, Cầu Giấy, Hà Nội
+May 11 2024
+PlayStudios,
 
-Dear Mr. ABC,
-
-I learned about your company through the ABC recruitment website. Initially, I wasn't very interested in the domain your company is working on. However, after some analysis and research, I am impressed by what your company has achieved.
+I learned about your company through the LinkedIn recruitment website. Initially, I wasn't very interested in the domain your company is working on. However, after some analysis and research, I am impressed by what your company has achieved.
 
 Recognizing this as a potential opportunity, and being personally interested, I am eager to collaborate and contribute to the success of the company's upcoming projects.
 
-I have about 2 years of experience as a Backend Developer specializing in application development using Java and frameworks/libraries such as Spring/Spring Boot, Quarkus/ReactorCore. Prior to that, I also spent nearly a year as a Front-end Developer mainly working with ReactJs/React Native. I have experienced various environments and development processes, primarily participating directly in the analysis, design, and implementation of solutions and ideas for product development, creating value for both individuals and businesses.
+I have about 2 years of experience as a Backend Developer specializing in application development using Java and frameworks/libraries such as Spring/Spring Boot, Quarkus/ReactorCore. Before that, I also spent nearly a year as a Front-end Developer mainly working with ReactJs/React Native. I have experienced various environments and development processes, primarily participating directly in the analysis, design, and implementation of solutions and ideas for product development, creating value for both individuals and businesses.
 
 In my most recent role, I was involved in the process from analysis and design to building the platform application for calculating the total salary of ViettelPost - the top logistics company in Vietnam, which was used by over 20,000 postal employees. From this experience, I have learned many things that I believe would be very suitable and valuable for your company (SDLC, Message Broker, Streaming, K8s, Agile/Scrum, ...).
 
-Due to personal aspirations and not wanting to miss out on opportunities, I would like to discuss the job description of your company's recruitment in more detail. If you find this interesting and are willing to discuss further, please contact me via email at buiviethoang12062000@gmail.com or phone number 0794112293.
-
-Thank you sincerely, Hoàng.
+Due to personal aspirations and not wanting to miss out on opportunities, I would like to discuss the job description of your company's recruitment in more detail. If you find this interesting and are willing to discuss it further, please contact me via email at buiviethoang12062000@gmail.com or phone number 0794112293.
 ```
