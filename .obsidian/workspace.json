@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b9739f7a74dedf5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quick note.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 471
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "eb2251df86c7b8a3",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kế hoạch ôn luyện phỏng vấn.md",
+                "file": "Quick note.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -136,22 +150,22 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "126bd7aed18ceb34",
+  "active": "b9739f7a74dedf5c",
   "lastOpenFiles": [
     "Cover letter.md",
-    "Week 15 Apr - 21 Apr.md",
-    "Thuật ngữ mình gặp khi ở ViettelPost.md",
     "Untitled.md",
+    "Chiến dịch xây dựng blog cá nhân.md",
+    "Thuật ngữ mình gặp khi ở ViettelPost.md",
     "README.md",
     "Quick note.md",
+    "Quản lý đồ dùng cá nhân.md",
     "Kế hoạch ôn luyện phỏng vấn.md",
     "Kế hoạch khẩn tháng 6.md",
     "Học được gì từ ViettelPost?.md",
+    "Week 15 Apr - 21 Apr.md",
     "2 Areas/Finance/Kiến thức tài chính 2.md",
     "2 Areas/Finance/Kiến thức tài chính.md",
     "1 Projects/Deployment/The kubernetes book - 1.md",
-    "Quản lý đồ dùng cá nhân.md",
-    "Chiến dịch xây dựng blog cá nhân.md",
     "Weekly learning.md",
     "Untitled",
     "Cảm thấy thế nào trong 1 tuần dopamine detox.md",
