@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ffbf28e7eeabee40",
+        "id": "d5fa832f2e5ff728",
         "type": "tabs",
         "children": [
           {
-            "id": "b9739f7a74dedf5c",
+            "id": "fe4e29cf1c89dc5e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quick note.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -39,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +54,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +64,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick note.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -93,7 +96,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -104,7 +109,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -116,7 +123,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ]
@@ -136,54 +145,53 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b9739f7a74dedf5c",
+  "active": "fe4e29cf1c89dc5e",
   "lastOpenFiles": [
-    "Cover letter.md",
-    "Untitled.md",
-    "Chiến dịch xây dựng blog cá nhân.md",
-    "Thuật ngữ mình gặp khi ở ViettelPost.md",
     "README.md",
-    "Quick note.md",
-    "Quản lý đồ dùng cá nhân.md",
-    "Kế hoạch ôn luyện phỏng vấn.md",
-    "Kế hoạch khẩn tháng 6.md",
-    "Học được gì từ ViettelPost?.md",
-    "Week 15 Apr - 21 Apr.md",
-    "2 Areas/Finance/Kiến thức tài chính 2.md",
-    "2 Areas/Finance/Kiến thức tài chính.md",
-    "1 Projects/Deployment/The kubernetes book - 1.md",
+    "5. Atomic Notes/4 Archives/Images/Pasted image 20221001102713.png",
+    "5. Atomic Notes/4 Archives/Images/Pasted image 20221001092900.png",
+    "5. Atomic Notes/4 Archives/Images/Pasted image 20221001102744.png",
+    "5. Atomic Notes/4 Archives/Images/Pasted image 20221001103403.png",
+    "5. Atomic Notes/4 Archives/Images/Pasted image 20221001105723.png",
+    "5. Atomic Notes/4 Archives/Images/Pasted image 20221001111019.png",
+    "5. Atomic Notes/4 Archives/Images/Pasted image 20221001110128.png",
+    "5. Atomic Notes/4 Archives/Images/Screenshot from 2022-10-01 09-28-27.png",
+    "5. Atomic Notes/3 Resources/README.md",
+    "5. Atomic Notes/4 Archives/Pasted image 20241201150342.jpg",
+    "1. Rough Notes/Lưu trữ và connect thông tin như thế nào.md",
+    "2. Tags/demo.md",
+    "5. Atomic Notes/Another demo.md",
+    "5. Atomic Notes/Just demo.md",
+    "5. Atomic Notes/second demo.md",
+    "4. Templates/{{ Title }}.md",
+    "6. Atomic Notes/second notes.md",
+    "6. Atomic Notes/Untitled.md",
+    "6. Atomic Notes/Untitled 1.md",
+    "5. Atomic Notes",
+    "4. Templates",
+    "3. Indexes",
+    "1. Rough Notes/Chiến dịch xây dựng blog cá nhân.md",
+    "1. Rough Notes/Week 15 Apr - 21 Apr.md",
+    "2. Tags",
+    "5. Atomic Notes/3 Resources/Others",
+    "5. Atomic Notes/3 Resources/Article",
+    "5. Atomic Notes/3 Resources/Social media",
+    "5. Atomic Notes/3 Resources/Podcasts",
+    "5. Atomic Notes/3 Resources/Books",
+    "5. Atomic Notes/3 Resources/Videos",
+    "1. Rough Notes/Quick note.md",
+    "1. Rough Notes/Cover letter.md",
+    "Untitled.md",
+    "1. Rough Notes/Thuật ngữ mình gặp khi ở ViettelPost.md",
+    "1. Rough Notes/Quản lý đồ dùng cá nhân.md",
+    "1. Rough Notes/Kế hoạch ôn luyện phỏng vấn.md",
+    "1. Rough Notes/Kế hoạch khẩn tháng 6.md",
+    "1. Rough Notes/Học được gì từ ViettelPost?.md",
+    "5. Atomic Notes/2 Areas/Finance/Kiến thức tài chính 2.md",
+    "5. Atomic Notes/2 Areas/Finance/Kiến thức tài chính.md",
+    "5. Atomic Notes/1 Projects/Deployment/The kubernetes book - 1.md",
     "Weekly learning.md",
-    "Untitled",
-    "Cảm thấy thế nào trong 1 tuần dopamine detox.md",
-    "ói.md",
-    "Giới thiệu.md",
-    "3 Resources/Lưu trữ và connect thông tin như thế nào.md",
-    "Kế hoạch khẩn tháng 2.md",
-    "Phải quản lý nguồn thông tin vô tận như thế nào?.md",
-    "3 Resources/Cloud storage.md",
-    "4 Archives/New Images/Screenshot 2023-10-06 at 15.12.34.png",
-    "4 Archives/New Images/Screenshot 2023-10-06 at 11.30.05.png",
-    "4 Archives/New Images/Screenshot 2023-10-06 at 10.58.36.png",
-    "4 Archives/New Images/Screenshot 2023-10-06 at 10.40.20.png",
-    "4 Archives/New Images/Pasted image 20230907215225.png",
-    "4 Archives/New Images/Pasted image 20230830222736.png",
-    "4 Archives/New Images/Pasted image 20230830221931.png",
-    "4 Archives/New Images/Pasted image 20230828215927.png",
-    "4 Archives/New Images/Pasted image 20230828213436.png",
-    "4 Archives/New Images/Pasted image 20211217105858.png.md",
-    "4 Archives/Images/Pasted image 20220930220437.png",
-    "1 Projects/Java/Micellaneous.md",
-    "1 Projects/Company/Apache Hive.md",
-    "1 Projects/Java/Java core 9.md",
-    "Temp/Cam 11",
-    "Temp/The official guide to IELTS",
-    "Temp/Cam 10",
-    "1 Projects/IELTS_7.0/The official guide to IELTS",
-    "1 Projects/Finance",
-    "ObsidianNote/1 Projects/IELTS_7.0/Vocabulary/EL-Vocab-In-Use_Upper_Inter.md.sebujey2.partial",
-    "ObsidianNote/2 Areas/Finance/Kiến thức tài chính.md.bopoyoj5.partial",
-    "ObsidianNote/1 Projects/IELTS_7.0/Vocabulary",
-    "ObsidianNote/2 Areas/Finance",
+    "5. Atomic Notes/4 Archives/New Images/Screenshot 2023-10-06 at 15.12.34.png",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
     "Untitled.canvas"
