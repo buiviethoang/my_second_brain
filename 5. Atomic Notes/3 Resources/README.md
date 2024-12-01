@@ -1,4 +1,0 @@
-- Any topic of ongoing interest
-- Inspiration for future projects
-- Just-in-case events these notes are used for
-- Almost every tiny little notes you catch up when using your phone or searching the internet, your real life, ...

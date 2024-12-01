@@ -1,3 +1,7 @@
+2024-12-01 21:22
+Status: #baby
+Tags: [[computer science]] [[clean code]]
+## Main
 - [ ] Should has README
 - [ ] All source, sensible info, static data => Resources folder
 - [ ] Naming convention
@@ -20,4 +24,7 @@
 	- [ ] Meaningful name. With good grammar. 
 	- [ ] Throw right exceptions
 	- [ ] Do we need Interface for service?
-- [ ] 
+
+## References
+
+

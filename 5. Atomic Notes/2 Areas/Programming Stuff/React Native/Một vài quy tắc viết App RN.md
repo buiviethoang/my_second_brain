@@ -1,6 +1,0 @@
-- Luôn luôn ghi nhớ việc viết docs cho các biến chưa được định nghĩa
-- Tách riêng phần style ra, hạn chế viết inline style
-- Comment vào các phần, nhớ rằng bạn viêt code để kể 1 câu chuyện
-- Viết các hàm đơn giản và mỗi hàm chỉ thực hiện một chức năng riêng biệt 
-- Định kiểu cho các object/ var phức tạp 
-- Lưu ý cách sử dụng 1 số hooks

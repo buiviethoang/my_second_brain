@@ -1,3 +1,7 @@
+2024-12-01 21:33
+Status: #baby
+Tags: [[computer science]] [[k8s]]
+## Main
 ## Setting the scene
 When Pods fail, they get replaced by new ones with new IPs. Scaling-up introduces new Pods with new IP addresses. Scaling down removes Pods. Rolling updates also replace existing Pods with new ones with new IPs. This creates massive IP churn and demonstrates why you should never connect directly to any particular Pod.
 - a Kubernetes Service is a REST object in the API that you define in a manifest and post to the API server.
@@ -36,5 +40,9 @@ Kubernetes implements Service discovery in a couple of ways:
 1. DNS
 2. Environment variables
 Kubernetes clusters run an internal DNS service that is the centre of service discovery. Service names are automatically registered with the cluster DNS, and every Pod and container is pre-configured to use the cluster DNS. This means every Pod/container can resolve every Service name to a ClusterIP and connect to the Pods behind it.
+
+
+
+## References
 
 

@@ -1,3 +1,7 @@
+2024-12-01 21:24
+Status: #baby
+Tags: [[computer science]] [[big data]] 
+## Main
 
 - Là gì?
 	- Là một hệ thống kho dữ liệu mã nguồn mở được xây dựng trên nền tảng Hadoop.
@@ -98,3 +102,6 @@ CREATE EXTERNAL TABLE deck_of_cards_external (
     STORED AS TEXTFILE
     LOCATION '/user/root/cards';
 ```
+## References
+
+

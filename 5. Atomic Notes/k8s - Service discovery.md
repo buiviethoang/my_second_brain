@@ -1,3 +1,7 @@
+2024-12-01 21:34
+Status: #baby
+Tags: [[computer science]] [[k8s]]
+## Main
 There are two major components to service discovery
 1. Registration
 2. Discovery
@@ -39,3 +43,6 @@ balance traffic to.
 ## Service discovery
 ## Service discovery and namespaces
 ## Troubleshooting and service discovery
+## References
+
+
