@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "090b1a156f85df67",
+        "id": "0b6c25e15ccf74ff",
         "type": "tabs",
         "children": [
           {
-            "id": "37a383fa932fe3bf",
+            "id": "454797e4024fd3af",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -36,7 +36,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -89,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "5. Atomic Notes/OSI.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -98,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for OSI"
             }
           },
           {
@@ -132,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 391,
     "collapsed": true
   },
   "left-ribbon": {
@@ -142,59 +144,59 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false
+      "markdown-importer:Open format converter": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c8c088bf86842e7f",
+  "active": "454797e4024fd3af",
   "lastOpenFiles": [
-    "5. Atomic Notes/1 Projects/Project Management/Sprints.md",
-    "5. Atomic Notes/1 Projects/Project Management/Scrum framework.md",
-    "5. Atomic Notes/1 Projects/Project Management/Product backlog.md",
-    "5. Atomic Notes/1 Projects/Project Management/Estimation and velocity.md",
-    "5. Atomic Notes/1 Projects/Project Management/Agile Principles.md",
-    "5. Atomic Notes/1 Projects/Better SQL/SQL performance tuning - Constraints.md",
-    "5. Atomic Notes/1 Projects/Better SQL/Sql performance tuning - Simple searches.md",
-    "5. Atomic Notes/1 Projects/Better SQL/SQl performance tuning - Stored procedures.md",
-    "5. Atomic Notes/1 Projects/Better SQL/Sql performance tuning - Subqueries.md",
-    "5. Atomic Notes/1 Projects/Better SQL/SQl performance tuning - Tables.md",
-    "5. Atomic Notes/1 Projects/Deployment/The kubernetes book - 6 - Service discovery.md",
-    "5. Atomic Notes/k8s - Service discovery.md",
-    "5. Atomic Notes/1 Projects/Deployment/The kubernetes book - 5 - Ingres.md",
-    "5. Atomic Notes/k8s - Ingre.md",
-    "5. Atomic Notes/k8s - Service.md",
-    "5. Atomic Notes/1 Projects/Deployment/The kubernetes book - 4 - Services.md",
-    "5. Atomic Notes/k8s - 3.md",
-    "5. Atomic Notes/1 Projects/Deployment/The kubernetes book - 3.md",
-    "5. Atomic Notes/k8s - 2.md",
-    "5. Atomic Notes/k8s - 1.md",
-    "5. Atomic Notes/1 Projects/Deployment/The kubernetes book - 2.md",
-    "2. Tags/k8s.md",
-    "5. Atomic Notes/1 Projects/Deployment/The kubernetes book - 1.md",
-    "5. Atomic Notes/Review code.md",
-    "5. Atomic Notes/ESB.md",
+    "5. Atomic Notes/Photography Basic knowledge.md",
+    "5. Atomic Notes/4 Archives/Pasted image 20250104220020.png",
+    "README.md",
+    "2. Tags/personal.md",
+    "2. Tags/photography.md",
+    "5. Atomic Notes/Database - Optimization.md",
+    "5. Atomic Notes/Database - 3+2 principles - Tran Quoc Huy.md",
+    "5. Atomic Notes/4 Archives/Pasted image 20241214113919.png",
+    "5. Atomic Notes/Oracle database - How to learn.md",
+    "4. Templates/{{ Title }}.md",
+    "2. Tags/database.md",
     "2. Tags/computer science.md",
+    "5. Atomic Notes/2 Areas/Personal Stuff/Cloud storage.md",
+    "5. Atomic Notes/2 Areas/Personal Stuff/Lưu trữ và connect thông tin như thế nào.md",
+    "5. Atomic Notes/2 Areas/Personal Stuff/Mật mã.md",
+    "5. Atomic Notes/2 Areas/Personal Stuff/Sách cần mua.md",
+    "2. Tags/storage.md",
+    "1. Rough Notes/Kế hoạch ôn luyện phỏng vấn.md",
+    "1. Rough Notes/Kế hoạch khẩn tháng 6.md",
+    "1. Rough Notes/Week 15 Apr - 21 Apr.md",
+    "1. Rough Notes/Thuật ngữ mình gặp khi ở ViettelPost.md",
+    "1. Rough Notes/Quick note.md",
+    "1. Rough Notes/Quản lý đồ dùng cá nhân.md",
+    "1. Rough Notes/Danh sách chi phí Tết.md",
+    "1. Rough Notes/Học được gì từ ViettelPost?.md",
+    "1. Rough Notes/Cover letter.md",
+    "5. Atomic Notes/2 Areas/Soft skills/TDT.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Network",
+    "5. Atomic Notes/2 Areas/Programming Stuff/DevOps/K8s",
+    "5. Atomic Notes/1 Projects/Clean conde",
+    "docs",
+    "5. Atomic Notes/4 Archives/Pasted image 20241207213812.png",
+    "5. Atomic Notes/4 Archives/Pasted image 20241207213810.png",
+    "5. Atomic Notes/4 Archives/Pasted image 20241207213808.png",
+    "Untitled.canvas",
+    "5. Atomic Notes/4 Archives/Pasted image 20241207212757.png",
     "5. Atomic Notes/4 Archives/Images/Pasted image 20221001102713.png",
     "5. Atomic Notes/4 Archives/Images/Pasted image 20221001092900.png",
     "5. Atomic Notes/4 Archives/Images/Pasted image 20221001102744.png",
     "5. Atomic Notes/4 Archives/Images/Pasted image 20221001103403.png",
-    "5. Atomic Notes/4 Archives/Images/Pasted image 20221001105723.png",
-    "5. Atomic Notes/4 Archives/Images/Pasted image 20221001111019.png",
-    "5. Atomic Notes/4 Archives/Images/Pasted image 20221001110128.png",
-    "5. Atomic Notes/4 Archives/Images/Screenshot from 2022-10-01 09-28-27.png",
-    "5. Atomic Notes/4 Archives/Pasted image 20241201150342.jpg",
     "5. Atomic Notes",
     "4. Templates",
     "3. Indexes",
     "2. Tags",
     "5. Atomic Notes/3 Resources/Others",
     "5. Atomic Notes/3 Resources/Article",
-    "5. Atomic Notes/3 Resources/Social media",
-    "5. Atomic Notes/3 Resources/Podcasts",
-    "5. Atomic Notes/3 Resources/Books",
-    "5. Atomic Notes/3 Resources/Videos",
-    "5. Atomic Notes/4 Archives/New Images/Screenshot 2023-10-06 at 15.12.34.png",
     "Untitled 1.canvas",
-    "Untitled 2.canvas",
-    "Untitled.canvas"
+    "Untitled 2.canvas"
   ]
 }
