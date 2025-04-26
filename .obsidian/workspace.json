@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f59ad1dbf8a14350",
+        "id": "18c2a407564311c2",
         "type": "tabs",
         "children": [
           {
-            "id": "9e37ecc5327dc1b5",
+            "id": "1abe5fbf265d91d5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5. Atomic Notes/Nutrition.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Nutrition"
+              "title": "New tab"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286
+    "width": 308
   },
   "right": {
     "id": "eb2251df86c7b8a3",
@@ -94,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5. Atomic Notes/OSI.md",
+                "file": "5. Atomic Notes/Hieu bao cao tai chinh.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for OSI"
+              "title": "Backlinks for Hieu bao cao tai chinh"
             }
           },
           {
@@ -152,55 +148,55 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9e37ecc5327dc1b5",
+  "active": "1abe5fbf265d91d5",
   "lastOpenFiles": [
-    "5. Atomic Notes/2 Areas/Programming Stuff/Java/Apache Hive.md",
-    "5. Atomic Notes/1 Projects/Photography/Photography Basic knowledge.md",
-    "5. Atomic Notes/Nutrition.md",
-    "5. Atomic Notes/2 Areas/Health/Sitting & standing posture.md",
-    "5. Atomic Notes/1 Projects/Database optimization/Database - 3+2 principles - Tran Quoc Huy.md",
+    "README.md",
+    "5. Atomic Notes/2 Areas/Real-estate/Cac chien luoc dau tu BDS.md",
+    "5. Atomic Notes/2 Areas/Real-estate/Ung dung cong nghe trong BDS.md",
+    "5. Atomic Notes/2 Areas/Real-estate/Phan tich vi tri BDS, phong thuy.md",
+    "5. Atomic Notes/2 Areas/Real-estate/Doc ban do quy hoach, so do, thong tin dat dai.md",
+    "5. Atomic Notes/2 Areas/Real-estate/Tinh toan dong tien dau tu BDS.md",
+    "5. Atomic Notes/2 Areas/Real-estate/Cach phan tich thi truong BDS.md",
+    "5. Atomic Notes/2 Areas/Real-estate/Vay von trong BDS.md",
+    "5. Atomic Notes/2 Areas/Health/Nutrition.md",
+    "5. Atomic Notes/2 Areas/Real-estate",
+    "2. Tags/personal.md",
+    "5. Atomic Notes/2 Areas/Real-estate/Chi phi trong BDS.md",
+    "5. Atomic Notes/2 Areas/Real-estate/Dinh gia BDS.md",
+    "5. Atomic Notes/2 Areas/Real-estate/Thuat ngu BDS.md",
+    "4. Templates/{{ Title }}.md",
+    "5. Atomic Notes/2 Areas/Real-estate/Luat BDS.md",
+    "5. Atomic Notes/2 Areas/Real-estate/Phap ly BDS.md",
+    "5. Atomic Notes/2 Areas/Real-estate/Quy trinh giao dich bat dong san.md",
+    "5. Atomic Notes/2 Areas/Real-estate/Cac loai hinh bat dong san.md",
+    "5. Atomic Notes/2 Areas/Finance/Hieu bao cao tai chinh.md",
+    "5. Atomic Notes/4 Archives/New Images/Pasted image 20211217105858.png.md",
+    "5. Atomic Notes/2 Areas/Finance/Kiến thức tài chính 2.md",
+    "5. Atomic Notes/1 Projects/Database optimization/Oracle database - How to learn.md",
+    "2. Tags/database.md",
+    "2. Tags/real-estate.md",
+    "5. Atomic Notes/4 Archives/Pasted image 20250420191011.png",
+    "5. Atomic Notes/4 Archives/Pasted image 20250420190515.png",
+    "5. Atomic Notes/4 Archives/Pasted image 20250420190433.png",
+    "5. Atomic Notes/4 Archives/Pasted image 20250420190409.png",
+    "5. Atomic Notes/4 Archives/Pasted image 20250420185815.png",
+    "5. Atomic Notes/4 Archives/Pasted image 20250420185438.png",
+    "5. Atomic Notes/4 Archives/Pasted image 20250420184922.png",
+    "5. Atomic Notes/4 Archives/Pasted image 20250420184538.png",
+    "5. Atomic Notes/4 Archives/Pasted image 20250420183342.png",
+    "5. Atomic Notes/4 Archives/Pasted image 20250420113302.png",
+    "5. Atomic Notes/2 Areas/Finance/Mã cổ phiếu.md",
+    "2. Tags/finance.md",
     "5. Atomic Notes/1 Projects/Photography",
     "5. Atomic Notes/1 Projects/Database optimization",
-    "5. Atomic Notes/2 Areas/Health/Cham soc rang mieng.md",
     "5. Atomic Notes/2 Areas/Health",
-    "2. Tags/health.md",
-    "2. Tags/database.md",
-    "2. Tags/clean code.md",
-    "2. Tags/computer science.md",
-    "5. Atomic Notes/4 Archives/Pasted image 20250104220020.png",
-    "README.md",
-    "2. Tags/personal.md",
-    "2. Tags/photography.md",
-    "5. Atomic Notes/1 Projects/Database optimization/Database - Optimization.md",
-    "5. Atomic Notes/4 Archives/Pasted image 20241214113919.png",
-    "5. Atomic Notes/1 Projects/Database optimization/Oracle database - How to learn.md",
-    "4. Templates/{{ Title }}.md",
-    "5. Atomic Notes/2 Areas/Personal Stuff/Cloud storage.md",
-    "5. Atomic Notes/2 Areas/Personal Stuff/Lưu trữ và connect thông tin như thế nào.md",
-    "5. Atomic Notes/2 Areas/Personal Stuff/Mật mã.md",
-    "5. Atomic Notes/2 Areas/Personal Stuff/Sách cần mua.md",
-    "2. Tags/storage.md",
-    "1. Rough Notes/Kế hoạch ôn luyện phỏng vấn.md",
-    "1. Rough Notes/Kế hoạch khẩn tháng 6.md",
-    "1. Rough Notes/Week 15 Apr - 21 Apr.md",
-    "1. Rough Notes/Thuật ngữ mình gặp khi ở ViettelPost.md",
-    "1. Rough Notes/Quick note.md",
     "5. Atomic Notes/2 Areas/Programming Stuff/Network",
     "5. Atomic Notes/2 Areas/Programming Stuff/DevOps/K8s",
     "5. Atomic Notes/1 Projects/Clean conde",
     "docs",
-    "5. Atomic Notes/4 Archives/Pasted image 20241207213812.png",
-    "5. Atomic Notes/4 Archives/Pasted image 20241207213810.png",
-    "5. Atomic Notes/4 Archives/Pasted image 20241207213808.png",
     "Untitled.canvas",
-    "5. Atomic Notes/4 Archives/Pasted image 20241207212757.png",
-    "5. Atomic Notes/4 Archives/Images/Pasted image 20221001102713.png",
-    "5. Atomic Notes/4 Archives/Images/Pasted image 20221001092900.png",
-    "5. Atomic Notes/4 Archives/Images/Pasted image 20221001102744.png",
-    "5. Atomic Notes/4 Archives/Images/Pasted image 20221001103403.png",
     "5. Atomic Notes",
     "4. Templates",
-    "3. Indexes",
     "Untitled 1.canvas",
     "Untitled 2.canvas"
   ]
