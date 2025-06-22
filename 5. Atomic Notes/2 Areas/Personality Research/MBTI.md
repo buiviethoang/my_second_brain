@@ -1,4 +1,9 @@
-## ISTJ - Người trách nhiệm
+2025-06-14 21:36
+Status: #baby
+Tags: [[personal]]
+## Main
+
+ISTJ - Người trách nhiệm
 **ISTJ là loại tính cách phổ biến nhất, có đến 13% dân số trên thế giới thuộc nhóm tính cách này. Phương châm sống của họ là “Chỉ có sự thật”, tính cách của ISTJ là rất tôn trọng sự thật, họ có xu hướng tiếp thu rất nhiều thông tin và nhớ rất lâu.**
 
 Một trong những yếu tố góp phần quan trọng làm cho  ISTJ **có khả năng phân tích các sự vật, hiện tượng, con người ở môi trường xung quanh rất tốt** đó là nhờ đặc tính S.
@@ -154,3 +159,5 @@ Dưới đây là các công việc phù hợp với ISTJ, đây là các công 
 - Quản lý kinh doanh, Quản trị và giám đốc điều hành.  
 - Bác sĩ / Nha sĩ.  
 - Lập trình viên, phân tích hệ thống, và chuyên gia máy tính
+
+## References## 

@@ -1,3 +1,8 @@
+2025-06-14 21:37
+Status: #baby
+Tags: [[personal]]
+## Main
+
 ## **Tâm lý học về màu sắc: Màu Đỏ**
 
 Màu đỏ là màu có bước sóng dài nhất trên quang phổ và thường được gắn với những tính từ rực rỡ, mãnh liệt. Là màu sắc mang lại cảm giác ấm áp, được nhiều người yêu thích vậy nên màu đỏ thường được dùng cho các thương hiệu đồ ăn, ví dụ như Coca-Cola, KFC, McDonald’s. Là màu sắc của tia lửa và ánh hoàng hôn nên nó cũng khơi gợi một năng lượng mạnh mẽ, được sử dụng làm nhận diện cho những thương hiệu thể thao như Ferrari F1 và Manchester United. Ngoài ra màu đỏ còn là màu của máu, nó tạo ra tính căng thẳng, gay gắt khiến người nhìn phải chú ý vậy nên được đặt làm màu mặc định cho biển báo cấm. 
@@ -46,3 +51,5 @@ Cũng như màu trắng, màu đen cũng không có hòa sắc và không đư�
 Những thương hiệu như Sony, Beats và Samsung thường sử dụng màu đen trong các sản phẩm của họ bởi đen là một màu cổ điển, chính vì vậy mày sắc này sẽ không bao giờ bị lạc hậu với thời gian và phong cách. Chính vì lý do này, các công ty công nghệ thường sử dụng màu đen trong các thiết kế sản phẩm để tránh sự lỗi thời so với sự phát triển nhanh chóng của công nghệ như hiện nay.
 
 Dưới con mắt khoa học, đen không phải màu sắc, mà nó là “sự vô diện của ánh sáng” – vì vậy đôi khi màu sắc này còn bị liên tưởng đến sự chết chóc. Hiểu được điều này, người thiết kế cần tránh sử dụng màu đen để nhằm nổi bật các đối tượng – các nút nhấn cơ bản và các yếu tố ưu đãi, quảng cáo cần một màu tươi sáng để nhấn mạnh. Vậy nên, màu đen là một sự lựa chọn tuyệt vời nếu được sử dụng trong nhiếp ảnh hay màu nền cho các phần khác nhau của một sản phẩm.
+
+## References

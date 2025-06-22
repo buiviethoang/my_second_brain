@@ -1,4 +1,10 @@
-## ETF:
+2025-06-06 21:57
+Status: #baby
+Tags: [[finance]]
+## Main
+
+
+## References## ETF:
 = Quỹ hoán đổi danh mục hay còn gọi là quỹ ETF là một quỹ đầu tư được thiết kế để mô phỏng một bộ chỉ số. Hầu hết các quỹ ETF áp dụng chiến lược đầu tư thụ động và mô phỏng các chỉ số giá trị vốn hóa thị trường
 ## chứng chỉ quỹ
 = Chứng chỉ quỹ là một loại chứng khoán dùng để xác nhận quyền sở hữu vốn góp trong một quỹ đầu tư đại chúng nào đó. Quỹ đại chúng ở đây chính là quỹ đầu tư được hình thành từ vốn góp của nhiều nhà đầu tư và hoạt động nhằm mục đích tìm kiếm lợi nhuận thông qua việc đầu tư chứng khoán hoặc các dạng đầu tư tài sản khác.
