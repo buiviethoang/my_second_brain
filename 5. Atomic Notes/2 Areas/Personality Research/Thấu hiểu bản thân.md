@@ -1,3 +1,9 @@
+2025-06-14 21:41
+Status: #baby
+Tags: [[personal]]
+## Main
+
+
 1. Thế nào là thấu hiểu bản thân? Ý nghĩa?  
   
 - Thấu hiểu bản thân là biết rõ ưu điểm, nhược điểm của mình, hiểu rõ những gì mình thật sự yêu thích và mong muốn cũng như những điều khiến mình không hài lòng trong cuộc sống.  
@@ -69,3 +75,5 @@ Trong giấc mơ, những gì bạn thấy sẽ báo trước viễn cảnh xả
 – James Allen  
 “Không phải lúc nào yêu cầu của bạn cũng được đáp ứng, nhưng nếu không bày tỏ những ước muốn thì bạn sẽ không bao giờ nhận được gì.”  
 – Franklyn Broude
+
+## References

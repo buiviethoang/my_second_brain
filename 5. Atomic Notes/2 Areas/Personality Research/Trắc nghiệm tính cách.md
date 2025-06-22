@@ -1,3 +1,8 @@
+2025-06-14 21:44
+Status: #baby
+Tags: [[personal]]
+## Main
+
 ## **Personalitymax**
 ![[Pasted image 20220112211614.png]]
 Your top three intelligences are **Intrapersonal**, **Logical** and **Linguistic**.
@@ -234,3 +239,4 @@ Interaction, dialogue and lively discussions are ways in which people with Inter
 -   Social Worker
 -   Supervisor
 
+## References

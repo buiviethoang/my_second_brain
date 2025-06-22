@@ -1,3 +1,9 @@
+
+2025-06-14 21:43
+Status: #baby
+Tags: [[personal]] 
+## Main
+
 1. CHỈ SỐ ĐƯỜNG ĐỜI (SỐ CHỦ ĐẠO) CỦA BẠN LÀ: SỐ 11
 
 Chỉ số này hé lộ con đường mà bạn sẽ trải qua trong cuộc đời này. Nó cho bạn thấy bạn sẽ gặp phải những trải nghiệm như thế nào, và bạn học được gì sau những trải nghiệm đó. Nó cung cấp nhiều thông tin về con người bạn và cuộc đời mà bạn sẽ sống.
@@ -260,7 +266,8 @@ Rất tín ngưỡng và sống nhiều về tinh thần. Thích nghiên cứu v
 
 ### 👷💰 Công việc, năng khiếu & tiền bạc:
 
-Thích hợp nhất với các công việc hay nghề nghiệp ít bị kiểm soát bởi người khác. Dễ thành công trong các lĩnh vực nghệ thuật, viết văn, điêu khắc, hội họa v.v... Giáo dục, khoa học, hoặc tôn giáo cũng thích nghi với khả năng.
+Thích hợp nhất với các công việc hay nghề nghiệp ít bị kiểm soát bởi người khác. Dễ
+thành công trong các lĩnh vực nghệ thuật, viết văn, điêu khắc, hội họa v.v... Giáo dục, khoa học, hoặc tôn giáo cũng thích nghi với khả năng.
 
 Nhờ vào kiên nhẫn và kiến thức sẵn có, họ có thể gặt hái được nhiều kết quả tốt đẹp khi bắt tay vào việc. Thích biển cả, du lịch và có nhiều khả năng trong ngành hàng hải. Ít thích thú trong các việc thương mãi hay các việc cần đến sự giao dịch.
 
@@ -303,3 +310,6 @@ Mong muốn mọi người có cuộc sống êm ấm, yêu thương và hòa th
 ## 9) Con số biểu đạt của bạn là: Số 10
 Đặc điểm của Con số biểu đạt 10 gần như trái ngược với Con số biểu đạt 9. Những người sở hữu Con số này thường quá tập trung vào khía cạnh nhẹ nhàng, vui vẻ của cuộc sống, và có phần xem nhẹ tính nghiêm túc. Họ cần tránh trở nên khiếm nhã và nông cạn, thay vào đó, hãy tập trung vào khả năng thật sự của con số 10, đó là năng lực thích nghi với nhiều hoàn cảnh và tình huống khác nhau. Người mang Con số biểu đạt này quyết tâm mạnh mẽ hơn để hoàn thành vai trò của mình trong cuộc sống, vì chỉ khi cân bằng được tính nghiêm túc và thoải mái thì họ mới gặt hái được thành công.
 ## 10) Các Đỉnh cuộc đời bạn ngày sinh: 12/06/2000
+
+
+## References

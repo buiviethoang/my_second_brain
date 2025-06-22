@@ -1,3 +1,8 @@
+2025-06-14 21:42
+Status: #baby
+Tags: [[personal]]
+## Main
+
 **Cung Song Tử** (21/5 - 22/6) có tên gọi tiếng anh là Gemini. Người thuộc cung Song Tử thường là những người tốt hiền lành, tốt bụng, đẹp trai, xinh gái mang trong mình trí thông minh và sự thích ứng nhanh chóng. Song Tử được đánh giá là một cung hoàng đạo thú vị, cuộc sống của họ tràn ngập sắc màu với nhiều dự định hay.
 ![[Pasted image 20220224162849.png]]
 ## **Giải mã tính cách cung Song Tử**
@@ -371,3 +376,5 @@ Có thể nói chàng là một trong những chòm sao nam đào hoa đa tình 
 -   Outgoing
 -   Social
 -   Well-spoken
+
+## References

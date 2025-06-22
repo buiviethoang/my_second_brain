@@ -1,3 +1,8 @@
+2025-06-14 21:44
+Status: #baby
+Tags: [[personal]]
+## Main
+
 ## **16personalities**
 ![[Screenshot from 2022-01-12 22-04-08.png]]
 The Logistician personality type is thought to be the most abundant, making up around 13% of the population. Their defining characteristics of integrity, practical logic and tireless dedication to duty make Logisticians a vital core to many families, as well as organizations that uphold traditions, rules and standards, such as law offices, regulatory bodies and military. People with the Logistician personality type enjoy taking responsibility for their actions, and take pride in the work they do – when working towards a goal, Logisticians hold back none of their time and energy completing each relevant task with accuracy and patience.
@@ -103,3 +108,6 @@ Logisticians value peace and security in the workplace, and the easiest way for 
 Logisticians love responsibility and the power resulting from it. Pressing themselves hard to meet their obligations, Logisticians regularly go above and beyond their duties, and expect their subordinates to act with the same level of dedication. At the same time, Logisticians’ preference for doing things by the book, adherence to hierarchy, and general aversion to innovation makes their subordinates ride a very thin line when they do – stepping out of bounds must be backed up with just the facts, and results.
 
 It is said that it is better to do first and ask permission later – it’s difficult to say whether this applies to Logisticians, as they are very intolerant of their subordinates’ failures to meet their obligations, and one of those obligations is to stick to the plan. Believing that truth, at least as far as they see it, is more important than sensitivity, Logistician personalities are capable of laying down hard criticism, and their willingness to make tough decisions can make perceived insubordination the final trespass.
+
+
+## References

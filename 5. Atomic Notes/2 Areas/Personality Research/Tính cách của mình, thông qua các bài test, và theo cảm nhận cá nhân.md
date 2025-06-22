@@ -1,3 +1,9 @@
+2025-06-14 21:44
+Status: #baby
+Tags: [[personal]]
+## Main
+
+
 Điểm mạnh: 
 - Chính trực
 - Thích tìm hiểu nhiều lĩnh vực, tiếp thu nhiều thông tin. Nhớ lâu. Có vốn sống phong phú. 
@@ -30,3 +36,5 @@
 - Hơi thờ ơ, lạnh nhạt, khó khăn trong biểu lộ cảm xúc, không đồng cảm. 
 - Hơi bảo thủ, xu hướng mình luôn đúng, khó open với những giả thuyết, ý tưởng đối lập. Bướng bỉnh
 - Tuân thủ quy định, nguyên tắc chung. Truyền thống đôi khi hơi cứng nhắc, sách vở
+
+## References
