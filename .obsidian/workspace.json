@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2e6734bcd07c6c18",
+        "id": "19dd6000119ae608",
         "type": "tabs",
         "children": [
           {
-            "id": "dec1683c95ad5038",
+            "id": "4d8b8f7b1f1d3f0c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -90,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5. Atomic Notes/Hieu bao cao tai chinh.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -100,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Hieu bao cao tai chinh"
+              "title": "Backlinks"
             }
           },
           {
@@ -110,7 +109,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -130,7 +131,8 @@
               "title": "All properties"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -148,37 +150,37 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "dec1683c95ad5038",
+  "active": "4d8b8f7b1f1d3f0c",
   "lastOpenFiles": [
+    "5. Atomic Notes/Chi so PCE.md",
+    "5. Atomic Notes/2 Areas/Finance/Chinh sach tai khoa - Chinh sach tien te.md",
+    "5. Atomic Notes/2 Areas/Real-estate/Tai chinh - Dinh Gia BDS.md",
+    "README.md",
+    "5. Atomic Notes/2 Areas/Real-estate/Cac chien luoc dau tu BDS.md",
+    "5. Atomic Notes/2 Areas/Real-estate/Cac loai hinh bat dong san.md",
+    "5. Atomic Notes/2 Areas/Real-estate/Kien thuc bo tro - BDS.md",
+    "5. Atomic Notes/2 Areas/Real-estate/Phan tinh thi truong - Dau tu BDS.md",
+    "2. Tags/real-estate.md",
+    "5. Atomic Notes/2 Areas/Real-estate/Phap ly - Thu tuc - BDS.md",
+    "5. Atomic Notes/2 Areas/Real-estate/Kien thuc nen - BDS.md",
+    "5. Atomic Notes/2 Areas/Real-estate/Cach phan tich thi truong BDS.md",
+    "4. Templates/{{ Title }}.md",
+    "5. Atomic Notes/2 Areas/Real-estate/Thuat ngu BDS.md",
+    "5. Atomic Notes/2 Areas/Real-estate/Phap ly BDS.md",
+    "5. Atomic Notes/2 Areas/Real-estate/Dinh gia BDS.md",
+    "5. Atomic Notes/1 Projects/Photography/Photography Basic knowledge.md",
+    "1. Rough Notes/Cover letter.md",
+    "1. Rough Notes/Chiến dịch xây dựng blog cá nhân.md",
+    "1. Rough Notes/Danh sách chi phí Tết.md",
+    "1. Rough Notes/Kế hoạch ôn luyện phỏng vấn.md",
+    "5. Atomic Notes/2 Areas/Real-estate/Doc ban do quy hoach, so do, thong tin dat dai.md",
+    "5. Atomic Notes/4 Archives/Pasted image 20250606220501.png",
     "5. Atomic Notes/2 Areas/Personality Research/Trắc nghiệm tính cách.md",
     "5. Atomic Notes/2 Areas/Personality Research/Trắc nghiệm 16personalities.md",
     "5. Atomic Notes/2 Areas/Personality Research/Tính cách của mình, thông qua các bài test, và theo cảm nhận cá nhân.md",
     "5. Atomic Notes/2 Areas/Personality Research/Theo tuổi Canh Thìn.md",
-    "5. Atomic Notes/2 Areas/Personality Research/Theo thần số học.md",
-    "5. Atomic Notes/2 Areas/Personality Research/Theo cung - Cung Song Tử.md",
-    "5. Atomic Notes/2 Areas/Personality Research/Thấu hiểu bản thân.md",
-    "5. Atomic Notes/2 Areas/Personality Research/Tâm lí học về màu sắc.md",
-    "5. Atomic Notes/2 Areas/Personality Research/MBTI.md",
-    "5. Atomic Notes/1 Projects/Photography/Photography Basic knowledge.md",
-    "5. Atomic Notes/Chinh sach tai khoa - Chinh sach tien te.md",
-    "5. Atomic Notes/4 Archives/Pasted image 20250606220501.png",
-    "5. Atomic Notes/2 Areas/Finance/Mã cổ phiếu.md",
-    "5. Atomic Notes/2 Areas/Finance/Kiến thức tài chính.md",
-    "5. Atomic Notes/2 Areas/Finance/Kiến thức tài chính 2.md",
     "Untitled.canvas",
-    "2. Tags/finance.md",
-    "5. Atomic Notes/2 Areas/Finance/Hieu bao cao tai chinh.md",
-    "README.md",
-    "5. Atomic Notes/2 Areas/Real-estate/Cac chien luoc dau tu BDS.md",
-    "5. Atomic Notes/2 Areas/Real-estate/Ung dung cong nghe trong BDS.md",
-    "5. Atomic Notes/2 Areas/Real-estate/Phan tich vi tri BDS, phong thuy.md",
-    "5. Atomic Notes/2 Areas/Real-estate/Doc ban do quy hoach, so do, thong tin dat dai.md",
-    "5. Atomic Notes/2 Areas/Real-estate/Tinh toan dong tien dau tu BDS.md",
-    "5. Atomic Notes/2 Areas/Real-estate/Cach phan tich thi truong BDS.md",
-    "5. Atomic Notes/2 Areas/Real-estate/Vay von trong BDS.md",
-    "5. Atomic Notes/2 Areas/Health/Nutrition.md",
     "5. Atomic Notes/2 Areas/Real-estate",
-    "2. Tags/personal.md",
     "5. Atomic Notes/4 Archives/Pasted image 20250420191011.png",
     "5. Atomic Notes/4 Archives/Pasted image 20250420190515.png",
     "5. Atomic Notes/4 Archives/Pasted image 20250420190433.png",

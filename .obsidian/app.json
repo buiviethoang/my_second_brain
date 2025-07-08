@@ -3,5 +3,6 @@
   "readableLineLength": false,
   "attachmentFolderPath": "5. Atomic Notes/4 Archives",
   "newFileLocation": "folder",
-  "newFileFolderPath": "5. Atomic Notes"
+  "newFileFolderPath": "5. Atomic Notes",
+  "alwaysUpdateLinks": true
 }

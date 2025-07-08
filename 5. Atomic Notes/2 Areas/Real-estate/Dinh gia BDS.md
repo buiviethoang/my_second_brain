@@ -4,8 +4,6 @@ Tags: [[real-estate]]
 ## Main
 
 
-**
-
 ## References
 
 
