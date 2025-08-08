@@ -1,3 +1,8 @@
+2025-08-08 06:55
+Status: #baby
+Tags: [[project management]]
+## Main
+
 ## Overview
 The product backlog is a prioritized list of desired product functionality. It provides a centralized and shared understanding of what to build and the order in which to build it
 
@@ -137,3 +142,6 @@ if organizational impediments force us to have the single team work on multiple 
 Even if we choose to maintain three separate product backlogs, every sprint someone (presumably the product owner for the team) will need to assemble a prioritized set of PBIs from the three backlogs and present those to the team for its consideration and commitment.
 ![[Screenshot 2023-10-06 at 11.36.08.png]]
 ## Closing
+
+
+## References

@@ -1,4 +1,9 @@
-## Overview
+## Overview2025-08-08 06:55
+Status: #baby
+Tags: [[project management]]
+## Main
+
+
 ![[Screenshot 2023-10-06 at 15.12.34.png]]
 ## What and when we estimate
 ![[Screenshot 2023-10-06 at 15.13.39.png]]
@@ -21,3 +26,5 @@ When PBIs have risen in pri- ority and been groomed to include more detail, most
 ## Affecting velocity
 ## Misusing velocity
 ## Closing
+
+## References

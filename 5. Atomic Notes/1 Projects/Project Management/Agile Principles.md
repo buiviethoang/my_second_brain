@@ -1,4 +1,12 @@
-![[Pasted image 20230828215725.png]]
+2025-08-08 06:55
+Status: #baby
+Tags: [[project management]] 
+## Main
+
+
+
+
+## References![[Pasted image 20230828215725.png]]
 
 ![[Pasted image 20230828215927.png]]
 

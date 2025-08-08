@@ -95,6 +95,75 @@ In short:
 ![[Pasted image 20250724214625.png]]
 
 o **retrieve data from a Redis Cluster**, your **client must be cluster-aware**, because Redis Cluster **partitions data** using **hash slots** (0 to 16,383), and different keys may live on different nodes.
+
+### Hot key problem
+
+The **Hot Redis Key problem** occurs when a **single Redis key is accessed at very high frequency** (e.g., thousands or millions of times per second), which causes:
+
+- **CPU/network bottlenecks** on the Redis server
+    
+- **Latency spikes or timeouts**
+    
+- **Uneven load** across Redis cluster nodes (if using Redis Cluster)
+    
+- Potential **DoS** (denial of service) if multiple clients hammer the same key
+
+#### ✅ How to Detect a Hot Key
+
+### 1. **Use `MONITOR` or `SLOWLOG`**
+
+`redis-cli MONITOR | grep leaderboard:global`
+
+Or:
+
+`redis-cli SLOWLOG get`
+### 2. **Use Redis `keyspace_hits`, `keyspace_misses`**
+
+Track access stats per key.
+#### 🔧 Mitigation Strategies
+
+1. **Sharding / Key Hashing**
+
+Instead of using one key, **split into multiple keys**:
+
+`SET leaderboard:global:1 ... SET leaderboard:global:2 ...`
+
+Then randomly or round-robin access among them.
+
+2. **Local caching**
+   If the hot key is **read-heavy**, cache it in the app:
+   Use:
+In-memory cache (e.g., Guava, Caffeine, LRU cache)
+CDN or edge cache for frontend-related keys
+3. **Use Batched Operations** 
+4. Redis Cluster Partitioning
+Use Redis Cluster with careful key distribution:
+Avoid placing all traffic on one hash slot
+Use hash tags only when needed ({tag} keeps keys on same slot)
+
+5. Avoid Sorted Sets for Write-Heavy Workloads
+Sorted Sets (ZADD) can be expensive under high write loads.
+If you don't need ordering immediately, batch and insert later.
+
+6. Use Streams or Pub/Sub for High-Write Events
+For massive write workloads (e.g., logging, metrics), use:
+Redis Streams (high throughput)
+Kafka/RabbitMQ for real decoupling
+
+🧠 Hot Key Rule of Thumb
+🚫 Avoid any one key getting > 5–10% of total Redis ops/sec
+✅ Use key-level metrics to spot hotspots early
+🔄 Balance load before scaling Redis horizontally
+
+|Strategy|When to Use|
+|---|---|
+|Shard keys|Any heavy-write or heavy-read key|
+|Local cache|Frequent reads|
+|Batch writes|High-frequency counters|
+|Redis Streams / Queue|High write volume|
+|Monitoring tools|Always|
+|Redis Cluster balancing|Multi-node Redis deployments|
+
 ## References
 https://redis.io/docs/latest/
 ChatGPT

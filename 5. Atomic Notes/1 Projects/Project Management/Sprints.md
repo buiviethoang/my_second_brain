@@ -1,3 +1,10 @@
+
+2025-08-08 06:56
+Status: #baby
+Tags: [[project management]]
+## Main
+
+
 ![[Pasted image 20230830221931.png]]
 
 
@@ -135,3 +142,4 @@ Some teams have adopted the concept of “done” versus “done-done.” Someho
 Defi- nition of done was “I did as much work as I was prepared to do!” So, from that point forward I started using the term done-done, which we both agreed would mean “done to the point where your teacher would think you are done.”
 Teams that are unaccustomed to really getting things done early and often are more likely to use done-done as a crutch. For them, using done-done makes the point that being done (doing as much work as they are prepared to do) is a different state from done-done (doing the work required for customers to believe it is done). Teams that have internalized that you can be done only if you did all the work necessary to satisfy customers don’t need to have two states; to them, done means done-done!
 
+## References

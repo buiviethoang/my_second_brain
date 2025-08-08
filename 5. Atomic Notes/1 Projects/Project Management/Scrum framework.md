@@ -1,3 +1,8 @@
+
+2025-08-08 06:56
+Status: #baby
+Tags: [[project management]]
+## Main
 ### Overview
 
 ![[Pasted image 20230828213251.png]]
@@ -21,3 +26,4 @@
 ### Scrum activities and artifacts
 ![[Pasted image 20230828214026.png]]
 
+## References
