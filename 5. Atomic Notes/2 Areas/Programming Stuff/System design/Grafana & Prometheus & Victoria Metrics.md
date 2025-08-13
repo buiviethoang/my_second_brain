@@ -1,6 +1,6 @@
 2025-08-05 21:27
 Status: #baby
-Tags: 
+Tags: [[computer science]] [[system design]]
 ## Main
 ### What? 
 Grafana và Prometheus là hai công cụ rất phổ biến và thường được sử dụng kết hợp để giám sát hệ thống (monitoring) và trực quan hóa dữ liệu (visualization).

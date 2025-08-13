@@ -110,13 +110,13 @@ They let you do **conditional routing**, blocking, redirection, or logging.
 > “If the request matches this condition → do something.”
 ## ✅ Common Uses of ACLs in HAProxy
 
-|Use Case|Example|
-|---|---|
-|Route based on URL path|Send `/api/*` to a different backend|
-|Block an IP address|Deny access from `192.168.1.100`|
-|Force HTTPS|Redirect all HTTP to HTTPS|
-|Different routing based on headers|Route traffic based on user-agent or cookie|
-|Limit access by method|Allow only `GET`, deny `POST`|
+| Use Case                           | Example                                     |
+| ---------------------------------- | ------------------------------------------- |
+| Route based on URL path            | Send `/api/*` to a different backend        |
+| Block an IP address                | Deny access from `192.168.1.100`            |
+| Force HTTPS                        | Redirect all HTTP to HTTPS                  |
+| Different routing based on headers | Route traffic based on user-agent or cookie |
+| Limit access by method             | Allow only `GET`, deny `POST`               |
 
 ## 📑 Basic Syntax
 
@@ -171,29 +171,29 @@ ACLs are **evaluated in order**, and multiple can be **combined** using `if` or 
 
 ### Nginx
 
-|Feature|**HAProxy**|**Nginx**|
-|---|---|---|
-|🔁 **Primary Purpose**|Built for **high-performance load balancing**|Built as a **web server** first, then added reverse proxy/load balancing|
-|🌐 **Layer Support**|Strong at both **Layer 4 (TCP)** and **Layer 7 (HTTP)**|Mostly **Layer 7 (HTTP)**, TCP/UDP support added later|
-|⚙️ **Performance**|Extremely fast for high connection volume; low memory|Very fast, but can fall behind HAProxy under very high connection churn|
-|📊 **Monitoring / Stats**|Detailed stats interface, granular metrics|Basic status module; more limited visibility|
-|🔀 **Load Balancing Algorithms**|Many options (round-robin, least-conns, source hash, etc.)|Fewer options (round-robin, least connections, IP hash)|
-|🔒 **SSL/TLS Support**|Yes, full support|Yes, often easier to configure|
-|📁 **Static File Serving**|❌ No (not a web server)|✅ Yes (excellent at serving static files)|
-|🔧 **Configuration Complexity**|More complex, especially ACLs|Simpler and more readable|
-|💥 **Error Handling**|Graceful error handling, retries, and timeouts|Also solid, but fewer fine-tuned controls|
-|🧠 **Advanced Logic**|Powerful **ACLs**, stick tables, connection tracking|Simpler conditional logic with `if`, `map`, etc.|
-|📦 **Use Cases**|Load balancing, high availability|Web server + reverse proxy + static file server|
+| Feature                          | **HAProxy**                                                | **Nginx**                                                                |
+| -------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------ |
+| 🔁 **Primary Purpose**           | Built for **high-performance load balancing**              | Built as a **web server** first, then added reverse proxy/load balancing |
+| 🌐 **Layer Support**             | Strong at both **Layer 4 (TCP)** and **Layer 7 (HTTP)**    | Mostly **Layer 7 (HTTP)**, TCP/UDP support added later                   |
+| ⚙️ **Performance**               | Extremely fast for high connection volume; low memory      | Very fast, but can fall behind HAProxy under very high connection churn  |
+| 📊 **Monitoring / Stats**        | Detailed stats interface, granular metrics                 | Basic status module; more limited visibility                             |
+| 🔀 **Load Balancing Algorithms** | Many options (round-robin, least-conns, source hash, etc.) | Fewer options (round-robin, least connections, IP hash)                  |
+| 🔒 **SSL/TLS Support**           | Yes, full support                                          | Yes, often easier to configure                                           |
+| 📁 **Static File Serving**       | ❌ No (not a web server)                                    | ✅ Yes (excellent at serving static files)                                |
+| 🔧 **Configuration Complexity**  | More complex, especially ACLs                              | Simpler and more readable                                                |
+| 💥 **Error Handling**            | Graceful error handling, retries, and timeouts             | Also solid, but fewer fine-tuned controls                                |
+| 🧠 **Advanced Logic**            | Powerful **ACLs**, stick tables, connection tracking       | Simpler conditional logic with `if`, `map`, etc.                         |
+| 📦 **Use Cases**                 | Load balancing, high availability                          | Web server + reverse proxy + static file server                          |
 
 
-|Use This When...|Use **HAProxy**|Use **Nginx**|
-|---|---|---|
-|You need very **high-throughput** traffic routing|✅|❌|
-|You’re serving **websites + APIs** from the same server|❌|✅|
-|You want **powerful ACL-based routing**|✅|⚠️ Limited|
-|You need **static file serving (images, HTML)**|❌|✅|
-|You're managing **TCP/UDP services (e.g., MySQL, Redis)**|✅|✅ (with stream module)|
-|You want **easy config for HTTPS**|⚠️|✅|
+| Use This When...                                          | Use **HAProxy** | Use **Nginx**          |
+| --------------------------------------------------------- | --------------- | ---------------------- |
+| You need very **high-throughput** traffic routing         | ✅               | ❌                      |
+| You’re serving **websites + APIs** from the same server   | ❌               | ✅                      |
+| You want **powerful ACL-based routing**                   | ✅               | ⚠️ Limited             |
+| You need **static file serving (images, HTML)**           | ❌               | ✅                      |
+| You're managing **TCP/UDP services (e.g., MySQL, Redis)** | ✅               | ✅ (with stream module) |
+| You want **easy config for HTTPS**                        | ⚠️              | ✅                      |
 
 ### Horizontal scaling vs load balancer
 

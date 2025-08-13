@@ -22,15 +22,15 @@ Reverse Proxy (e.g., Nginx, HAProxy)
 Backend Servers (App servers, APIs, etc.)
 
 
-|Purpose|Benefit|
-|---|---|
-|🔒 **Security**|Hides internal servers from public access|
-|🔁 **Load Balancing**|Distributes traffic among backend servers|
-|🚪 **SSL Termination**|Handles HTTPS encryption so backends don’t have to|
-|📉 **Caching**|Caches static or repeated responses to improve performance|
-|🔃 **Compression**|Compresses responses before sending to client|
-|📊 **Logging and Monitoring**|Centralizes logs for all backend traffic|
-|🔀 **Routing**|Routes requests based on path, domain, headers, etc.|
+| Purpose                       | Benefit                                                    |
+| ----------------------------- | ---------------------------------------------------------- |
+| 🔒 **Security**               | Hides internal servers from public access                  |
+| 🔁 **Load Balancing**         | Distributes traffic among backend servers                  |
+| 🚪 **SSL Termination**        | Handles HTTPS encryption so backends don’t have to         |
+| 📉 **Caching**                | Caches static or repeated responses to improve performance |
+| 🔃 **Compression**            | Compresses responses before sending to client              |
+| 📊 **Logging and Monitoring** | Centralizes logs for all backend traffic                   |
+| 🔀 **Routing**                | Routes requests based on path, domain, headers, etc.       |
 
 ## 💡 Examples of Reverse Proxy Software
 
@@ -74,14 +74,14 @@ One public domain, centralized control.
 | 🔼 Forward Proxy | **Clients**  | Users (for anonymity, filtering, etc.) |
 
 
-|Feature|**Forward Proxy (aka Proxy)**|**Reverse Proxy**|
-|---|---|---|
-|🧍 Who it represents|**The client** (e.g., your computer)|**The server** (e.g., your web app)|
-|🔒 Who it hides|Hides the **client** from the internet|Hides the **server** from the client|
-|↔️ Traffic Direction|Client → Proxy → Internet|Client → Reverse Proxy → Backend Server|
-|🧑‍💻 Common users|Users who want privacy, filtering, or control|Companies managing backend apps|
-|🌐 Use cases|Bypass geo-blocks, ad filtering, school firewalls|Load balancing, SSL termination, routing|
-|🧰 Examples|Squid, Shadowsocks, VPNs|Nginx, HAProxy, Traefik, Cloudflare|
+| Feature              | **Forward Proxy (aka Proxy)**                     | **Reverse Proxy**                        |
+| -------------------- | ------------------------------------------------- | ---------------------------------------- |
+| 🧍 Who it represents | **The client** (e.g., your computer)              | **The server** (e.g., your web app)      |
+| 🔒 Who it hides      | Hides the **client** from the internet            | Hides the **server** from the client     |
+| ↔️ Traffic Direction | Client → Proxy → Internet                         | Client → Reverse Proxy → Backend Server  |
+| 🧑‍💻 Common users   | Users who want privacy, filtering, or control     | Companies managing backend apps          |
+| 🌐 Use cases         | Bypass geo-blocks, ad filtering, school firewalls | Load balancing, SSL termination, routing |
+| 🧰 Examples          | Squid, Shadowsocks, VPNs                          | Nginx, HAProxy, Traefik, Cloudflare      |
 
 ## 🧠 Real-World Analogy
 
