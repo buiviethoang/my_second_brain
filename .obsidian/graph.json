@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "dependency",
+  "search": "database",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.9605536763590444,
+  "scale": 1.3908177472572198,
   "close": false
 }
