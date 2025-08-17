@@ -4,15 +4,15 @@ Tags: [[computer science]]
 ## Main
 ## 🧠 Overview Table: **Race Condition vs Contention vs Deadlock**
 
-|Aspect|**Race Condition**|**Contention**|**Deadlock**|
-|---|---|---|---|
-|🔍 Definition|Two or more threads access shared data **without synchronization**, and the **order of execution affects correctness**.|Multiple threads/processes **compete** for a shared resource.|Two or more threads **wait forever** for each other to release locks/resources.|
-|📌 Example|Two threads increment the same counter at the same time.|Many threads try to write to the same file/database row.|Thread A holds Lock 1 and waits for Lock 2; Thread B holds Lock 2 and waits for Lock 1.|
-|🧯 Symptoms|**Incorrect results**, unexpected behavior|**Slow performance**, high CPU or I/O wait|Program **hangs**, threads never proceed|
-|💣 Impact|Corrupted data, bugs that are **hard to reproduce**|Reduced throughput, **scalability bottlenecks**|**System freeze**, requires restart or intervention|
-|⚒️ Detection|Usually via tests or race detectors (e.g. ThreadSanitizer)|Observed via performance metrics or profiling tools|Use thread dump tools, lock graph analysis|
-|✅ Prevention|Use locks, atomic operations, or synchronization primitives|Minimize shared access, use lock-free or batch processing|Lock ordering, try-locks with timeouts, deadlock detection|
-|✅ Recovery|Fix code to ensure atomicity|Redesign to reduce resource sharing|Kill one thread or release one lock forcibly|
+| Aspect        | **Race Condition**                                                                                                      | **Contention**                                                | **Deadlock**                                                                            |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| 🔍 Definition | Two or more threads access shared data **without synchronization**, and the **order of execution affects correctness**. | Multiple threads/processes **compete** for a shared resource. | Two or more threads **wait forever** for each other to release locks/resources.         |
+| 📌 Example    | Two threads increment the same counter at the same time.                                                                | Many threads try to write to the same file/database row.      | Thread A holds Lock 1 and waits for Lock 2; Thread B holds Lock 2 and waits for Lock 1. |
+| 🧯 Symptoms   | **Incorrect results**, unexpected behavior                                                                              | **Slow performance**, high CPU or I/O wait                    | Program **hangs**, threads never proceed                                                |
+| 💣 Impact     | Corrupted data, bugs that are **hard to reproduce**                                                                     | Reduced throughput, **scalability bottlenecks**               | **System freeze**, requires restart or intervention                                     |
+| ⚒️ Detection  | Usually via tests or race detectors (e.g. ThreadSanitizer)                                                              | Observed via performance metrics or profiling tools           | Use thread dump tools, lock graph analysis                                              |
+| ✅ Prevention  | Use locks, atomic operations, or synchronization primitives                                                             | Minimize shared access, use lock-free or batch processing     | Lock ordering, try-locks with timeouts, deadlock detection                              |
+| ✅ Recovery    | Fix code to ensure atomicity                                                                                            | Redesign to reduce resource sharing                           | Kill one thread or release one lock forcibly                                            |
 
 
 ## 📌 Visual Analogy

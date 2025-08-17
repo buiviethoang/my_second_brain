@@ -71,7 +71,7 @@ Tỉ lệ an toàn vốn (tiếng Anh: Capital adequacy ratio, viết tắt: CAR
 Trước tình hình thế giới trải qua cuộc khủng hoảng và suy thoái kéo dài cùng với sự sụp đổ của một loạt các ngân hàng lớn trên thế giới, các ngân hàng Việt Nam cấp tín dụng quá lớn vào bất động sản và chứng khoán, Ngân hàng Nhà nước (NHNN) đã nâng tỉ lệ an toàn vốn lên 9% qua Thông tư số 13/2010/TT-NHNN ngày 20/5/2010, nâng cao hơn so với qui định tại Quyết định 457/2005/QĐ - NHNN là 1% và nâng trọng số rủi ro đối với các khoản cấp tín dụng kinh doanh bất động sản và liên quan đến chứng khoán.
 
 *Rõ ràng thấy được ta muốn tỉ lệ vốn sở hữu sẽ lớn hơn nhiều so với những khoản rủi ro. Mẫu nhỏ và tử lớn => Tỉ lệ CAR càng cao thì tính rủi ro càng thấp*
-
+	
 
 ## References
 

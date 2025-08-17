@@ -1,9 +1,3 @@
-- hive
-- row_number
-- with ... 
-- config pool db
-- monitor log with grafana
-	- sum(rate(kafka_topic_partition_current_offset{hostname="$hostname", topic=~"$topic"}[1m])) by (topic)
 - jdbc, jpa
 ```
 1, Dùng xong ko đóng connection. Hoặc đóng ko phải ở finally => khi hệ thống chay bt ko sao. Exception lâu sẽ leak connection
@@ -18,4 +12,3 @@
 ```
 
 - diagram trong code
-- 

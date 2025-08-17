@@ -55,6 +55,8 @@ and stopping containers.
 This runs on every node and is responsible for local cluster
 networking. It ensures each node gets its own unique IP address, and it implements local iptables or IPVS rules
 to handle routing and load-balancing of traffic on the Pod network
+
+### Objects / Resources
 #### Kubernetes DNS
 The cluster’s DNS service has a static IP address that is hard-coded into every Pod on the cluster. This ensures
 every container and Pod can locate it and use it for discovery. Service registration is also automatic. This means
