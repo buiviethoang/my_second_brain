@@ -27,7 +27,7 @@ Tags: [[computer science]] [[database]]
     - Enterprise applications (HR, ERP)
         
 
-### 2. **Strong Consistency is Important (ACID)**
+### 2. **Strong Consistency is Important (ACID)** [[ACID]]
 
 - You need **strict transactional guarantees**, like in:
     

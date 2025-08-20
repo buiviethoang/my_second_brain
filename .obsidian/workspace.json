@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f09e8d3cc6a329a4",
+        "id": "2d13cdadae017060",
         "type": "tabs",
         "children": [
           {
-            "id": "cc4ddf2a4a0749ca",
+            "id": "abaa2e63c14ec0f1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "5. Atomic Notes/Materialized View.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Materialized View"
             }
           }
         ]
@@ -141,6 +145,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -150,10 +155,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cc4ddf2a4a0749ca",
+  "active": "abaa2e63c14ec0f1",
   "lastOpenFiles": [
-    "5. Atomic Notes/JPA & JDBC & Hibernate.md",
+    "5. Atomic Notes/Materialized View.md",
+    "5. Atomic Notes/High Availability.md",
+    "5. Atomic Notes/ACID.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Database/CAP theorem.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Database/DBMS - Introduction.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Database/MySQL vs PostGres.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/System design/Redis.md",
+    "5. Atomic Notes/Event Sourcing.md",
+    "5. Atomic Notes/CQRS.md",
+    "5. Atomic Notes/4 Archives/Pasted image 20250819220953.png",
+    "5. Atomic Notes/4 Archives/Pasted image 20250819215727.png",
+    "5. Atomic Notes/4 Archives/Pasted image 20250819215701.png",
+    "5. Atomic Notes/Pods.md",
+    "2. Tags/microservices.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/System design/Performance Antipatterns.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/System design/Horizontal scaling.md",
     "5. Atomic Notes/Topic to learn.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Kiến thức chung/OLTP & OLAP.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Java/JPA & JDBC & Hibernate.md",
     "5. Atomic Notes/2 Areas/Programming Stuff/Java/Java Spring Framework.md",
     "5. Atomic Notes/2 Areas/Programming Stuff/Java/Dependency Injection.md",
     "5. Atomic Notes/2 Areas/Programming Stuff/Java/Cú pháp + Thư viện Spring boot + Định nghĩa.md",
@@ -162,24 +184,10 @@
     "5. Atomic Notes/2 Areas/Programming Stuff/Java/Deadlocks, Contention, Race condition.md",
     "5. Atomic Notes/4 Archives/Pasted image 20250816220155.png",
     "5. Atomic Notes/2 Areas/Programming Stuff/Database/Normalization standard.md",
-    "5. Atomic Notes/MySQL vs PostGres.md",
-    "5. Atomic Notes/Pods.md",
-    "5. Atomic Notes/OLTP & OLAP.md",
     "5. Atomic Notes/2 Areas/Finance/Kiến thức tài chính 2.md",
     "5. Atomic Notes/2 Areas/Finance/Kiến thức tài chính.md",
     "5. Atomic Notes/2 Areas/Finance/The economic lifecycle.md",
     "5. Atomic Notes/2 Areas/Programming Stuff/DevOps/K8s/K8s components.md",
-    "5. Atomic Notes/2 Areas/Real-estate/Chi phi trong BDS.md",
-    "5. Atomic Notes/1 Projects/Database optimization/Database - Optimization.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Database/CAP theorem.md",
-    "5. Atomic Notes/1 Projects/Database optimization/Oracle database - How to learn.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Database/DBMS - Introduction.md",
-    "2. Tags/database.md",
-    "5. Atomic Notes/Unit testing.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Database/MongoDB.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Microservices/Idempotent Operation.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Microservices/Microservice In General.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/DevOps/K8s/K8s in general.md",
     "5. Atomic Notes/4 Archives/Pasted image 20250813065155.png",
     "5. Atomic Notes/4 Archives/Pasted image 20250812214917.png",
     "5. Atomic Notes/4 Archives/Pasted image 20250809113516.png",
@@ -189,9 +197,6 @@
     "5. Atomic Notes/2 Areas/Programming Stuff/Algorithm",
     "5. Atomic Notes/2 Areas/Programming Stuff/Microservices",
     "5. Atomic Notes/2 Areas/Programming Stuff/Project Management",
-    "5. Atomic Notes/4 Archives/Pasted image 20250808214351.png",
-    "5. Atomic Notes/4 Archives/Pasted image 20250727081100.png",
-    "5. Atomic Notes/4 Archives/Pasted image 20250727081006.png",
     "5. Atomic Notes/2 Areas/Programming Stuff/System design",
     "5. Atomic Notes/2 Areas/Programming Stuff/Reactive programming",
     "5. Atomic Notes/2 Areas/Programming Stuff/Database",
