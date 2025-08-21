@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2d13cdadae017060",
+        "id": "c228d0ce85ad2894",
         "type": "tabs",
         "children": [
           {
-            "id": "abaa2e63c14ec0f1",
+            "id": "13f8df76c66d7ebc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5. Atomic Notes/Materialized View.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Materialized View"
+              "title": "New tab"
             }
           }
         ]
@@ -155,8 +151,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "abaa2e63c14ec0f1",
+  "active": "13f8df76c66d7ebc",
   "lastOpenFiles": [
+    "5. Atomic Notes/Firewalls.md",
+    "SSL/TLS.md",
+    "2. Tags/security.md",
+    "5. Atomic Notes/HTTP, HTTPS.md",
+    "SSL",
+    "5. Atomic Notes/TCP-IP.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Network/OSI.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Network/NAT.md",
+    "TCP/TCP-IP.md",
+    "2. Tags/network.md",
+    "TCP",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Reactive programming/Quarkus.md",
     "5. Atomic Notes/Materialized View.md",
     "5. Atomic Notes/High Availability.md",
     "5. Atomic Notes/ACID.md",
@@ -176,18 +184,8 @@
     "5. Atomic Notes/Topic to learn.md",
     "5. Atomic Notes/2 Areas/Programming Stuff/Kiến thức chung/OLTP & OLAP.md",
     "5. Atomic Notes/2 Areas/Programming Stuff/Java/JPA & JDBC & Hibernate.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Java/Java Spring Framework.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Java/Dependency Injection.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Java/Cú pháp + Thư viện Spring boot + Định nghĩa.md",
     "5. Atomic Notes/4 Archives/Pasted image 20250817080131.png",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Java/Java Threading.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Java/Deadlocks, Contention, Race condition.md",
     "5. Atomic Notes/4 Archives/Pasted image 20250816220155.png",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Database/Normalization standard.md",
-    "5. Atomic Notes/2 Areas/Finance/Kiến thức tài chính 2.md",
-    "5. Atomic Notes/2 Areas/Finance/Kiến thức tài chính.md",
-    "5. Atomic Notes/2 Areas/Finance/The economic lifecycle.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/DevOps/K8s/K8s components.md",
     "5. Atomic Notes/4 Archives/Pasted image 20250813065155.png",
     "5. Atomic Notes/4 Archives/Pasted image 20250812214917.png",
     "5. Atomic Notes/4 Archives/Pasted image 20250809113516.png",
@@ -202,8 +200,6 @@
     "5. Atomic Notes/2 Areas/Programming Stuff/Database",
     "Untitled.canvas",
     "5. Atomic Notes/2 Areas/Real-estate",
-    "5. Atomic Notes/1 Projects/Photography",
-    "5. Atomic Notes/1 Projects/Database optimization",
     "Untitled 1.canvas",
     "Untitled 2.canvas"
   ]

@@ -2,6 +2,50 @@
 Status: #baby
 Tags: [[computer science]] [[network]]
 ## Main
+The **OSI model** is a **theoretical framework** for understanding and designing network systems. It has **7 layers**, each with its own role.
+
+### 🔹 OSI Layers (Top → Bottom)
+
+1. **Application Layer**
+    
+    - User-facing services: web browsing, email, file transfer.
+        
+    - Examples: HTTP, FTP, SMTP
+        
+2. **Presentation Layer**
+    
+    - Translates, encrypts, compresses data.
+        
+    - Examples: SSL/TLS, JPEG, MPEG
+        
+3. **Session Layer**
+    
+    - Establishes, manages, and terminates communication sessions.
+        
+    - Examples: NetBIOS, RPC
+        
+4. **Transport Layer**
+    
+    - Ensures reliable delivery, flow control, error handling.
+        
+    - Examples: TCP, UDP
+        
+5. **Network Layer**
+    
+    - Determines the best path, logical addressing.
+        
+    - Examples: IP, ICMP, OSPF
+        
+6. **Data Link Layer**
+    
+    - Node-to-node delivery, error detection, MAC addressing.
+        
+    - Examples: Ethernet, Wi-Fi, PPP
+        
+7. **Physical Layer**
+    
+    - Actual transmission of raw bits (cables, radio waves, hardware).
+
 
 Open Systems Interconnection
 7 layers
