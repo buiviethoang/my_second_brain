@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c228d0ce85ad2894",
+        "id": "04fdd7b53c547f2e",
         "type": "tabs",
         "children": [
           {
-            "id": "13f8df76c66d7ebc",
+            "id": "d8772e65fe3e0727",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -151,10 +151,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "13f8df76c66d7ebc",
+  "active": "d8772e65fe3e0727",
   "lastOpenFiles": [
+    "5. Atomic Notes/Spring Bean Scope.md",
+    "5. Atomic Notes/Spring Annotations.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/DevOps/Docker/Docker.md",
+    "5. Atomic Notes/AOP.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Java/Dependency Injection.md",
+    "5. Atomic Notes/SSL, TLS.md",
     "5. Atomic Notes/Firewalls.md",
-    "SSL/TLS.md",
     "2. Tags/security.md",
     "5. Atomic Notes/HTTP, HTTPS.md",
     "SSL",
@@ -179,11 +184,6 @@
     "5. Atomic Notes/4 Archives/Pasted image 20250819215701.png",
     "5. Atomic Notes/Pods.md",
     "2. Tags/microservices.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/System design/Performance Antipatterns.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/System design/Horizontal scaling.md",
-    "5. Atomic Notes/Topic to learn.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Kiến thức chung/OLTP & OLAP.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Java/JPA & JDBC & Hibernate.md",
     "5. Atomic Notes/4 Archives/Pasted image 20250817080131.png",
     "5. Atomic Notes/4 Archives/Pasted image 20250816220155.png",
     "5. Atomic Notes/4 Archives/Pasted image 20250813065155.png",
