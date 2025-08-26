@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "742491a23dc15ea5",
+        "id": "6b6856349d608ad6",
         "type": "tabs",
         "children": [
           {
-            "id": "06250df07ce518c0",
+            "id": "2f771b4b9645f2ae",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -151,10 +151,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "06250df07ce518c0",
+  "active": "2f771b4b9645f2ae",
   "lastOpenFiles": [
-    "5. Atomic Notes/Đường phố Hà Nội và nguồn gốc.md",
     "5. Atomic Notes/Database Optimization Step.md",
+    "5. Atomic Notes/Indexes.md",
+    "5. Atomic Notes/Database Terminology.md",
+    "5. Atomic Notes/CI - CD.md",
+    "5. Atomic Notes/Execution Plans.md",
+    "5. Atomic Notes/Đường phố Hà Nội và nguồn gốc.md",
     "5. Atomic Notes/Danh mục đầu tư.md",
     "5. Atomic Notes/OOP deep dive.md",
     "5. Atomic Notes/Java Micellaneous.md",
@@ -162,7 +166,6 @@
     "5. Atomic Notes/Vũ khí.md",
     "2. Tags/funny stuff.md",
     "5. Atomic Notes/2 Areas/Programming Stuff/System design/Redis.md",
-    "5. Atomic Notes/CI - CD.md",
     "CI/CD.md",
     "CI",
     "5. Atomic Notes/2 Areas/Programming Stuff/System design/Kafka.md",
@@ -178,9 +181,6 @@
     "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Decorator Pattern.md",
     "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Bridge Pattern.md",
     "5. Atomic Notes/2 Areas/Programming Stuff/Kiến thức chung/CleanCode/Error Handling.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Interpreter Pattern.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Design Pattern In General.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Visitor Pattern.md",
     "5. Atomic Notes/4 Archives/Pasted image 20250823104751.png",
     "5. Atomic Notes/4 Archives/Pasted image 20250823104744.png",
     "5. Atomic Notes/4 Archives/Pasted image 20250823092758.png",
