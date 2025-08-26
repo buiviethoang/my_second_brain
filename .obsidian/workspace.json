@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "20fcd5ae8e4e0ce1",
+        "id": "d8918c7ec4f7b103",
         "type": "tabs",
         "children": [
           {
-            "id": "e4a19efabaaa2de5",
+            "id": "1dfa88a7d075d97a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "5. Atomic Notes/Đường phố Hà Nội và nguồn gốc.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Đường phố Hà Nội và nguồn gốc"
             }
           }
         ]
@@ -151,8 +155,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e4a19efabaaa2de5",
+  "active": "1dfa88a7d075d97a",
   "lastOpenFiles": [
+    "5. Atomic Notes/Danh mục đầu tư.md",
+    "5. Atomic Notes/OOP deep dive.md",
+    "5. Atomic Notes/Java Micellaneous.md",
+    "5. Atomic Notes/OOP in general.md",
+    "5. Atomic Notes/Đường phố Hà Nội và nguồn gốc.md",
+    "5. Atomic Notes/Vũ khí.md",
+    "2. Tags/funny stuff.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/System design/Redis.md",
+    "5. Atomic Notes/CI - CD.md",
+    "CI/CD.md",
+    "CI",
+    "5. Atomic Notes/2 Areas/Programming Stuff/System design/Kafka.md",
+    "5. Atomic Notes/APIs in General.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/DevOps/K8s/K8s in general.md",
     "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Adapter Pattern.md",
     "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Materialized View.md",
     "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern",
@@ -167,20 +185,8 @@
     "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Design Pattern In General.md",
     "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Visitor Pattern.md",
     "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/State Pattern.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Singleton.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Prototype Pattern.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Mediator Pattern.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Memento Pattern.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Command Pattern.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Chain of Responsibility.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Template Method & Strategy Patterns.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Java/Naming convention.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Observer Pattern.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Builder Pattern.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Factory Method and Abstract Factory Patterns.md",
     "5. Atomic Notes/4 Archives/Pasted image 20250823104751.png",
     "5. Atomic Notes/4 Archives/Pasted image 20250823104744.png",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Database/ACID.md",
     "5. Atomic Notes/4 Archives/Pasted image 20250823092758.png",
     "5. Atomic Notes/4 Archives/Pasted image 20250823092619.png",
     "5. Atomic Notes/4 Archives/Pasted image 20250823083339.png",
@@ -197,7 +203,6 @@
     "5. Atomic Notes/2 Areas/Programming Stuff/Project Management",
     "5. Atomic Notes/2 Areas/Programming Stuff/System design",
     "5. Atomic Notes/2 Areas/Programming Stuff/Reactive programming",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Database",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas"

@@ -243,6 +243,256 @@ Let me know if you want a design template or Spring Kafka config for DLQ handlin
 
 Hỏi ChatGPT
 ```
+
+
+### Kafka vs RabbitMq
+
+## 1. **Core Purpose**
+
+- **RabbitMQ**:
+    
+    - Traditional **message broker**.
+        
+    - Focused on **message delivery guarantees**, routing, and flexible messaging patterns (point-to-point, pub-sub, request/reply, etc.).
+        
+    - Great for decoupling services and handling **task queues**.
+        
+- **Kafka**:
+    
+    - A **distributed event streaming platform**.
+        
+    - Built for **high-throughput, fault-tolerant, event-driven architectures**.
+        
+    - Excels at **real-time data pipelines**, event sourcing, and log aggregation.
+        
+
+---
+
+## 2. **Architecture & Design**
+
+- **RabbitMQ**
+    
+    - Broker-based, messages go into **queues**, consumers read and acknowledge them.
+        
+    - Supports **AMQP protocol** (and others like MQTT, STOMP).
+        
+    - Messages are usually **removed** once consumed.
+        
+    - Designed around **delivery guarantees** (at-most-once, at-least-once, exactly-once with effort).
+        
+- **Kafka**
+    
+    - Distributed, partitioned, replicated **commit log**.
+        
+    - Messages are **persisted** on disk and can be **re-read many times** by different consumers.
+        
+    - Works best with **ordered streams** and consumer groups.
+        
+    - Scales horizontally across brokers and partitions.
+        
+
+---
+
+## 3. **Performance**
+
+- **RabbitMQ**
+    
+    - Great for **low-latency, high-reliability message delivery**.
+        
+    - Not ideal for extremely high-throughput event streaming (millions/sec).
+        
+    - Better suited for workloads where **message state and routing logic** are important.
+        
+- **Kafka**
+    
+    - Designed for **high throughput and scalability** (millions of messages/sec).
+        
+    - Lower latency when processing large streams of data.
+        
+    - Works well for **big data pipelines** (integrates with Spark, Flink, Hadoop, etc.).
+        
+
+---
+
+## 4. **Use Cases**
+
+- **RabbitMQ** ✅
+    
+    - Background jobs / task queues
+        
+    - Request/response between services
+        
+    - Reliable communication in microservices
+        
+    - Complex routing (direct, fanout, topic exchanges)
+        
+- **Kafka** ✅
+    
+    - Event-driven architecture
+        
+    - Real-time analytics
+        
+    - Log aggregation / Change Data Capture (CDC)
+        
+    - Event sourcing and replay
+        
+    - Streaming data pipelines between systems
+        
+
+---
+
+## 5. **Message Retention**
+
+- **RabbitMQ**:
+    
+    - Message typically removed after being consumed.
+        
+    - Persistence is possible, but not designed for long-term storage.
+        
+- **Kafka**:
+    
+    - Messages stored for a **configurable retention period** (hours, days, or forever).
+        
+    - Consumers can **replay history**.
+        
+
+---
+
+## 6. **Scalability**
+
+- **RabbitMQ**:
+    
+    - Scaling can be done with clustering and sharding, but it’s not as seamless.
+        
+    - Better suited for **moderate workloads**.
+        
+- **Kafka**:
+    
+    - Extremely scalable due to partitioned log design.
+        
+    - Built for **distributed, fault-tolerant clusters**.
+        
+
+---
+
+## 7. **When to Choose**
+
+- Use **RabbitMQ** if you need:
+    
+    - Traditional messaging
+        
+    - Complex routing
+        
+    - Per-message acknowledgments
+        
+    - Small-to-medium workloads in microservices
+        
+- Use **Kafka** if you need:
+    
+    - Event streaming at scale
+        
+    - Replayability of events
+        
+    - High throughput & distributed processing
+        
+    - Integration with big data & stream processing
+
+
+| Feature                 | **RabbitMQ** 🐇                                               | **Kafka** ⚡                                                     |
+| ----------------------- | ------------------------------------------------------------- | --------------------------------------------------------------- |
+| **Type**                | Message Broker                                                | Distributed Event Streaming Platform                            |
+| **Architecture**        | Queue-based, broker manages delivery                          | Partitioned, replicated commit log                              |
+| **Protocols**           | AMQP, MQTT, STOMP, etc.                                       | Custom TCP protocol                                             |
+| **Message Handling**    | Consumed messages are usually removed from queue              | Messages are retained (for hours, days, or forever)             |
+| **Throughput**          | Good for moderate workloads                                   | Extremely high (millions/sec)                                   |
+| **Latency**             | Low latency per message                                       | Low latency, but optimized for throughput                       |
+| **Ordering**            | Within a queue                                                | Within a partition                                              |
+| **Scalability**         | Clustering & sharding, but limited                            | Horizontally scalable across partitions & brokers               |
+| **Persistence**         | Messages can be persisted until consumed                      | Always persisted, replayable                                    |
+| **Delivery Guarantees** | At-most-once, at-least-once, exactly-once (with effort)       | At-least-once (default), exactly-once (with configs)            |
+| **Routing**             | Flexible routing (direct, topic, fanout exchanges)            | Simple: publish to topic, partition decides consumer            |
+| **Best For**            | Task queues, request/response, microservices communication    | Event streaming, analytics, event sourcing, big data pipelines  |
+| **Integrations**        | Many language clients, microservices-friendly                 | Strong ecosystem (Kafka Streams, Connect, Flink, Spark, Hadoop) |
+| **Retention**           | Short-term (until ack/consume)                                | Configurable (hours → forever)                                  |
+| **Analogy**             | Post office delivering letters (once delivered, they’re gone) | Newspaper publisher keeping archives (can re-read anytime)      |
+### **Delivery Guarantees**
+
+They define **how reliably a message is delivered from producer → broker → consumer**.
+
+The three common levels are:
+
+1. **At-most-once**
+    
+    - Message may be delivered **0 or 1 time**.
+        
+    - No retries, so it might be lost if a failure happens.
+        
+    - **Fastest but not reliable.**
+        
+2. **At-least-once**
+    
+    - Message is delivered **≥1 time**.
+        
+    - Retries ensure no message is lost.
+        
+    - But this can cause **duplicates**.
+        
+    - **Reliable but requires consumers to handle duplicates.**
+        
+3. **Exactly-once**
+    
+    - Message is delivered **only once** (no loss, no duplicates).
+        
+    - Hardest to achieve, requires coordination between producer, broker, and consumer.
+        
+    - More **latency/complexity**.
+
+
+## 2. **RabbitMQ’s Guarantees**
+
+- **Default**: **At-least-once** (messages stay in the queue until acknowledged).
+    
+- **At-most-once**: If consumer auto-acks without processing, messages can be lost.
+    
+- **Exactly-once**: Possible, but needs extra logic (idempotent consumers, transactions, or deduplication).
+    
+
+👉 RabbitMQ focuses on **reliability of message delivery** to consumers.
+
+---
+
+## 3. **Kafka’s Guarantees**
+
+- **Default**: **At-least-once** (consumer commits offsets after processing).
+    
+- **At-most-once**: If consumer commits offset before processing → message may be lost.
+    
+- **Exactly-once**: Supported natively (since Kafka 0.11) with **idempotent producers + transactional APIs**.
+    
+
+👉 Kafka focuses on **durability + replayability**, and provides strong **exactly-once semantics** for streaming jobs.
+
+---
+
+## 4. **Example Scenarios**
+
+- **At-most-once**: Logging user clicks (okay if you miss a few).
+    
+- **At-least-once**: Payment processing (better to retry than lose a transaction).
+    
+- **Exactly-once**: Bank transfers (must happen once and only once).
+    
+
+---
+
+⚡ **In summary**:
+
+- **RabbitMQ**: Naturally supports **at-least-once**, can do at-most-once and exactly-once with extra effort.
+    
+- **Kafka**: Naturally supports **at-least-once**, and has **built-in exactly-once** features for critical systems.
+
+
+
 ## References
 https://kafka.apache.org/documentation/
 https://quarkus.io/guides/kafka#consumer-groups

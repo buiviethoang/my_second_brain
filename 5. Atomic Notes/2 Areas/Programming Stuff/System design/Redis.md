@@ -164,6 +164,33 @@ Kafka/RabbitMQ for real decoupling
 |Monitoring tools|Always|
 |Redis Cluster balancing|Multi-node Redis deployments|
 
+### Redis vs MongoDB
+https://aws.amazon.com/vi/compare/the-difference-between-redis-and-mongodb/
+
+| Feature                 | **Redis** 🟥                                                                  | **MongoDB** 🟩                                                      |
+| ----------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| **Type**                | In-memory key-value store                                                     | Document-oriented database                                          |
+| **Data Model**          | Key → Value (Strings, Hashes, Lists, Sets, Sorted Sets, Streams, etc.)        | JSON-like documents (BSON), nested fields, arrays                   |
+| **Primary Use Case**    | Caching, real-time analytics, session store, pub/sub messaging                | Main application database, flexible schema storage                  |
+| **Persistence**         | Optional (RDB snapshots, AOF logs, or both)                                   | Always persistent (journaling, WiredTiger engine)                   |
+| **Performance**         | Extremely fast (sub-millisecond latency, 1M+ ops/sec)                         | Slower than Redis, but optimized for large persistent datasets      |
+| **Scalability**         | Horizontal scaling via **Redis Cluster** (hash slots 0–16383)                 | Horizontal scaling via **Sharding**, replication with replica sets  |
+| **Durability**          | Not strong by default (better for ephemeral/cache data)                       | Strong durability (designed as a system of record)                  |
+| **Transactions**        | Atomic ops, MULTI/EXEC, Lua scripts                                           | ACID transactions (multi-document since v4.0)                       |
+| **Advanced Features**   | Pub/Sub, Streams, Geo data, Bitmaps, HyperLogLog, Redlock (distributed locks) | Indexing, Aggregation pipelines, Geospatial queries, Change Streams |
+| **Data Size**           | Limited by RAM (though Redis Enterprise supports disk-tiering)                | Handles very large datasets (terabytes → petabytes)                 |
+| **Use in Architecture** | Usually a **supplementary store** (cache/queue alongside DB)                  | Usually the **primary database**                                    |
+| **Best For**            | Speed, low latency, real-time workloads                                       | Flexible schema, persistence, complex queries                       |
+
+Example: An **e-commerce app** might:
+
+- Store **product catalog, orders, customers** → in **MongoDB**.
+    
+- Cache **hot products, shopping cart, user sessions** → in **Redis**.
+    
+- Use Redis for **real-time promotions / counters** (e.g., “X items left!”).
+
+
 ## References
 https://redis.io/docs/latest/
 ChatGPT
