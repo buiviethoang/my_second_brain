@@ -1,6 +1,6 @@
 2025-08-23 16:13
 Status: #baby
-Tags: [[java]]
+Tags: [[api]]
 ## Main
 
 ### HTTP version

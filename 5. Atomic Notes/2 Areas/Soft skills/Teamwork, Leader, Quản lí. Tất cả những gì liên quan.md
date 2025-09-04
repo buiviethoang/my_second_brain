@@ -1,3 +1,9 @@
+
+2025-08-30 09:29
+Status: #baby
+Tags: [[soft skills]]
+## Main
+
 12 bước giao việc hiệu quả:  chú ý 5, 6, 
 1. Chọn người phù hợp (năng lực, đam mê, chí ít cũng phải yêu thích công việc được giao) 
 2. Chọn thời điểm phù hợp (ko chọn lúc căng thẳng, buồn phiền, mệt mỏi, ...) 
@@ -11,3 +17,6 @@
 10. Yêu cầu người nhận trình bày KẾ HOẠCH/ LỘ TRÌNH thực hiện (bằng miệng hoặc bằng văn bản tùy theo mức độ phức tạp, tầm quan trọng, tính khẩn cấp) 
 11. Tự mình hoặc cử người theo dõi, giám sát, chấn chỉnh, nhắc nhở, hỗ trợ khi cần
 12. Kiểm tra, đánh giá kết quả và khen thưởng, kỷ luật, ... 
+
+
+## References

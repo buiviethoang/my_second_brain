@@ -1,3 +1,9 @@
+
+2025-08-30 09:56
+Status: #baby
+Tags: [[network]]
+## Main
+
 ## Định nghĩa: 
 SSH, hoặc được gọi là Secure Shell, là một giao thức điều khiển từ xa cho phép người dùng kiểm soát và chỉnh sửa server từ xa qua Internet. Dịch vụ được tạo ra nhằm thay thế cho trình Telnet vốn không có mã hóa và sử dụng kỹ thuật cryptographic để đảm bảo tất cả giao tiếp gửi tới và gửi từ server từ xa diễn ra trong tình trạng mã hóa. Nó cung cấp thuật toán để chứng thực người dùng từ xa, chuyển input từ client tới host, và relay kết quả trả về tới khách hàng.
 ## Hoạt động
@@ -52,3 +58,6 @@ C3: Thủ công
 Sau khi key đc copy
 Cấp quyền vào remote server cho .ssh
 chmod -766 ~/.ssh
+
+
+## References

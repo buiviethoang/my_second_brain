@@ -1,6 +1,6 @@
 2025-07-25 07:06
 Status: #baby
-Tags: [[computer science]] 
+Tags: [[api]]
 ## Main
 ### What? 
 A **webhook** is a way for one system to **send real-time data or notifications** to another system over the internet—**automatically** and **as soon as an event happens**.

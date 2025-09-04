@@ -1,6 +1,6 @@
 2025-07-09 22:10
 Status: #baby
-Tags: [[computer science]] [[java]]
+Tags: [[java]]
 ## Main
 
 ![[Pasted image 20250709221111.png]]

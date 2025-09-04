@@ -1,6 +1,6 @@
 2025-07-21 21:13
 Status: #baby
-Tags: [[computer science]] [[system design]]
+Tags: [[system design]]
 ## Main
 
 ### What? 

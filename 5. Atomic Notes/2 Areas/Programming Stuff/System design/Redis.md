@@ -1,6 +1,6 @@
 2025-07-24 07:08
 Status: #baby
-Tags: [[computer science]] [[system design]] [[database]]
+Tags: [[system design]] [[database]]
 ## Main
 ### What? 
 Redis (REmote DIctionary Server) is an **in-memory data structure store** often used as a **database, cache, or message broker**. It is **fast**, **lightweight**, and supports rich data types.

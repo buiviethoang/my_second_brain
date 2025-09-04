@@ -1,3 +1,10 @@
+
+2025-08-30 09:28
+Status: #baby
+Tags: [[instruction]]
+## Main
+
+
 1. Hook
 2. Be purposeful
 3. Simple template
@@ -47,3 +54,5 @@ In my most recent role, I was involved in the process from analysis and design t
 
 Due to personal aspirations and not wanting to miss out on opportunities, I would like to discuss the job description of your company's recruitment in more detail. If you find this interesting and are willing to discuss it further, please contact me via email at buiviethoang12062000@gmail.com or phone number 0794112293.
 ```
+
+## References

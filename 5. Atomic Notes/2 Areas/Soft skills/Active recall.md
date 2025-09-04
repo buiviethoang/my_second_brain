@@ -1,3 +1,10 @@
+2025-08-30 09:31
+Status: #baby
+Tags: [[productivity]]
+## Main
+
+
+
 
 Giả sử bạn là người ra đề. Liệu bạn sẽ hỏi học sinh/ sinh viên câu hỏi gì?
 Phương pháp ghi nhớ hiệu quả: Tưởng tượng và liên kết. 
@@ -67,3 +74,5 @@ Ví dụ: Với bài phân tích trên trang: https://www.geeksforgeeks.org/obje
 
 
 Nên lấy ví dụ ở các phần breakdown nhỏ nhất (ở mức node lá trong cây phân cấp)
+
+## References

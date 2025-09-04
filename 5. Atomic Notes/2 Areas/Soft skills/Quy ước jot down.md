@@ -1,3 +1,8 @@
+2025-08-30 09:59
+Status: #baby
+Tags: [[instruction]]
+## Main
+
 ## Ghi chép thông thường
 Đầu mục to nhất: # 
 Đầu mục chia nhỏ từ đầu mục to nhất: Lần lượt thêm các dấu #
@@ -27,3 +32,5 @@ Chú thích viết thường
 > Ví dụ thì dùng như cũ 
 
 *Chú thích tiếng Việt cũng chữ nghiêng*
+
+## References

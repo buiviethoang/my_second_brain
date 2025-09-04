@@ -1,3 +1,8 @@
+2025-08-30 10:03
+Status: #baby
+Tags: [[os]]
+## Main
+
 ## Kill process on ports: 
 To list any process listening to the port 8080:
 ```
@@ -112,3 +117,5 @@ Terminal=true
 ## Fix read-only file ntfs: 
 `sudo fdisk -l` to see all partitions in4
 `sudo ntfsfix path_to_partitions` to fix read-only problem
+
+## References

@@ -1,6 +1,6 @@
 2025-07-14 22:22
 Status: #baby
-Tags: [[computer science]] [[java]]
+Tags: [[java]]
 ## Main
 
 |Use Case|Use `Mono<T>`|Use `Flux<T>`|

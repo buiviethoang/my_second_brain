@@ -1,3 +1,8 @@
+2025-08-30 09:52
+Status: #baby
+Tags: [[productivity]]
+## Main
+
 ## Deck Options Explained
 ### New cards
 #### Steps
@@ -157,3 +162,4 @@ for card B the interval should be something from 16 to 24 days
 for card C the interval should be something from 25 to 35 days  
 for card D the interval should be something from 34 to 46 days**
 
+## References

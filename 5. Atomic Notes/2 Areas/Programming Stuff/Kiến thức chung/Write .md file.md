@@ -1,3 +1,8 @@
+2025-08-30 09:53
+Status: #baby
+Tags: [[instruction]]
+## Main
+
 ### Headings: 
 ```# The largest heading
 ## The h2 heading
@@ -141,3 +146,5 @@ This isn’t common, but some Markdown processors allow you to use _superscript_
 X^2^
 
 Let's rename \*our-new-project\* to \*our-old-project\*.
+
+## References

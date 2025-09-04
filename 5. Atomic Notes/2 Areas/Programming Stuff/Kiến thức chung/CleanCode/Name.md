@@ -1,3 +1,8 @@
+2025-08-30 09:33
+Status: #baby
+Tags: [[coding]]
+## Main
+
 ## Naming
 ### Use Intention-Revealing Names
 `int d; // elapsed time in days`
@@ -358,3 +363,5 @@ stop you in your tracks.
 Follow some of these rules and see whether you don’t improve the readability of your
 code. If you are maintaining someone else’s code, use refactoring tools to help resolve these
 problems. It will pay off in the short term and continue to pay in the long run.
+
+## References

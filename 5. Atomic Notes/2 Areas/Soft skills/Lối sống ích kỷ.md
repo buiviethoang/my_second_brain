@@ -1,3 +1,13 @@
+2025-08-30 09:54
+Status: #baby
+Tags: [[mindsets]]
+## Main
+
+
+
+
+## References
+
 Chợt nhận ra là mình đang sống quá ích kỷ. Đây là những việc cần làm để sửa đổi: 
 - **Học cách lắng nghe**
 - **Thường xuyên suy ngẫm về những hành động của mình**

@@ -1,6 +1,6 @@
 2025-07-27 15:02
 Status: #baby
-Tags: [[computer science]] [[microservices]]
+Tags: [[microservices]]
 ## Main
 ### What? 
 An **idempotent operation** is an operation that can be applied multiple times without changing the result beyond the initial application.

@@ -1,5 +1,6 @@
 {{date}} {{time}}
-Status: #baby
+Status: 
+Topic: 
 Tags: 
 ## Main
 

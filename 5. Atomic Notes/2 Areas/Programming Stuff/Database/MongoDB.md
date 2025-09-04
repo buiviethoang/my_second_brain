@@ -1,6 +1,6 @@
 2025-08-11 21:28
 Status: #baby
-Tags: [[computer science]] [[database]]
+Tags: [[database]]
 ## Main
 
 ### Creating indexes

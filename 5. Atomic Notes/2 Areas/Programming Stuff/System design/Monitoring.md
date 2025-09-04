@@ -1,6 +1,6 @@
 2025-07-27 15:34
 Status: #baby
-Tags: [[computer science]] [[system design]]
+Tags: [[system design]]
 ## Main
 
 ### Health monitoring

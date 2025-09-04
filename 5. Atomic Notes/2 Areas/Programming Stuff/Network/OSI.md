@@ -1,6 +1,6 @@
 2024-12-07 21:48
 Status: #baby
-Tags: [[computer science]] [[network]]
+Tags: [[network]]
 ## Main
 The **OSI model** is a **theoretical framework** for understanding and designing network systems. It has **7 layers**, each with its own role.
 

@@ -1,6 +1,6 @@
 2025-08-23 21:56
 Status: #baby
-Tags: 
+Tags: [[system design]]
 ## Main
 
 CI/CD là viết tắt của **Continuous Integration (CI)** và **Continuous Delivery/Deployment (CD)** – một tập hợp các thực hành trong phát triển phần mềm giúp tự động hóa và rút ngắn chu trình phát triển, kiểm thử, và triển khai.

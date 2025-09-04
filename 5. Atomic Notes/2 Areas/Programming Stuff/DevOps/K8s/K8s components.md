@@ -1,6 +1,6 @@
 2025-08-09 11:19
 Status: #baby
-Tags: [[computer science]] [[k8s]]
+Tags: [[k8s]]
 ## Main
 
 ### Kubernetes as a cluster

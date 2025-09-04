@@ -1,3 +1,8 @@
+2025-08-30 09:30
+Status: #baby
+Tags: [[mindsets]]
+## Main
+
 Những gì mình học được hôm nay từ CEO TDT 
 - Một phong thái đĩnh đạc, nói chuyện đâu ra đấy
 - Tư duy giải quyết vấn đề: Đưa ra một vấn đề và sẵn sàng tranh luận, anh em xúm nhau vào giải quyết chứ ko cả nể
@@ -25,4 +30,5 @@ Những gì mình học được hôm nay từ CEO TDT
 - Tư duy sale: Đôi khi cần thêm mắm muối vào, nhưng vẫn giữ core value
 - Nghĩ lớn
 - Mindset thực chiến: Cứ ngồi nghĩ và lo sợ ko làm đc thì cũng để làm gì đâu. Đâm đầu vào đi. Cơ mà cũng phải có được những cái định lượng từ trc để ra quyết định
-- 
+
+## References

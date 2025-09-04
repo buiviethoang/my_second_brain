@@ -1,6 +1,6 @@
 2025-07-14 21:32
 Status: #baby
-Tags: 
+Tags: [[java]]
 ## Main
 
 ### What? 

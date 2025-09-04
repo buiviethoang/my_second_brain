@@ -1,10 +1,9 @@
-2025-08-24 22:09
+2025-08-28 21:48
 Status: #baby
 Tags: [[military]]
 ## Main
 
-Pháo tự hành 
-Xe tăng 
+
 
 
 ## References

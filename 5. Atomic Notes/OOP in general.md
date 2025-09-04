@@ -1,6 +1,6 @@
 2025-08-25 21:05
 Status: #baby
-Tags: [[computer science]] [[java]]
+Tags: [[java]]
 ## Main
 **Object-Oriented Programming (OOP)** is a programming paradigm that organizes software design around **objects**, which represent **real-world entities** or **abstract concepts**.  
 Objects bundle together **data (attributes/fields)** and **behavior (methods/functions)** into a single unit.

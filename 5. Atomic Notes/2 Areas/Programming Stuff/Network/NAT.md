@@ -1,6 +1,6 @@
 ![[Pasted image 20241207213808.png]]2024-12-07 21:26
 Status: #baby
-Tags: [[computer science]] [[network]]
+Tags: [[network]]
 ## Main
 
 Network Address Translation

@@ -1,3 +1,8 @@
+2025-08-30 09:34
+Status: #baby
+Tags: [[docker]]
+## Main
+
 ## Khái niệm
 Là công cụ giúp ta thiết lập và quản lý nhiều container, network, volume (gọi chung là các service) và thiết lập cấu hình cho các service một cách nhanh chóng và đơn giản bằng việc chạy theo các chỉ định trong file docker-compose.yml
 ## Những chức năng chính
@@ -91,3 +96,5 @@ Each of these is a single value, analogous to its [docker run](https://docs.dock
 An entry with the ip address and hostname is created in `/etc/hosts` inside containers for this service, e.g
 ![[Pasted image 20211223222845.png]]
 `logging`: Logging configuration for the service
+
+## References

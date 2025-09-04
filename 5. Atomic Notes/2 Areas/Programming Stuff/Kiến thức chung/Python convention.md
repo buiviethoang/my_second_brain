@@ -1,3 +1,12 @@
+2025-08-30 09:32
+Status: #baby
+Tags: [[coding]]
+## Main
+
+
+
+
+
 * Naming convention: 
 - Function: function, my_function
 - Variable: x, var, my_variable
@@ -361,3 +370,6 @@ Then run:
 $ black code.py
 Config a little bit for line breaking: 
 $ black --line-length=79 code.py
+
+
+## References

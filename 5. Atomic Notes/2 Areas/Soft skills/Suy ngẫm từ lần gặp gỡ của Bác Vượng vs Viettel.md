@@ -1,3 +1,8 @@
+2025-08-30 09:31
+Status: #baby
+Tags: [[mindsets]]
+## Main
+
 1. Tuân thủ theo đúng quy định, quy chuẩn. => Có triết lý riêng và làm theo những gì đã đặt ra (Tại sao nhân viên luôn tươi cười => Nó là quy định rồi, không cười tẩn chết)
 2. Công tư phân minh (Làm đúng thì ok, làm sai là kỷ luật liền) 
 3. People's sake orientation: Luôn hướng về mọi người, làm việc để cống hiến cho xã hội
@@ -66,3 +71,5 @@
 66. Con đường đến thành công là không bằng phẳng, đòi hỏi nỗ lực cực lớn nhất là lúc đầu khởi nghiệp
 67. Biết điểm dừng/ dừng đúng lúc đúng chỗ (Khi nào thì thị trường bão hòa Ukraine)
 68. Đằng nào thì mấy chục năm nữa cũng ra đi thôi, làm được gì cứ làm => Nghĩ về tương lai/ Nghĩ cho hậu thế
+
+## References

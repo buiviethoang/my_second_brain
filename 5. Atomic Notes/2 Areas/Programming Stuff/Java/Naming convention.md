@@ -1,3 +1,8 @@
+2025-08-30 09:33
+Status: #baby
+Tags: [[coding]]
+## Main
+
 ### Class 
 - It should start with the uppercase letter.  
 - It should be a noun such as **Color**, **Button**, **System**, **Thread**, etc.  
@@ -35,3 +40,5 @@ Avoid using one-character variables such as **x, y, z**.
 - It should be in uppercase letters such as **RED**, **YELLOW**.
 - If the name contains multiple words, it should be separated by an underscore(\_) such as **MAX_PRIORITY**.
 - It may contain digits but not as the first letter.
+
+## References

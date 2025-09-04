@@ -1,6 +1,6 @@
 2025-07-08 21:55
 Status: #baby
-Tags: [[computer science]] [[java]]
+Tags: [[java]]
 ## Main
 
 ### What is JDK, JRE, JVM, JAR? 

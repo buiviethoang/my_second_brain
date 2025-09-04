@@ -1,6 +1,6 @@
 2025-08-08 06:54
 Status: #baby
-Tags: [[computer science]] [[project management]]
+Tags: [[project management]]
 ## Main
 
 ### What

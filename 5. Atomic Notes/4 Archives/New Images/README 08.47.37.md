@@ -1,4 +1,0 @@
-- This folder contain all the notes that has been created for a long time and we no longer need it in a daily basis
-- This is like a way we saving every note in order for futher researching if needed
-- Should be processed one time a year.
-- The least actionable folders in FARA system. 

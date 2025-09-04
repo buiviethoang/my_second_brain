@@ -1,6 +1,6 @@
 2024-12-15 15:13
 Status: #baby
-Tags: [[computer science]] [[database]]
+Tags: [[database]]
 ## Main
 ### 6 step for optimization
 Avoid Hard Parse as much as possible!

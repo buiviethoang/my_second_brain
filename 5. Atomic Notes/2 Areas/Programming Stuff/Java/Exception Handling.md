@@ -1,6 +1,6 @@
 2025-07-09 22:19
 Status: #baby
-Tags: [[computer science]] [[java]]
+Tags: [[java]]
 ## Main
 ### Category
 - Checked exceptions:  an exception that is checked (notified) by the compiler at compilation-time. These exceptions cannot simply be ignored, the programmer should take care of (handle) these exceptions.

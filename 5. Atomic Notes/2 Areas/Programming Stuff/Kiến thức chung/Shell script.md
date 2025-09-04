@@ -1,3 +1,9 @@
+2025-08-30 09:55
+Status: #baby
+Tags: [[productivity]]
+## Main
+
+
 gitl## Shell Prompt
 	The prompt, **$**, which is called the **command prompt**, is issued by the shell. While the prompt is displayed, you can type a command
 ## Shell Types
@@ -321,3 +327,6 @@ No | Command
 9 | **\|** Takes output from one program, or process, and sends it to another
 
 Note that the file descriptor **0** is normally standard input (STDIN), **1** is standard output (STDOUT), and **2** is standard error output (STDERR).
+
+
+## References

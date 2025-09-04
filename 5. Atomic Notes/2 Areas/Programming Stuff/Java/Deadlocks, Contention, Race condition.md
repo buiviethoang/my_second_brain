@@ -1,6 +1,6 @@
 2025-07-27 15:19
 Status: #baby
-Tags: [[computer science]]
+Tags: [[java]]
 ## Main
 ## 🧠 Overview Table: **Race Condition vs Contention vs Deadlock**
 

@@ -1,6 +1,6 @@
 2024-12-01 21:20
 Status: #baby
-Tags:[[computer science]] [[clean code]]
+Tags [[coding]]
 ## Main
 
 ### Why Concurrency?

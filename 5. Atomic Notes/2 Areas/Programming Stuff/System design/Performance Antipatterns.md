@@ -1,6 +1,6 @@
 2025-07-27 15:08
 Status: #baby
-Tags: [[computer science]] [[system design]]
+Tags: [[system design]]
 ## Main
 ### Chatty I/O
 **Chatty I/O** refers to a communication pattern where a system (often a client or service) makes **many small input/output (I/O) requests** in rapid succession, rather than **batching them** or sending them in a more efficient manner.

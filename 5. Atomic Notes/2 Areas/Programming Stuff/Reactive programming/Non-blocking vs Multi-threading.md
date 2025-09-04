@@ -1,6 +1,6 @@
 2025-07-14 21:44
 Status: #baby
-Tags: [[computer science]] [[java]]
+Tags: [[java]]
 ## Main
 
 **Non-blocking** and **multi-threading** are both strategies to achieve **concurrency** (doing multiple things at once), but they work **very differently**.

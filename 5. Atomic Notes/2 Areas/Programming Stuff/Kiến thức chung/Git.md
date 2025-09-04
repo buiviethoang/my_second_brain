@@ -1,3 +1,8 @@
+2025-08-30 09:34
+Status: #baby
+Tags: [[productivity]]
+## Main
+
 **Bạn clone code từ main về nhưng muốn làm việc tại nhánh khác. Tuy nhiên, bạn đã chỉnh sửa 1 đoạn code từ main. Giờ bạn muốn move tất cả code từ main sang nhánh đó để work locally với nó. How to?**
 Answer: Bạn sử dụng `git checkout old_branch` để tạm biệt branch cũ 
 Tiếp đó dùng lệnh `git branch new_branch` để tạo nhánh mới.
@@ -76,3 +81,5 @@ Bạn có một vài cách sau:
 - Bắt nó push anyway. Cách này cũng được. Bạn có thể tự tin cho rằng mình đúng và fuckings care code trên github nó như nào. Cứ thế mà push thẳng lên thôi, chả cần phải lấy cái update của thằng bạn của bạn. Nếu thế thì bạn dùng cái này: 
 `git push -f` xong phim! 
 - Bạn cẩn trọng hơn, tôn trọng những cập nhật từ phía đồng nghiệp. Bạn phải làm thế nào? 
+
+## References

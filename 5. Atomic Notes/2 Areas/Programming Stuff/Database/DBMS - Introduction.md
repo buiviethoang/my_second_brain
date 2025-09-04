@@ -1,6 +1,6 @@
 2025-07-12 17:37
 Status: #baby
-Tags: [[computer science]] [[database]]
+Tags: [[database]]
 ## Main
 ### When to use RDBMS - NOSQL
 |Feature|RDBMS|NoSQL|

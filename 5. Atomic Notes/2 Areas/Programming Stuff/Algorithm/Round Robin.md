@@ -1,6 +1,6 @@
 2025-07-26 22:15
 Status: #baby
-Tags: [[computer science]] [[algorithm]]
+Tags: [[algorithm]]
 ## Main
 ### What? 
 **Round-robin** is a scheduling algorithm commonly used in various systems like **CPU scheduling**, **load balancing**, **network packet handling**, and **task allocation**. It works by giving **each process or task a fixed time slice or turn in a circular order**, ensuring **fairness** and **equal opportunity** for all tasks.

@@ -1,4 +1,9 @@
-### Use Exceptions Rather Than Return Codes
+2025-08-30 09:28
+Status: #baby
+Tags: [[java]]
+## Main
+
+Use Exceptions Rather Than Return Codes
 ```java
 public class DeviceController {
 ...
@@ -181,3 +186,5 @@ In most programming languages there is no good way to deal with a null that is
 passed by a caller accidentally. Because this is the case, the rational approach is to forbid
 passing null by default. When you do, you can code with the knowledge that a null in an
 argument list is an indication of a problem, and end up with far fewer careless mistakes.
+
+## References### 

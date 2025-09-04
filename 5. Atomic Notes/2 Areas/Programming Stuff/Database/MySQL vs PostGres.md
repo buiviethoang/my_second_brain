@@ -1,6 +1,6 @@
 2025-08-14 06:43
 Status: #baby
-Tags: [[computer science]] [[database]]
+Tags: [[database]]
 ## Main
 
 ### Overview

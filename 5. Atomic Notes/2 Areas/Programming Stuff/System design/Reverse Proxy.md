@@ -1,6 +1,6 @@
 2025-07-24 22:22
 Status: #baby
-Tags: [[computer science]] [[system design]]
+Tags: [[system design]]
 ## Main
 ### What
 A **reverse proxy** is a server that sits **between the client and one or more backend servers**. It receives requests from clients and **forwards them to the appropriate backend server**, then returns the response to the client.

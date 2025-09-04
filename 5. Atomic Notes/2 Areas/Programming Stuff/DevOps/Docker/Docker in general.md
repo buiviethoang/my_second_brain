@@ -1,3 +1,8 @@
+2025-08-30 09:35
+Status: #baby
+Tags: [[docker]]
+## Main
+
 ## Architecture
 Docker uses a client-server architecture. The Docker _client_ talks to the Docker _daemon_, which does the heavy lifting of building, running, and distributing your Docker containers. The Docker client and daemon _can_ run on the same system, or you can connect a Docker client to a remote Docker daemon. The Docker client and daemon communicate using a REST API, over UNIX sockets or a network interface. Another Docker client is Docker Compose, that lets you work with applications consisting of a set of containers.
 ![[Pasted image 20211223175122.png]]	
@@ -18,3 +23,4 @@ An _image_ is a read-only template with instructions for creating a Docker conta
 #### Containers
 A container is a runnable instance of an image. You can create, start, stop, move, or delete a container using the Docker API or CLI. You can connect a container to one or more networks, attach storage to it, or even create a new image based on its current state.
 
+## References

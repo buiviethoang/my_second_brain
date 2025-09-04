@@ -1,6 +1,6 @@
 2025-08-09 11:00
 Status: #baby
-Tags: [[computer science]] [[k8s]]
+Tags: [[k8s]]
 ## Main
 
 ### Background

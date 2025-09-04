@@ -1,6 +1,6 @@
 2025-08-07 06:23
 Status: #baby
-Tags: [[computer science]] [[java]]
+Tags: [[java]]
 ## Main
 ### What? 
 **Job scheduling** in an application refers to running certain code or tasks at:

@@ -1,6 +1,6 @@
 2025-07-14 21:08
 Status: #baby
-Tags: [[computer science]] [[java]]
+Tags: [[java]]
 ## Main
 ### What? 
 

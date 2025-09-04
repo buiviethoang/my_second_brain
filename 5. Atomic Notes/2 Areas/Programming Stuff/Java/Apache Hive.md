@@ -1,6 +1,6 @@
 2024-12-01 21:24
 Status: #baby
-Tags: [[computer science]] [[big data]] 
+Tags: [[big data]] 
 ## Main
 
 - Là gì?

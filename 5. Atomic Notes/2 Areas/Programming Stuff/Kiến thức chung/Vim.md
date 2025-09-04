@@ -1,6 +1,6 @@
 2025-07-26 16:38
 Status: #baby
-Tags: [[computer science]] [[productivity]]
+Tags: [[productivity]]
 ## Main
 ## 🧱 Modes
 

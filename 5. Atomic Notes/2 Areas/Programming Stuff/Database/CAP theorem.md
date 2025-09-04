@@ -129,11 +129,11 @@ In any **distributed data system**, you can only **guarantee** **two out of the 
 - Batch processing, Hadoop ecosystems, OLAP workloads.
 
 
-|Database|CAP Trade-off|Consistency Model|Tunable?|Best For|
-|---|---|---|---|---|
-|**Cassandra**|AP|Eventually Consistent|✅ Yes|Write-heavy, scalable systems|
-|**MongoDB**|CP|Strong (primary reads)|✅ Partially|Flexible document-based apps|
-|**DynamoDB**|AP|Eventually or Strong|✅ Yes|Global, low-latency applications|
-|**HBase**|CP|Strong|❌ No|Big data batch processing|
+| Database      | CAP Trade-off | Consistency Model      | Tunable?    | Best For                         |
+| ------------- | ------------- | ---------------------- | ----------- | -------------------------------- |
+| **Cassandra** | AP            | Eventually Consistent  | ✅ Yes       | Write-heavy, scalable systems    |
+| **MongoDB**   | CP            | Strong (primary reads) | ✅ Partially | Flexible document-based apps     |
+| **DynamoDB**  | AP            | Eventually or Strong   | ✅ Yes       | Global, low-latency applications |
+| **HBase**     | CP            | Strong                 | ❌ No        | Big data batch processing        |
 ## References
 ChatGPT

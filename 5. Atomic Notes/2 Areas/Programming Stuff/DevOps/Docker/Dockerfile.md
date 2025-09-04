@@ -1,3 +1,8 @@
+2025-08-30 09:32
+Status: #baby
+Tags: [[system design]]
+## Main
+
 ### FROM
 Chỉ định rằng image nào sẽ được dùng làm image cơ sở để quá trình build image thực thiện các câu lệnh tiếp theo. Các image base này sẽ được tải về từ Public Repository hoặc Private Repository riêng của mỗi người tùy theo setup
 **Cú pháp**
@@ -145,3 +150,6 @@ The **`WORKDIR` command** is used to define the _working directory_ of a Do
 ```
 WORKDIR /project
 ```
+
+
+## References

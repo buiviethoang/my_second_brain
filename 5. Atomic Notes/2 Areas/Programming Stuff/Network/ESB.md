@@ -1,6 +1,6 @@
 2024-12-01 20:58
 Status: #baby
-Tags: [[computer science]] [[system design]]
+Tags: [[system design]]
 
 ## What
 **Enterprise Service Bus**

@@ -1,6 +1,6 @@
 2024-12-01 21:17
 Status: #baby
-Tags: [[computer science]] [[clean code]]
+Tags: [[coding]]
 
 ## Main
 ### Class organization 
