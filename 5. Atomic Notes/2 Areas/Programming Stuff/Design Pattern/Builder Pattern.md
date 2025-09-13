@@ -15,17 +15,15 @@ The **Builder Pattern** is a **creational design pattern** that lets you constru
     
 - When you want to build an object **step by step** and sometimes with different variations.
 
-## 📌 UML Concept
+## ⚙ Structure
 
-`Client --> Builder --> Product`
-
-- **Product** → the complex object being built.
+1. **Builder (interface/abstract class):** Defines methods to build parts of the product.
     
-- **Builder** → provides methods to set attributes step by step.
+2. **ConcreteBuilder:** Implements the steps defined in Builder and returns the final product.
     
-- **ConcreteBuilder** → implements the building steps.
+3. **Product:** The complex object that is being built.
     
-- **Client** → uses the builder to construct the product.
+4. **Director (optional):** Controls the order in which the building steps are executed.
 
 
 ## 📌 Example Problem
@@ -123,6 +121,83 @@ public class Main {
 }
 ```
 
+Another example
+
+```java
+// Product
+class House {
+    private String foundation;
+    private String structure;
+    private String roof;
+    private boolean hasGarage;
+    private boolean hasGarden;
+
+    @Override
+    public String toString() {
+        return "House [foundation=" + foundation + 
+               ", structure=" + structure + 
+               ", roof=" + roof +
+               ", garage=" + hasGarage + 
+               ", garden=" + hasGarden + "]";
+    }
+
+    // Setters
+    public void setFoundation(String foundation) { this.foundation = foundation; }
+    public void setStructure(String structure) { this.structure = structure; }
+    public void setRoof(String roof) { this.roof = roof; }
+    public void setGarage(boolean hasGarage) { this.hasGarage = hasGarage; }
+    public void setGarden(boolean hasGarden) { this.hasGarden = hasGarden; }
+}
+
+// Builder interface
+interface HouseBuilder {
+    void buildFoundation();
+    void buildStructure();
+    void buildRoof();
+    void buildGarage();
+    void buildGarden();
+    House getResult();
+}
+
+// ConcreteBuilder
+class ConcreteHouseBuilder implements HouseBuilder {
+    private House house = new House();
+
+    public void buildFoundation() { house.setFoundation("Concrete, brick, and stone"); }
+    public void buildStructure() { house.setStructure("Wood and brick"); }
+    public void buildRoof() { house.setRoof("Concrete and tiles"); }
+    public void buildGarage() { house.setGarage(true); }
+    public void buildGarden() { house.setGarden(true); }
+
+    public House getResult() { return house; }
+}
+
+// Director
+class Director {
+    private HouseBuilder builder;
+    public Director(HouseBuilder builder) { this.builder = builder; }
+
+    public void construct() {
+        builder.buildFoundation();
+        builder.buildStructure();
+        builder.buildRoof();
+        builder.buildGarage();
+        builder.buildGarden();
+    }
+}
+
+// Client
+public class BuilderPatternDemo {
+    public static void main(String[] args) {
+        HouseBuilder builder = new ConcreteHouseBuilder();
+        Director director = new Director(builder);
+
+        director.construct();
+        House house = builder.getResult();
+
+        System.out.println(house);
+    }
+}```
 ## 📌 Advantages
 
 ✅ Solves **Telescoping Constructor** problem.  

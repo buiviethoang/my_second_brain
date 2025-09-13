@@ -98,7 +98,7 @@ public class StatePatternDemo {
 
 
 
-### Compare to Strategy
+### Compare to Strategy [[Template Method & Strategy Patterns]]
 
 ## 🔑 **State Pattern**
 

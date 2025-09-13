@@ -109,12 +109,12 @@ public class CommandPatternDemo {
 
 
 ### Compare with [[Chain of Responsibility]]
-|Aspect|**Command**|**Chain of Responsibility**|
-|---|---|---|
-|**Purpose**|Encapsulate a request/action|Pass a request along a chain of handlers|
-|**Behavior**|Executes a specific action|Each handler decides to process or forward|
-|**Invoker**|Executes commands|Sends request to first handler|
-|**Undo support**|Built-in possibility|Not typical|
+| Aspect           | **Command**                  | **Chain of Responsibility**                |
+| ---------------- | ---------------------------- | ------------------------------------------ |
+| **Purpose**      | Encapsulate a request/action | Pass a request along a chain of handlers   |
+| **Behavior**     | Executes a specific action   | Each handler decides to process or forward |
+| **Invoker**      | Executes commands            | Sends request to first handler             |
+| **Undo support** | Built-in possibility         | Not typical                                |
 
 
 ## References

@@ -125,15 +125,15 @@ public class MediatorPatternDemo {
 - **With Mediator:** One central hub coordinates communication (clean + manageable).
 
 
-### Mediator vs Observer
+### Mediator vs Observer [[Observer Pattern]]
 
-|Aspect|**Observer**|**Mediator**|
-|---|---|---|
-|**Purpose**|Notify multiple objects about state change|Centralize complex communication|
-|**Coupling**|Subject → observers (loosely coupled)|Colleagues → mediator (loosely coupled)|
-|**Control**|Observers decide how to react|Mediator decides how messages are routed|
-|**Communication**|One-to-many|Many-to-many (centralized)|
-|**Example**|Stock price updates → traders|Chat room / Air traffic control|
+| Aspect            | **Observer**                               | **Mediator**                             |
+| ----------------- | ------------------------------------------ | ---------------------------------------- |
+| **Purpose**       | Notify multiple objects about state change | Centralize complex communication         |
+| **Coupling**      | Subject → observers (loosely coupled)      | Colleagues → mediator (loosely coupled)  |
+| **Control**       | Observers decide how to react              | Mediator decides how messages are routed |
+| **Communication** | One-to-many                                | Many-to-many (centralized)               |
+| **Example**       | Stock price updates → traders              | Chat room / Air traffic control          |
 
 ### **Analogy**
 

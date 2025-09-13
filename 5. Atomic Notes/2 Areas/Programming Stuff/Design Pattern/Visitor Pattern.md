@@ -151,7 +151,7 @@ public class VisitorPatternDemo {
 - Can be complex for simple object structures.
 
 
-### Compare with Interpreter
+### Compare with Interpreter [[Interpreter Pattern]]
 **Purpose:**
 
 - To **evaluate sentences in a language or expressions**.
@@ -207,13 +207,13 @@ public class VisitorPatternDemo {
 
 
 
-|Aspect|**Interpreter**|**Visitor**|
-|---|---|---|
-|**Purpose**|Evaluate expressions in a language|Add operations to object structures|
-|**Focus**|Parsing and interpreting|Separating algorithms from objects|
-|**Element**|Implements `interpret()`|Implements `accept(visitor)`|
-|**Operation**|Encapsulated in the element itself|Encapsulated in a separate visitor|
-|**Usage Example**|Boolean expressions, math parser|Shopping cart pricing, AST traversal|
+| Aspect            | **Interpreter**                    | **Visitor**                          |
+| ----------------- | ---------------------------------- | ------------------------------------ |
+| **Purpose**       | Evaluate expressions in a language | Add operations to object structures  |
+| **Focus**         | Parsing and interpreting           | Separating algorithms from objects   |
+| **Element**       | Implements `interpret()`           | Implements `accept(visitor)`         |
+| **Operation**     | Encapsulated in the element itself | Encapsulated in a separate visitor   |
+| **Usage Example** | Boolean expressions, math parser   | Shopping cart pricing, AST traversal |
 
 
 

@@ -220,7 +220,7 @@ public class Main {
 - **Template Method** = "I always follow the same steps, but subclasses fill in the details."
 
 
-### Strategy with Factory
+### Strategy with Factory [[Factory Method and Abstract Factory Patterns]]
 # 🔹 Why Combine Strategy + Factory?
 
 - **Strategy**: defines a family of interchangeable algorithms.

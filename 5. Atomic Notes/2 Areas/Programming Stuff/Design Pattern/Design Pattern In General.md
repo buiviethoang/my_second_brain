@@ -132,15 +132,15 @@ Define how objects communicate and share responsibilities.
 12. **Proxy** → _Credit card_  
     → A card acts as a **proxy** for money in the bank. You don’t directly handle cash.
 
-|Pattern|Intent|Real-World Analogy|Key Idea|
-|---|---|---|---|
-|**Adapter**|Convert one interface into another expected by clients|Power plug adapter: US plug → EU socket|Wraps an incompatible object to match expected interface|
-|**Bridge**|Separate abstraction from implementation so they can vary independently|TV remote (abstraction) vs TV model (implementation)|Decouple interface and implementation|
-|**Composite**|Treat individual objects and compositions uniformly|Folder structure: folders contain files or subfolders|Build tree structures of objects that are handled the same way|
-|**Decorator**|Add responsibilities to objects dynamically|Coffee with milk and sugar|Wrap objects to extend behavior without subclassing|
-|**Facade**|Provide a simplified interface to a complex subsystem|Home theater remote controlling TV, DVD, sound system|Hide subsystem complexity behind a single interface|
-|**Flyweight**|Share common parts of objects to save memory|Text editor: letters share font objects|Minimize memory usage by sharing state between objects|
-|**Proxy**|Provide a surrogate or placeholder for another object|Virtual proxy for loading large images|Control access to an object or add extra functionality|
+| Pattern       | Intent                                                                  | Real-World Analogy                                    | Key Idea                                                       |
+| ------------- | ----------------------------------------------------------------------- | ----------------------------------------------------- | -------------------------------------------------------------- |
+| **Adapter**   | Convert one interface into another expected by clients                  | Power plug adapter: US plug → EU socket               | Wraps an incompatible object to match expected interface       |
+| **Bridge**    | Separate abstraction from implementation so they can vary independently | TV remote (abstraction) vs TV model (implementation)  | Decouple interface and implementation                          |
+| **Composite** | Treat individual objects and compositions uniformly                     | Folder structure: folders contain files or subfolders | Build tree structures of objects that are handled the same way |
+| **Decorator** | Add responsibilities to objects dynamically                             | Coffee with milk and sugar                            | Wrap objects to extend behavior without subclassing            |
+| **Facade**    | Provide a simplified interface to a complex subsystem                   | Home theater remote controlling TV, DVD, sound system | Hide subsystem complexity behind a single interface            |
+| **Flyweight** | Share common parts of objects to save memory                            | Text editor: letters share font objects               | Minimize memory usage by sharing state between objects         |
+| **Proxy**     | Provide a surrogate or placeholder for another object                   | Virtual proxy for loading large images                | Control access to an object or add extra functionality         |
 
 ## 🔹 **Structural Pattern Highlights**
 
@@ -192,18 +192,18 @@ Define how objects communicate and share responsibilities.
     → You add new operations (**evaluate car**, **evaluate house**) without changing the classes themselves.
 
 
-|Pattern|Intent|Real-World Analogy|Key Idea|
-|---|---|---|---|
-|**Template Method**|Define the skeleton of an algorithm, letting subclasses fill in the steps|Cooking a recipe: steps are fixed, ingredients can vary|Base class controls the algorithm, subclasses customize steps|
-|**Strategy**|Encapsulate interchangeable algorithms and make them pluggable|GPS choosing "fastest route", "shortest route", "no tolls"|Context delegates to a strategy object|
-|**Observer**|Notify multiple objects automatically when a subject changes|YouTube channel sends notifications to subscribers|One-to-many dependency, loose coupling|
-|**Memento**|Capture and restore an object’s internal state|Undo/redo in a text editor|Encapsulates state, separates it from external objects|
-|**State**|Change object behavior when internal state changes|Vending machine states: NoCoin → HasCoin → Sold|Context behavior evolves dynamically based on state|
-|**Mediator**|Centralize communication between objects|Air traffic control tower coordinating planes|Colleagues interact only via mediator|
-|**Chain of Responsibility**|Pass requests along a chain until someone handles it|Technical support levels: L1 → L2 → L3|Decouples sender and receiver, multiple possible handlers|
-|**Command**|Encapsulate a request as an object|Remote control buttons for lights, undo/redo|Decouples invoker from receiver, supports undo, queuing, macros|
-|**Interpreter**|Evaluate sentences or expressions in a language|Boolean expressions: `"Adult AND License"`|Each element interprets itself according to a grammar|
-|**Visitor**|Add new operations to objects without changing their classes|Shopping cart: calculate price, apply discount, print receipt|Separate algorithms from object structure|
+| Pattern                     | Intent                                                                    | Real-World Analogy                                            | Key Idea                                                        |
+| --------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------------------- |
+| **Template Method**         | Define the skeleton of an algorithm, letting subclasses fill in the steps | Cooking a recipe: steps are fixed, ingredients can vary       | Base class controls the algorithm, subclasses customize steps   |
+| **Strategy**                | Encapsulate interchangeable algorithms and make them pluggable            | GPS choosing "fastest route", "shortest route", "no tolls"    | Context delegates to a strategy object                          |
+| **Observer**                | Notify multiple objects automatically when a subject changes              | YouTube channel sends notifications to subscribers            | One-to-many dependency, loose coupling                          |
+| **Memento**                 | Capture and restore an object’s internal state                            | Undo/redo in a text editor                                    | Encapsulates state, separates it from external objects          |
+| **State**                   | Change object behavior when internal state changes                        | Vending machine states: NoCoin → HasCoin → Sold               | Context behavior evolves dynamically based on state             |
+| **Mediator**                | Centralize communication between objects                                  | Air traffic control tower coordinating planes                 | Colleagues interact only via mediator                           |
+| **Chain of Responsibility** | Pass requests along a chain until someone handles it                      | Technical support levels: L1 → L2 → L3                        | Decouples sender and receiver, multiple possible handlers       |
+| **Command**                 | Encapsulate a request as an object                                        | Remote control buttons for lights, undo/redo                  | Decouples invoker from receiver, supports undo, queuing, macros |
+| **Interpreter**             | Evaluate sentences or expressions in a language                           | Boolean expressions: `"Adult AND License"`                    | Each element interprets itself according to a grammar           |
+| **Visitor**                 | Add new operations to objects without changing their classes              | Shopping cart: calculate price, apply discount, print receipt | Separate algorithms from object structure                       |
 
 
 ### 🔑 **Behavioral Pattern Highlights**
