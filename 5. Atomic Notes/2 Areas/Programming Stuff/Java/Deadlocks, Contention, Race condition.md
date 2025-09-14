@@ -34,12 +34,12 @@ Tags: [[java]]
 
 ## 🧩 When They Occur
 
-|Situation|Race Condition|Contention|Deadlock|
-|---|---|---|---|
-|Concurrent updates|✅ Likely|✅ Possible|❌ Unlikely|
-|High request volume|❌ Unlikely|✅ Very likely|❌ Unlikely|
-|Nested locks|❌ Rare|✅ Possible|✅ Common risk|
-|Shared counters/flags|✅ Common|✅ If many threads|❌|
+| Situation             | Race Condition | Contention        | Deadlock      |
+| --------------------- | -------------- | ----------------- | ------------- |
+| Concurrent updates    | ✅ Likely       | ✅ Possible        | ❌ Unlikely    |
+| High request volume   | ❌ Unlikely     | ✅ Very likely     | ❌ Unlikely    |
+| Nested locks          | ❌ Rare         | ✅ Possible        | ✅ Common risk |
+| Shared counters/flags | ✅ Common       | ✅ If many threads | ❌             |
 
 ## ✅ Summary (In 1 Sentence Each):
 

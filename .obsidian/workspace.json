@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3650f3c187fe52e7",
+        "id": "75e07576245aea4f",
         "type": "tabs",
         "children": [
           {
-            "id": "e80307e670627727",
+            "id": "1b4e3b4f69ee2eaa",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -149,8 +149,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e80307e670627727",
+  "active": "1b4e3b4f69ee2eaa",
   "lastOpenFiles": [
+    "5. Atomic Notes/Unit testing.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Java/Deadlocks, Contention, Race condition.md",
     "5. Atomic Notes/APIs in General.md",
     "5. Atomic Notes/Vũ khí.md",
     "5. Atomic Notes/Quân chủng thuộc quân đội nhân dân Việt Nam.md",
@@ -175,8 +177,6 @@
     "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Composite Pattern.md",
     "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Decorator Pattern.md",
     "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Adapter Pattern.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Facade Pattern.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Flyweight Pattern.md",
     "CI",
     "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern",
     "5. Atomic Notes/4 Archives/Pasted image 20250823104751.png",
