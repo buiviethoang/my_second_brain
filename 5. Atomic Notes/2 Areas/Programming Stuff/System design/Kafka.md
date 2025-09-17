@@ -492,6 +492,28 @@ The three common levels are:
 - **Kafka**: Naturally supports **at-least-once**, and has **built-in exactly-once** features for critical systems.
 
 
+### Idempotent producer / consumer
+
+An idempotent producer/consumer refers to a messaging or event processing pattern where the producer or consumer can safely send or process the same message multiple times without causing unintended side effects or inconsistencies in the system.
+
+## Idempotent Consumer
+
+An idempotent consumer ensures that processing the same message repeatedly results in the same outcome as processing it once. This is crucial in systems with "at-least-once" message delivery guarantees, where duplicate messages might be received. Implementing this pattern typically involves:
+
+- Assigning a unique identifier to each message.
+    
+- Maintaining an idempotent repository (like a database table) of processed message IDs.
+    
+- Checking the repository before processing to discard duplicates.
+    
+- Updating the repository before or after processing to track processed messages safely.
+    
+
+This prevents issues like double processing, e.g., deducting the same amount multiple times from an account.[pradeepl+2](https://pradeepl.com/blog/patterns/idempotent-consumer-pattern/)
+
+## Idempotent Producer
+
+An idempotent producer guarantees that sending the same message multiple times (due to retries or failures) does not result in duplicate entries or actions in the consumer or messaging system. For example, in Kafka, idempotent producers ensure that retries during network glitches or acknowledgments don't create duplicate messages in the log, maintaining strict ordering and preventing duplicates.[oso+1](https://oso.sh/blog/how-to-build-truly-idempotent-kafka-consumers-a-mathematical-approach-to-handling-duplicates/)
 
 ## References
 https://kafka.apache.org/documentation/

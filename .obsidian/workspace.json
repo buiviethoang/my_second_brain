@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "75e07576245aea4f",
+        "id": "a369c98c8260ff13",
         "type": "tabs",
         "children": [
           {
-            "id": "1b4e3b4f69ee2eaa",
+            "id": "fffd78fcc39d78b6",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"aliases\"]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,17 +81,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c92759dbad9b064b",
+        "id": "0dcc1ca7711ac1c7",
         "type": "tabs",
         "children": [
           {
-            "id": "b93d7ffcd2a4ff3b",
+            "id": "97a5b635cf08b87f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
                 "collapseAll": false,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -103,21 +103,7 @@
             }
           },
           {
-            "id": "29d9ada00e1c2444",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          },
-          {
-            "id": "64b9b492f3193f7d",
+            "id": "abf5a12bd0ad17c9",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -130,12 +116,27 @@
               "icon": "lucide-tags",
               "title": "Tags"
             }
+          },
+          {
+            "id": "d1d07d61b7202b06",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 231
+    "width": 231,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,34 +150,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1b4e3b4f69ee2eaa",
+  "active": "fffd78fcc39d78b6",
   "lastOpenFiles": [
-    "5. Atomic Notes/Unit testing.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Java/Deadlocks, Contention, Race condition.md",
-    "5. Atomic Notes/APIs in General.md",
-    "5. Atomic Notes/Vũ khí.md",
-    "5. Atomic Notes/Quân chủng thuộc quân đội nhân dân Việt Nam.md",
-    "5. Atomic Notes/Đường phố Hà Nội và nguồn gốc.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Database/SQL tuning.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Database/Hard parse & soft parse.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Database/Database Terminology.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/System design/Change Data Capture.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Kiến thức chung/CleanCode/Coding Principles.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Database/Database Optimization Step.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Database/Database Optimization 2.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Iterator Pattern.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/System design/Kafka.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Database/ACID.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Factory Method and Abstract Factory Patterns.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Design Pattern In General.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Prototype Pattern.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Builder Pattern.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Singleton.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Proxy Pattern.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Bridge Pattern.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Composite Pattern.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Decorator Pattern.md",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern/Adapter Pattern.md",
+    "2. Tags/mindsets.md",
+    "2. Tags/instruction.md",
+    "2. Tags/storage.md",
+    "2. Tags/soft skills.md",
+    "2. Tags/skills.md",
+    "2. Tags/security.md",
+    "2. Tags/real-estate.md",
+    "2. Tags/project management.md",
+    "2. Tags/productivity.md",
+    "2. Tags/photography.md",
+    "2. Tags/personal.md",
+    "2. Tags/network.md",
+    "2. Tags/military.md",
+    "2. Tags/hobbies.md",
+    "2. Tags/k8s.md",
+    "2. Tags/lifestyle.md",
+    "2. Tags/health.md",
+    "2. Tags/funny stuff.md",
+    "2. Tags/finance.md",
+    "2. Tags/economy.md",
+    "2. Tags/docker.md",
+    "2. Tags/design pattern.md",
+    "2. Tags/database.md",
+    "2. Tags/computer science.md",
+    "2. Tags/coding.md",
+    "2. Tags/cloud.md",
     "CI",
     "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern",
     "5. Atomic Notes/4 Archives/Pasted image 20250823104751.png",
