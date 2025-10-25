@@ -2,12 +2,7 @@
 Status: #baby
 Tags: [[finance]]
 ## Main
-Phân tích ngành trong đầu tư chứng khoán là một bước rất quan trọng trước khi lựa chọn cổ phiếu cụ thể. Thay vì nhìn riêng lẻ từng doanh nghiệp, nhà đầu tư sẽ đánh giá bức tranh tổng thể của **toàn ngành** để xem ngành đó đang ở chu kỳ nào, tiềm năng phát triển ra sao, và mức độ cạnh tranh thế nào.
-
-
-
-
-
+Phân tích ngành trong đầu tư chứng khoán là một bước rất quan trọng trước khi lựa chọn cổ phiếu cụ thể. Thay vì nhìn riêng lẻ từng doanh nghiệp, nhà đầu tư sẽ đánh giá bức tranh tổng thể của **toàn ngành** [[Phân tích ngành 3]] để xem ngành đó đang ở chu kỳ nào, tiềm năng phát triển ra sao, và mức độ cạnh tranh thế nào.
 ## 1. **Đặc điểm và chu kỳ ngành**
 
 - **Ngành phòng thủ** (Defensive): ít biến động theo chu kỳ kinh tế (điện, nước, y tế, hàng tiêu dùng thiết yếu).

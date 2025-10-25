@@ -39,9 +39,9 @@ The main ones you’ll see in practice are **1NF, 2NF, 3NF**, and sometimes **BC
 
 **Example (Bad)**:
 
-|OrderID|ProductIDs|
-|---|---|
-|1|12, 15, 18|
+| OrderID | ProductIDs |
+| ------- | ---------- |
+| 1       | 12, 15, 18 |
 
 **Fix (Good)**:
 
@@ -146,10 +146,10 @@ However, it **comes at a cost**:
 
 **Customers**
 
-|CustomerID|Name|CityID|
-|---|---|---|
-|1|Alice|101|
-|2|Bob|102|
+| CustomerID | Name  | CityID |
+| ---------- | ----- | ------ |
+| 1          | Alice | 101    |
+| 2          | Bob   | 102    |
 
 **Cities**
 

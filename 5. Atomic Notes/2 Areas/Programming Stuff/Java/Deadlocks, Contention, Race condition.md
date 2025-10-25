@@ -50,5 +50,33 @@ Tags: [[java]]
 - **Deadlock**: Happens when threads **wait on each other in a cycle**, causing a **complete freeze**.
 
 
+### Coffman's conditions 
+
+It states that a **deadlock** can occur in a system if **all four of the following conditions hold simultaneously**:
+
+- **Mutual Exclusion**
+    
+    - At least one resource must be held in a non-sharable mode.
+        
+    - Only one process can use the resource at a time.
+        
+- **Hold and Wait**
+    
+    - A process is holding at least one resource and waiting to acquire additional resources that are currently being held by other processes.
+        
+- **No Preemption**
+    
+    - Resources cannot be forcibly taken away from a process holding them.
+        
+    - A process must release resources voluntarily after completing its task.
+        
+- **Circular Wait**
+    
+    - A circular chain of processes exists, where each process is waiting for a resource that is held by the next process in the chain.
+
+
+**Key point**: If all four conditions are true at the same time, deadlock can occur.  
+To prevent deadlock, at least one of these conditions must be eliminated (for example, by preventing circular wait through ordering resources, or allowing preemption).
+
 
 ## References

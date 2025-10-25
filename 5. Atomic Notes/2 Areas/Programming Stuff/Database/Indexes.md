@@ -134,18 +134,18 @@ CREATE INDEX idx_order_customer ON orders(customer_id);
 CREATE FULLTEXT INDEX idx_content ON articles(content);
 ```
 
-|Index Type|Best For|Not Good For|
-|---|---|---|
-|**B-Tree**|Equality, ranges, ORDER BY|Very wide text search|
-|**Hash**|Exact match (`=`)|Range queries|
-|**Bitmap**|Low-cardinality columns, complex boolean filters|High-cardinality, frequent updates|
-|**GiST**|Geospatial, text search|Simple equality lookups|
-|**GIN**|JSON, arrays, full-text|Single-value lookups|
-|**SP-GiST**|Hierarchical data, ranges|General-purpose queries|
-|**BRIN**|Huge tables, sequential data|Random data|
-|**Clustered**|Range scans, primary key lookups|Frequent key updates|
-|**Non-Clustered**|Flexible lookups, covering indexes|Extra storage overhead|
-|**Full-Text**|Natural language search|Exact match lookups|
+| Index Type        | Best For                                         | Not Good For                       |
+| ----------------- | ------------------------------------------------ | ---------------------------------- |
+| **B-Tree**        | Equality, ranges, ORDER BY                       | Very wide text search              |
+| **Hash**          | Exact match (`=`)                                | Range queries                      |
+| **Bitmap**        | Low-cardinality columns, complex boolean filters | High-cardinality, frequent updates |
+| **GiST**          | Geospatial, text search                          | Simple equality lookups            |
+| **GIN**           | JSON, arrays, full-text                          | Single-value lookups               |
+| **SP-GiST**       | Hierarchical data, ranges                        | General-purpose queries            |
+| **BRIN**          | Huge tables, sequential data                     | Random data                        |
+| **Clustered**     | Range scans, primary key lookups                 | Frequent key updates               |
+| **Non-Clustered** | Flexible lookups, covering indexes               | Extra storage overhead             |
+| **Full-Text**     | Natural language search                          | Exact match lookups                |
 
 ### Design Strategies
 
@@ -282,4 +282,31 @@ ORDER BY order_date DESC;
 - **Write-heavy workloads**: Minimize indexes, keep only the most beneficial ones.
     
 - **Balance**: Always profile queries (`EXPLAIN`/`EXPLAIN ANALYZE`) and monitor write latency.
+
+
+### LIKE %...%
+
+Trong SQL (MySQL, PostgreSQL, SQL Server,…), việc **`LIKE '%...%'`** có dùng index hay không phụ thuộc vào **ký tự wildcard (`%`)** ở đầu:
+
+- **`LIKE 'abc%'`** ✅  
+    → Có thể dùng index (vì CSDL biết giá trị phải bắt đầu bằng `"abc"` nên có thể tìm range trong index).  
+    → Đây gọi là **prefix search**.
+    
+- **`LIKE '%abc'` hoặc `LIKE '%abc%'`** ❌  
+    → Không dùng được index thông thường, vì `%` ở đầu khiến DB không thể biết trước prefix nào để bắt đầu scan.  
+    → DB buộc phải **full table scan / index scan toàn bộ**, kiểm từng giá trị.
+
+📌 Nhưng có vài ngoại lệ / cách tối ưu:
+
+1. **Full-text index** (MySQL `FULLTEXT`, PostgreSQL `GIN/TSVECTOR`): hỗ trợ tìm kiếm theo từ, không cần `%...%`.
+    
+2. **Trigram index** (PostgreSQL extension `pg_trgm`): hỗ trợ `LIKE '%abc%'` hiệu quả.
+    
+3. **Generated column** (tạo thêm cột chuẩn hóa dữ liệu, ví dụ lưu reversed string → dùng `LIKE 'abc%'` để giả lập `'%abc'`).
+    
+4. **Search engine** (Elasticsearch, Solr) nếu nhu cầu tìm kiếm phức tạp hơn.
+
+
+
+
 ## References

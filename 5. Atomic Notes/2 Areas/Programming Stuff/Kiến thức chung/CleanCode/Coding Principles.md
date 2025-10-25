@@ -70,6 +70,7 @@ class EmailService {
 }
 
 ```
+
 4. **Open/Closed Principle (OCP)**  
     → Code should be **open for extension** but **closed for modification** (use abstractions, not modifications).
 
@@ -98,6 +99,7 @@ class VipDiscount implements Discount {
 
 5. **Liskov Substitution Principle (LSP)**  
     → Subtypes must be replaceable with their base types without breaking behavior.
+    
 ```java
 ❌ Violating substitution:
 class Bird {
@@ -119,6 +121,7 @@ class Sparrow implements FlyingBird {
 class Ostrich implements Bird { }
 
 ```
+
 5. **Interface Segregation Principle (ISP)**  
     → Don’t force classes to implement methods they don’t use. Prefer smaller, specific interfaces.
 
@@ -169,6 +172,7 @@ class App {
     App(Logger logger) { this.logger = logger; }
 }
 ```
+
 6. **Separation of Concerns**  
     → Each part of the code should deal with a distinct aspect (UI, logic, data, etc.).
     
@@ -185,6 +189,7 @@ class UserController { /* handles HTTP requests */ }
 class UserService { /* business logic */ }
 class UserRepository { /* database access */ }
 ```
+
 6. **Fail Fast & Defensive Programming**  
     → Detect problems early and handle unexpected inputs gracefully.
 

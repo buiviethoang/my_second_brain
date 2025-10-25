@@ -1,6 +1,6 @@
 2025-07-12 21:22
 Status: #baby
-Tags:  [[system design]]
+Tags:  [[system design]] [[database]]
 ## Main
 
 ### Definition
@@ -135,5 +135,6 @@ In any **distributed data system**, you can only **guarantee** **two out of the 
 | **MongoDB**   | CP            | Strong (primary reads) | ✅ Partially | Flexible document-based apps     |
 | **DynamoDB**  | AP            | Eventually or Strong   | ✅ Yes       | Global, low-latency applications |
 | **HBase**     | CP            | Strong                 | ❌ No        | Big data batch processing        |
+|               |               |                        |             |                                  |
 ## References
 ChatGPT

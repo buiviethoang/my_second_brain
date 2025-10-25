@@ -107,8 +107,6 @@ Một câu SQL được gọi là **SARGable** nếu trình tối ưu hóa có t
     
 - **Connection pooling** để giảm overhead kết nối.
 
-
-
 ## 6. Quy trình tuning thực tế
 
 1. Xác định **truy vấn chậm** (dùng `slow_query_log` trong MySQL hoặc `pg_stat_statements` trong Postgres).

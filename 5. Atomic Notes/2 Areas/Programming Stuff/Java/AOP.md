@@ -87,6 +87,20 @@ public class LoggingAspect {
 
 ```
 
+### AOP vs DI
+
+|Feature|Dependency Injection (DI)|Aspect-Oriented Programming (AOP)|
+|---|---|---|
+|**Main purpose**|Manage object dependencies|Manage cross-cutting concerns|
+|**Paradigm**|Structural (object wiring)|Behavioral (method interception)|
+|**Decouples**|Components from their collaborators|Business logic from boilerplate concerns|
+|**Examples in Spring**|`@Autowired`, `@Inject`, XML bean definitions|`@Aspect`, `@Before`, `@Around`|
+
+You can think of it like this:
+
+- **DI** makes sure your classes get the right collaborators.
+    
+- **AOP** makes sure you don’t clutter those classes with repetitive concerns.
 
 
 ## References

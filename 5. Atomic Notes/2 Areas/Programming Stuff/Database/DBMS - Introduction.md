@@ -3,14 +3,14 @@ Status: #baby
 Tags: [[database]]
 ## Main
 ### When to use RDBMS - NOSQL
-|Feature|RDBMS|NoSQL|
-|---|---|---|
-|Schema|Fixed|Flexible|
-|Transactions|Strong ACID|Often eventual consistency|
-|Data Type|Structured|Semi/Unstructured|
-|Scaling|Vertical|Horizontal|
-|Query Language|SQL|Varies (JSON-style, key-based, etc.)|
-|Examples|MySQL, PostgreSQL|MongoDB, Cassandra, DynamoDB|
+| Feature        | RDBMS             | NoSQL                                |
+| -------------- | ----------------- | ------------------------------------ |
+| Schema         | Fixed             | Flexible                             |
+| Transactions   | Strong ACID       | Often eventual consistency           |
+| Data Type      | Structured        | Semi/Unstructured                    |
+| Scaling        | Vertical          | Horizontal                           |
+| Query Language | SQL               | Varies (JSON-style, key-based, etc.) |
+| Examples       | MySQL, PostgreSQL | MongoDB, Cassandra, DynamoDB         |
 
 ## ✅ Use **RDBMS** (e.g., PostgreSQL, MySQL, Oracle) when:
 

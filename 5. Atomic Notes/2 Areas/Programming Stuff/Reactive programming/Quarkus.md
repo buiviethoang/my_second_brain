@@ -33,22 +33,22 @@ Let’s say you have a microservice running in a container:
 
 **GraalVM** is a **high-performance runtime** that supports multiple languages (like Java, JavaScript, Python, Ruby, R, and more) and provides powerful capabilities for **running Java programs faster** and **compiling them into native binaries**.
 
-|Feature|What It Means|
-|---|---|
-|🔧 **JIT Compiler**|Just-In-Time compiler that improves performance of Java applications.|
-|🧊 **Native Image**|Converts Java apps into **standalone native executables** (no JVM needed).|
-|🧬 **Polyglot Support**|Run JavaScript, Python, Ruby, R, and more on the same runtime as Java.|
-|🧩 **Interop Between Languages**|Different languages (e.g. Java + Python) can call each other inside GraalVM.|
-|🌐 **Truffle Framework**|Enables building interpreters for new languages.|
+| Feature                          | What It Means                                                                |
+| -------------------------------- | ---------------------------------------------------------------------------- |
+| 🔧 **JIT Compiler**              | Just-In-Time compiler that improves performance of Java applications.        |
+| 🧊 **Native Image**              | Converts Java apps into **standalone native executables** (no JVM needed).   |
+| 🧬 **Polyglot Support**          | Run JavaScript, Python, Ruby, R, and more on the same runtime as Java.       |
+| 🧩 **Interop Between Languages** | Different languages (e.g. Java + Python) can call each other inside GraalVM. |
+| 🌐 **Truffle Framework**         | Enables building interpreters for new languages.                             |
 
 ##### 🆚 JVM vs Native Image (GraalVM)
 
-|Feature|JVM (HotSpot)|GraalVM Native Image|
-|---|---|---|
-|Startup Time|1–3 seconds or more|< 100 milliseconds|
-|Memory Usage|Higher (JVM overhead)|Lower (no JVM runtime)|
-|Runtime Speed|Fast|Very fast startup; may be slower for long runs unless tuned|
-|Size|Needs JVM installed|Single executable binary|
+| Feature       | JVM (HotSpot)         | GraalVM Native Image                                        |
+| ------------- | --------------------- | ----------------------------------------------------------- |
+| Startup Time  | 1–3 seconds or more   | < 100 milliseconds                                          |
+| Memory Usage  | Higher (JVM overhead) | Lower (no JVM runtime)                                      |
+| Runtime Speed | Fast                  | Very fast startup; may be slower for long runs unless tuned |
+| Size          | Needs JVM installed   | Single executable binary                                    |
 #### Vert.x
 **Eclipse Vert.x** is a **toolkit for building reactive applications** on the Java Virtual Machine (JVM). It’s designed for **high concurrency** with **non-blocking, event-driven** architecture.
 

@@ -3,7 +3,7 @@ Status: #baby
 Tags: [[finance]]
 ## Main
 
-Trong đầu tư chứng khoán, số lượng **ngành** (sector) thường được phân loại dựa theo hệ thống chuẩn quốc tế hoặc theo quy định của từng thị trường chứng khoán.
+Trong đầu tư chứng khoán, số lượng **ngành** [[Phân tích ngành]] (sector) thường được phân loại dựa theo hệ thống chuẩn quốc tế hoặc theo quy định của từng thị trường chứng khoán.
 
 ## 1. **Chuẩn quốc tế (GICS – Global Industry Classification Standard)**
 

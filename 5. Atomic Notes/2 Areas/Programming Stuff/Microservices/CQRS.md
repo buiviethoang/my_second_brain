@@ -1,6 +1,6 @@
 2025-08-19 21:54
 Status: #baby
-Tags: [[system design]]
+Tags: [[system design]] [[microservices]]
 ## Main
 QRS stands for **Command Query Responsibility Segregation**. It’s an architectural pattern in software design that separates **reading** data from **writing** data. The main idea is that the models used to **update information** (commands) are separate from the models used to **read information** (queries).
 
@@ -31,3 +31,4 @@ By separating these responsibilities, you can optimize each side independently.
 
 ## References
 https://viblo.asia/p/cqrs-design-pattern-trong-kien-truc-microservices-PAoJexlZ41j
+https://microservices.io/patterns/data/cqrs.html

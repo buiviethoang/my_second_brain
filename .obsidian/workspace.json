@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a369c98c8260ff13",
+        "id": "a4b3df62855fa64a",
         "type": "tabs",
         "children": [
           {
-            "id": "fffd78fcc39d78b6",
+            "id": "b862702fc0a12d2e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "5. Atomic Notes/2 Areas/Programming Stuff/Algorithm/Algorithm Pattern Notes Template.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Algorithm Pattern Notes Template"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308
+    "width": 241
   },
   "right": {
     "id": "eb2251df86c7b8a3",
@@ -147,40 +151,44 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "fffd78fcc39d78b6",
+  "active": "b862702fc0a12d2e",
   "lastOpenFiles": [
-    "2. Tags/mindsets.md",
-    "2. Tags/instruction.md",
-    "2. Tags/storage.md",
-    "2. Tags/soft skills.md",
-    "2. Tags/skills.md",
-    "2. Tags/security.md",
-    "2. Tags/real-estate.md",
-    "2. Tags/project management.md",
-    "2. Tags/productivity.md",
-    "2. Tags/photography.md",
-    "2. Tags/personal.md",
-    "2. Tags/network.md",
-    "2. Tags/military.md",
-    "2. Tags/hobbies.md",
-    "2. Tags/k8s.md",
-    "2. Tags/lifestyle.md",
-    "2. Tags/health.md",
-    "2. Tags/funny stuff.md",
-    "2. Tags/finance.md",
-    "2. Tags/economy.md",
-    "2. Tags/docker.md",
-    "2. Tags/design pattern.md",
-    "2. Tags/database.md",
-    "2. Tags/computer science.md",
-    "2. Tags/coding.md",
-    "2. Tags/cloud.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Algorithm/Algorithm Pattern Notes Template.md",
+    "5. Atomic Notes/2 Areas/Finance/Cổ tức và chi trả cổ tức.md",
+    "5. Atomic Notes/Fibonnaci trong phân tích kỹ thuật.md",
+    "5. Atomic Notes/Technical Analysis In General.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Java/AOP.md",
+    "5. Atomic Notes/Nguyên lý sóng Dow.md",
+    "5. Atomic Notes/Lý thuyết sóng Elliot.md",
+    "5. Atomic Notes/CSRF attacks.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Database/Indexes.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Database/Execution Plans.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Database/SQL tuning.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Java/JPA & JDBC & Hibernate.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Database/Database Terminology.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Database/Database - 3+2 principles - Tran Quoc Huy.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Database/CAP theorem.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Database/Optimistic Locking vs Pessimitive Locking.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Database/MongoDB.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Database/Database Optimization Step.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Database/ACID.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Reactive programming/Non-blocking vs Multi-threading.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Java/Webhook.md",
+    "5. Atomic Notes/Restful vs REST API.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Java/Java Streams.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Java/Dependency Injection.md",
+    "5. Atomic Notes/2 Areas/Programming Stuff/Kiến thức chung/CleanCode/Coding Principles.md",
+    "5. Atomic Notes/Candlestick charts.md",
+    "5. Atomic Notes/4 Archives/Pasted image 20250823104751.png",
+    "5. Atomic Notes/1 Projects/Kien thuc xa hoi",
+    "5. Atomic Notes/4 Archives/Pasted image 20250922085458.png",
+    "5. Atomic Notes/4 Archives/Pasted image 20250922085433.png",
     "CI",
     "5. Atomic Notes/2 Areas/Programming Stuff/Design Pattern",
-    "5. Atomic Notes/4 Archives/Pasted image 20250823104751.png",
     "5. Atomic Notes/4 Archives/Pasted image 20250823104744.png",
     "5. Atomic Notes/4 Archives/Pasted image 20250823092758.png",
     "5. Atomic Notes/4 Archives/Pasted image 20250823092619.png",
@@ -190,14 +198,11 @@
     "5. Atomic Notes/4 Archives/Pasted image 20250819220953.png",
     "5. Atomic Notes/4 Archives/Pasted image 20250819215727.png",
     "5. Atomic Notes/4 Archives/Pasted image 20250819215701.png",
-    "5. Atomic Notes/4 Archives/Pasted image 20250817080131.png",
-    "5. Atomic Notes/4 Archives/Pasted image 20250816220155.png",
     "5. Atomic Notes/2 Areas/Programming Stuff/Testing",
     "5. Atomic Notes/2 Areas/Programming Stuff/Algorithm",
     "5. Atomic Notes/2 Areas/Programming Stuff/Microservices",
     "5. Atomic Notes/2 Areas/Programming Stuff/Project Management",
     "5. Atomic Notes/2 Areas/Programming Stuff/System design",
-    "5. Atomic Notes/2 Areas/Programming Stuff/Reactive programming",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas"

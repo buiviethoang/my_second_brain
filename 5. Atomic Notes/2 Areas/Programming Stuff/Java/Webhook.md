@@ -50,15 +50,15 @@ Let’s say you're running an e-commerce site and using Stripe for payments.
 | Real-time? | Yes                           | No (delayed by polling interval) |
 
 ### Kafka vs Webhook
-|Feature|**Webhook**|**Kafka**|
-|---|---|---|
-|**Type**|HTTP-based, push notification|Distributed streaming/message broker|
-|**Trigger**|One-time HTTP call per event|Publish-subscribe with durable event storage|
-|**Delivery**|Fire-and-forget (not guaranteed)|Persistent, guaranteed, ordered delivery|
-|**Consumer Model**|One-to-one (push to a single receiver)|One-to-many (multiple consumers can read)|
-|**Scalability**|Limited (HTTP, one receiver)|Very high (handles millions of messages/second)|
-|**Retry & Reliability**|You must build it manually|Built-in retries, offsets, replayable|
-|**Use Case**|Simple external callbacks|High-throughput internal data pipelines|
+| Feature                 | **Webhook**                            | **Kafka**                                       |
+| ----------------------- | -------------------------------------- | ----------------------------------------------- |
+| **Type**                | HTTP-based, push notification          | Distributed streaming/message broker            |
+| **Trigger**             | One-time HTTP call per event           | Publish-subscribe with durable event storage    |
+| **Delivery**            | Fire-and-forget (not guaranteed)       | Persistent, guaranteed, ordered delivery        |
+| **Consumer Model**      | One-to-one (push to a single receiver) | One-to-many (multiple consumers can read)       |
+| **Scalability**         | Limited (HTTP, one receiver)           | Very high (handles millions of messages/second) |
+| **Retry & Reliability** | You must build it manually             | Built-in retries, offsets, replayable           |
+| **Use Case**            | Simple external callbacks              | High-throughput internal data pipelines         |
 
 ### 📌 When to Use **Webhooks**
 
@@ -143,14 +143,14 @@ Use Kafka when:
 
 ### 📦 Real-world Examples
 
-|Use Case|Best Choice|
-|---|---|
-|Payment notification|**Webhook**|
-|Real-time chat or game updates|**WebSocket**|
-|Analytics/event processing|**Kafka**|
-|Live stock ticker / price stream|**WebSocket**|
-|Push notifications to 3rd party|**Webhook**|
-|Internal audit/event log system|**Kafka**|
+| Use Case                         | Best Choice   |
+| -------------------------------- | ------------- |
+| Payment notification             | **Webhook**   |
+| Real-time chat or game updates   | **WebSocket** |
+| Analytics/event processing       | **Kafka**     |
+| Live stock ticker / price stream | **WebSocket** |
+| Push notifications to 3rd party  | **Webhook**   |
+| Internal audit/event log system  | **Kafka**     |
 
 ### 🧠 Analogy
 

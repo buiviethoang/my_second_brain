@@ -1,6 +1,6 @@
 2025-08-19 22:02
 Status: #baby
-Tags: [[system design]]
+Tags: [[system design]] [[microservices]]
 ## Main
 ## 1. **What is Event Sourcing?**
 

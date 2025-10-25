@@ -45,12 +45,12 @@ Tags: [[database]]
     
 - Example: After a successful payment, the record stays safe, even if power goes out.
 
-|Property|What it ensures|
-|---|---|
-|Atomicity|All or nothing execution|
-|Consistency|Valid data state before & after|
-|Isolation|No side-effects from concurrent actions|
-|Durability|Committed data won’t be lost|
+| Property    | What it ensures                         |
+| ----------- | --------------------------------------- |
+| Atomicity   | All or nothing execution                |
+| Consistency | Valid data state before & after         |
+| Isolation   | No side-effects from concurrent actions |
+| Durability  | Committed data won’t be lost            |
 
 
 

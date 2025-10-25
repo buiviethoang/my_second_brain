@@ -1,10 +1,15 @@
 {{date}} {{time}}
-Status: 
-Topic: 
-Tags: 
+
+TARGET DECK: 
+START
+Basic
+{{title}}
+Back:
 ## Main
 
 
-
-
 ## References
+END
+
+DELETE
+ID: 

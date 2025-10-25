@@ -34,14 +34,14 @@ By default, Spring beans are **singleton**, but there are other scopes too.
 - One bean instance per **WebSocket session**.
 - Useful for messaging/websocket applications.
 
-|Scope|Lifecycle|Usage|
-|---|---|---|
-|**singleton**|One per Spring container (default)|Stateless service beans|
-|**prototype**|New instance each time requested|Stateful beans, short-lived objects|
-|**request**|One per HTTP request|Request-scoped data in web apps|
-|**session**|One per HTTP session|User-specific data across requests|
-|**application**|One per ServletContext|Shared app-wide data|
-|**websocket**|One per WebSocket session|WebSocket messaging apps|
+| Scope           | Lifecycle                          | Usage                               |
+| --------------- | ---------------------------------- | ----------------------------------- |
+| **singleton**   | One per Spring container (default) | Stateless service beans             |
+| **prototype**   | New instance each time requested   | Stateful beans, short-lived objects |
+| **request**     | One per HTTP request               | Request-scoped data in web apps     |
+| **session**     | One per HTTP session               | User-specific data across requests  |
+| **application** | One per ServletContext             | Shared app-wide data                |
+| **websocket**   | One per WebSocket session          | WebSocket messaging apps            |
 ```java
 @Configuration
 public class AppConfig {

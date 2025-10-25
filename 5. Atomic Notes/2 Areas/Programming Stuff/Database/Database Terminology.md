@@ -12,8 +12,6 @@ A **Write-Ahead Log (WAL)** is a **sequential log file** where **all changes are
     
 - If the database crashes, it can replay or roll back operations from the WAL.
 
-
-
 ## 🔹 How it Works (Step by Step)
 
 1. **Start a Transaction**

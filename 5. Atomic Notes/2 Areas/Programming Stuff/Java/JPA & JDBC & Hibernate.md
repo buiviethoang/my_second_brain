@@ -1,16 +1,16 @@
 2025-08-17 08:37
 Status: #baby
-Tags: [[java]]
+Tags: [[java]] [[database]]
 ## Main
-|Feature|**JDBC**|**JDBC Template**|**Hibernate**|**JPA**|
-|---|---|---|---|---|
-|**Type**|Low-level API|Spring abstraction over JDBC|ORM Framework|ORM Specification|
-|**Level**|Very low (manual SQL + connections)|Mid (SQL-based, less boilerplate)|High (object-oriented, ORM)|Standard API (interface for ORM)|
-|**Who writes SQL?**|Developer (must write full SQL)|Developer (still writes SQL)|Hibernate (generates SQL)|ORM provider (e.g., Hibernate)|
-|**Boilerplate code**|A lot (connections, statements, results)|Minimal (Spring handles resources)|Very little (just entities + mappings)|Minimal (annotations + EntityManager)|
-|**Abstraction**|None (direct DB calls)|Light abstraction (Spring handles JDBC)|Full ORM (entity mapping, caching, lazy loading)|Standardized ORM abstraction|
-|**Portability**|Tied to database SQL|Tied to SQL|Vendor-specific ORM (Hibernate, EclipseLink, etc.)|Portable across ORM providers|
-|**Use case**|Small apps, full SQL control|Medium apps, need SQL + simplicity|Large apps, want object-based DB access|Enterprise apps needing a standard ORM API|
+| Feature              | **JDBC**                                 | **JDBC Template**                       | **Hibernate**                                      | **JPA**                                    |
+| -------------------- | ---------------------------------------- | --------------------------------------- | -------------------------------------------------- | ------------------------------------------ |
+| **Type**             | Low-level API                            | Spring abstraction over JDBC            | ORM Framework                                      | ORM Specification                          |
+| **Level**            | Very low (manual SQL + connections)      | Mid (SQL-based, less boilerplate)       | High (object-oriented, ORM)                        | Standard API (interface for ORM)           |
+| **Who writes SQL?**  | Developer (must write full SQL)          | Developer (still writes SQL)            | Hibernate (generates SQL)                          | ORM provider (e.g., Hibernate)             |
+| **Boilerplate code** | A lot (connections, statements, results) | Minimal (Spring handles resources)      | Very little (just entities + mappings)             | Minimal (annotations + EntityManager)      |
+| **Abstraction**      | None (direct DB calls)                   | Light abstraction (Spring handles JDBC) | Full ORM (entity mapping, caching, lazy loading)   | Standardized ORM abstraction               |
+| **Portability**      | Tied to database SQL                     | Tied to SQL                             | Vendor-specific ORM (Hibernate, EclipseLink, etc.) | Portable across ORM providers              |
+| **Use case**         | Small apps, full SQL control             | Medium apps, need SQL + simplicity      | Large apps, want object-based DB access            | Enterprise apps needing a standard ORM API |
 
 ✅ **Quick analogy**:
 

@@ -35,7 +35,7 @@ Deal with how classes and objects are combined.
     
 - **Decorator** → Dynamically adds new behavior to objects without modifying them.
     
-- **Facade** → Provides a simplified interface to a complex system.
+	- **Facade** → Provides a simplified interface to a complex system.
     
 - **Flyweight** → Shares common state across many small objects to save memory.
     
