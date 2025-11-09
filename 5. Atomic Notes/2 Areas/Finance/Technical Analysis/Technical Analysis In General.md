@@ -1,6 +1,6 @@
 2025-10-12 10:43
 
-TARGET DECK: [[finance]]
+TARGET DECK: [[technical analysis]]
 START
 Basic
 Technical Analysis In General

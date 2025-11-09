@@ -52,9 +52,4 @@ Tags: [[database]]
 | Isolation   | No side-effects from concurrent actions |
 | Durability  | Committed data won’t be lost            |
 
-
-
-
-
-
 ## References

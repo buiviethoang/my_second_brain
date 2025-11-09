@@ -29,11 +29,11 @@ Kafka is a **distributed streaming platform** developed by **Apache Software Fou
 ### Acks 
 #### Producer
 
-|`acks` Value|Who Acknowledges|Performance|Durability|
-|---|---|---|---|
-|`0`|No one|🟢 Fastest|🔴 Risky|
-|`1`|Leader only|🟡 Medium|🟡 Medium|
-|`all` / `-1`|All replicas|🔴 Slowest|🟢 Strong|
+| `acks` Value | Who Acknowledges | Performance | Durability |
+| ------------ | ---------------- | ----------- | ---------- |
+| `0`          | No one           | 🟢 Fastest  | 🔴 Risky   |
+| `1`          | Leader only      | 🟡 Medium   | 🟡 Medium  |
+| `all` / `-1` | All replicas     | 🔴 Slowest  | 🟢 Strong  |
 ✅ acks=0
 No acknowledgements.
 

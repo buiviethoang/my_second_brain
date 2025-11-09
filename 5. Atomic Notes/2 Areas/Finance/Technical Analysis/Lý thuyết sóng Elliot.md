@@ -1,6 +1,6 @@
 2025-10-14 22:03
 
-TARGET DECK: [[finance]]
+TARGET DECK: [[technical analysis]]
 START
 Basic
 Lý thuyết sóng Elliot

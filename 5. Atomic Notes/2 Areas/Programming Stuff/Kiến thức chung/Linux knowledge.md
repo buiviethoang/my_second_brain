@@ -1,6 +1,12 @@
-2025-08-30 10:03
-Status: #baby
-Tags: [[os]]
+2025-10-26 08:41
+
+TARGET DECK: [[linux]]
+START
+Basic
+Linux knowledge
+Back:
+
+
 ## Main
 
 ## Kill process on ports: 
@@ -118,4 +124,9 @@ Terminal=true
 `sudo fdisk -l` to see all partitions in4
 `sudo ntfsfix path_to_partitions` to fix read-only problem
 
+
 ## References
+END
+
+DELETE
+ID: 

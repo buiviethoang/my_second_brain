@@ -8,16 +8,16 @@ Tags: [[java]]
 
 ### Why use it? 
 
-|Feature|**Quarkus**|**Spring Boot**|
-|---|---|---|
-|**Startup Time**|Very fast (esp. in native mode)|Slower due to reflection, autoconfig, and classpath scanning|
-|**Memory Usage**|Very low (esp. in native mode)|Higher memory footprint|
-|**Build Target**|Optimized for GraalVM native image|JVM-first, GraalVM support improving|
-|**Developer Experience**|Live reload via `quarkus:dev`, fast builds|Strong tooling and ecosystem|
-|**Community & Ecosystem**|Smaller but growing (Red Hat-backed)|Large, mature ecosystem with massive adoption|
-|**Microservice Fit**|Excellent (designed for it)|Also great, but heavier|
-|**Container & Cloud Ready**|Yes (lightweight, fast boot ideal for Kubernetes)|Yes, but needs tuning for resource-sensitive environments|
-|**Reactive Support**|Built-in with Mutiny and Vert.x|Optional via Project Reactor|
+| Feature                     | **Quarkus**                                       | **Spring Boot**                                              |
+| --------------------------- | ------------------------------------------------- | ------------------------------------------------------------ |
+| **Startup Time**            | Very fast (esp. in native mode)                   | Slower due to reflection, autoconfig, and classpath scanning |
+| **Memory Usage**            | Very low (esp. in native mode)                    | Higher memory footprint                                      |
+| **Build Target**            | Optimized for GraalVM native image                | JVM-first, GraalVM support improving                         |
+| **Developer Experience**    | Live reload via `quarkus:dev`, fast builds        | Strong tooling and ecosystem                                 |
+| **Community & Ecosystem**   | Smaller but growing (Red Hat-backed)              | Large, mature ecosystem with massive adoption                |
+| **Microservice Fit**        | Excellent (designed for it)                       | Also great, but heavier                                      |
+| **Container & Cloud Ready** | Yes (lightweight, fast boot ideal for Kubernetes) | Yes, but needs tuning for resource-sensitive environments    |
+| **Reactive Support**        | Built-in with Mutiny and Vert.x                   | Optional via Project Reactor                                 |
 
 Let’s say you have a microservice running in a container:
 

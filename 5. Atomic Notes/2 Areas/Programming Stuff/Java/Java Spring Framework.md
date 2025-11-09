@@ -96,14 +96,15 @@ Spring in general is a **framework for building enterprise-grade Java applicatio
 👉 You just write business logic, Boot takes care of the setup.
 
 
-|Feature|**Spring**|**Spring Boot**|
-|---|---|---|
-|**Nature**|Framework with many modules|Extension of Spring that makes it easier to use|
-|**Setup**|Manual, lots of XML/Java config|Minimal, auto-configured|
-|**Server**|Needs external app server (Tomcat, JBoss)|Embedded server (Tomcat, Jetty, Undertow)|
-|**Dependencies**|Add/manage individually|Use “Starters” (`spring-boot-starter-web`, etc.)|
-|**Project Creation**|Tedious, manual configuration|Spring Initializr (start.spring.io)|
-|**Focus**|Provides tools for enterprise apps|Focuses on rapid development and deployment|
+| Feature              | **Spring**                                | **Spring Boot**                                  |
+| -------------------- | ----------------------------------------- | ------------------------------------------------ |
+| **Nature**           | Framework with many modules               | Extension of Spring that makes it easier to use  |
+| **Setup**            | Manual, lots of XML/Java config           | Minimal, auto-configured                         |
+| **Server**           | Needs external app server (Tomcat, JBoss) | Embedded server (Tomcat, Jetty, Undertow)        |
+| **Dependencies**     | Add/manage individually                   | Use “Starters” (`spring-boot-starter-web`, etc.) |
+| **Project Creation** | Tedious, manual configuration             | Spring Initializr (start.spring.io)              |
+| **Focus**            | Provides tools for enterprise apps        | Focuses on rapid development and deployment      |
+|                      |                                           |                                                  |
 
 
 ## ⚡️ In short:

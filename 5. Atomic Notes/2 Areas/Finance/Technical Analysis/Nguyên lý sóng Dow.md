@@ -1,6 +1,6 @@
 2025-10-14 21:57
 
-TARGET DECK: [[finance]]
+TARGET DECK: [[technical analysis]]
 START
 Basic
 Nguyên lý sóng Dow

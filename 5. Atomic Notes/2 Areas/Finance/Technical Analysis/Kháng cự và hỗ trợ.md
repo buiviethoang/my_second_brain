@@ -1,6 +1,6 @@
 2025-08-23 08:24
 Status: #baby
-Tags: [[finance]]
+Tags: [[technical analysis]]
 ## Main
 Mức **kháng cự** (Resistance) và mức **hỗ trợ** (Support) là hai khái niệm quan trọng trong phân tích kỹ thuật khi giao dịch chứng khoán, vàng, crypto, hay bất kỳ tài sản nào.
 

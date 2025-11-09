@@ -72,9 +72,6 @@ Một câu SQL được gọi là **SARGable** nếu trình tối ưu hóa có t
 
 - DB engine có thể **seek theo index** trên `order_date`.
 
-
-
-
 ## 4. Tối ưu hóa cấu trúc dữ liệu
 
 - Chuẩn hóa dữ liệu hợp lý để giảm trùng lặp.
@@ -90,8 +87,6 @@ Một câu SQL được gọi là **SARGable** nếu trình tối ưu hóa có t
     - Full-text Index: cho tìm kiếm văn bản.
         
 - Thêm **covering index** để truy vấn không cần quay lại bảng gốc.
-
-
 
 ## 5. Tối ưu hóa môi trường DB
 
@@ -118,8 +113,5 @@ Một câu SQL được gọi là **SARGable** nếu trình tối ưu hóa có t
 4. Đo lường thời gian và tài nguyên trước – sau.
     
 5. Triển khai vào production.
-
-
-
 
 ## References

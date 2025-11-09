@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "algo",
+  "search": "EBITDA",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 0.864583333333333,
   "linkDistance": 174,
-  "scale": 0.70233196159122,
+  "scale": 1.5204648971557617,
   "close": false
 }

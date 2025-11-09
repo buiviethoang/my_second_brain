@@ -3,7 +3,7 @@ Status:
 Topic: 
 Tags: [[microservices]]
 ## Main
-The **Transactional Outbox pattern** is a technique used to ensure **reliable communication** between a service’s database and external systems (e.g., message brokers, event streams, or other microservices). It solves the **dual-write problem**: how to update your local database _and_ publish an event/message atomically without inconsistencies.
+The **Transactional Outbox pattern** is a technique used to ensure **reliable communication** between a service’s database and external systems (e.g., message brokers, event streams, or other microservices). It solves the **dual-write problem** [[Dual-write Problem]]: how to update your local database _and_ publish an event/message atomically without inconsistencies.
 
 
 ## 🔹 The Problem

@@ -1,6 +1,6 @@
 2025-10-14 22:08
 
-TARGET DECK: 
+TARGET DECK: [[technical analysis]]
 START
 Basic
 Fibonnaci trong phân tích kỹ thuật
